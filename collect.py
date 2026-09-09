@@ -72,7 +72,7 @@ def command(scene,profile,gpu,route,duration):
              ALLOW_SHARED_GPU='1',POLICY_KIND='robot_lab',ROAMING_HEADLESS='1',
              ROAD_SWEEP_VIDEO='0',ROAMING_GHOST_TWO_PANEL_VIDEO='0',GO2_FRONT_PINHOLE='0',
              MIXED_ROAMING_CONFIG=str(ROOT/row['mixed_config']),REFERENCE_ROUTE=str(route),
-             TRAFFIC_INITIAL_FILL='1',URBANVERSE_CAPTURE_ONLY_RENDER='1',
+             TRAFFIC_INITIAL_FILL='1',URBANVERSE_CAPTURE_ONLY_RENDER=str(int(profile!='smoke')),
              LOOKAHEAD_DISTANCE='0.4',MINIMUM_TRACKING_SPEED='0.16',MAX_FORWARD_SPEED='0.35',
              MAX_TRACKING_YAW_RATE='0.8',CURVATURE_SPEED_GAIN='1',MAXIMUM_CROSS_TRACK_ERROR='0.6')
     env.update(row['runtime_environment'])
