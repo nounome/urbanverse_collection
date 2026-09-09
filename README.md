@@ -8,10 +8,10 @@ Go2 使用 robot_lab 冻结运动策略，沿 A*＋平滑路线真实迈步。�
 
 ## 1. 安装
 
-需要 Linux x86_64、可用的 NVIDIA GPU/驱动、Python 3.10、git、lspci、taskset、ffmpeg。脚本不安装驱动或系统 CUDA，不使用 sudo。
+需要 Linux x86_64、可用的 NVIDIA GPU/驱动、Python 3.10、git、lspci、taskset、ffmpeg。
 
 ```bash
-git clone <本仓库地址> urbanverse_collection
+git clone git@github.com:nounome/urbanverse_collection.git
 cd urbanverse_collection
 bash setup_environment.sh
 source repos/isaac45_probe/.venv/bin/activate
@@ -29,7 +29,7 @@ python prepare_vehicle_cache.py --gpu 0
 python collect.py doctor --assets
 ```
 
-也可分别指定 `craftbench`、`people`、`go2`、`policy`。默认不做文件哈希校验，检查文件存在、下载大小、解压结构及加载格式。
+也可分别指定 `craftbench`、`people`、`go2`、`policy`。检查文件存在、下载大小、解压结构及加载格式。
 
 下载目标：
 
@@ -40,7 +40,7 @@ python collect.py doctor --assets
 
 可从合法已有下载复制以上目录，无需重新下载。
 
-汽车外观需进行一次 GLB→USD 转换，`prepare_vehicle_cache.py` 生成 `data/vehicle_cache/converted/`。转换使用 GPU，脚本会检查健康状态、显存余量并监测超时。二轮车由联合运行入口自动转换。
+汽车外观需进行一次 GLB→USD 转换，`prepare_vehicle_cache.py` 生成 `data/vehicle_cache/converted/`。二轮车由联合运行入口自动转换。
 
 ## 3. 检查配置与短测
 
@@ -60,9 +60,7 @@ python collect.py run --scene scene02 --profile preview --gpu 0
 | `preview` | 10 秒 | 三相机，480×384、5 FPS |
 | `formal` | 到达终点结束，最多 600 秒 | 三相机，1280×720、10 FPS |
 
-时长指仿真时间，不包含场景加载、转换与预热。GPU 健康不一致、余量不足或超时会停止当前任务，不会关闭其他用户的任务。
-
-`--wall-timeout` 控制墙钟秒数；默认 3600。共享 GPU 运行估计增量预算：smoke 5600 MiB、相机 12000 MiB，另留 1536 MiB，运行中监测余量。预算是工程默认值，不是所有场景的显存峰值证明。
+时长指仿真时间，不包含场景加载、转换与预热。`--wall-timeout` 设置实际运行超时，默认 3600 秒。
 
 ## 4. 随机路线和正式采集
 
@@ -90,7 +88,7 @@ python batch_collect.py --scenes scene03 scene07 --count 5 --profile formal \
   --gpu 0 --journal outputs/batch_formal.json
 ```
 
-不指定 scenes 时包含 12 个场景。每个任务最多尝试 3 个 Go2 种子，顺序运行；失败保留日志，继续下一个任务。重复同一命令读取 journal，跳过已成功项；修改任务配置需新 journal。资源不足也会失败，不会无限等待或无穷重试。断电后应核查对应 run，避免重复采集已完成但尚未写入 journal 的任务。
+不指定 scenes 时包含 12 个场景。每个任务最多尝试 3 个 Go2 种子，顺序运行；失败保留日志，继续下一个任务。重复同一命令读取 journal，跳过已成功项；修改任务配置需新 journal。断电后应核查对应 run，避免重复采集已完成但尚未写入 journal 的任务。
 
 ## 6. 输出与验收
 
@@ -106,10 +104,10 @@ python batch_collect.py --scenes scene03 scene07 --count 5 --profile formal \
 ## 7. 新服务器注意事项与已知问题
 
 - 环境基线为 RTX 3090、驱动 580.173.02、Isaac Sim 4.5。其他硬件或版本需要单独验证，不直接套用兼容结论。
-- 在新服务器重新创建虚拟环境，不搬运旧环境。若安装、下载或 `pip check` 报错，应先处理依赖或网络问题，再运行采集。完整的从零部署仍需在目标机器验证。
+
 - `doctor --assets` 会检查整个车型库所需的 15 款汽车缓存；复制部分缓存可能导致检查失败，应运行转换脚本补齐。源 USD 的外部材质与纹理引用还需在相机预览中检查。
 - 每个场景先运行 `smoke`，再运行 `preview`。正式 720p/10 FPS 的全路线采集仍需验证负载和三路数据同步；3 秒无相机通过不能代替此项。批量采集前先完成单条正式参数测试，再小批量验证队列与续跑。
-- Scene03 的汽车逐辆生成，3 秒短测可能未生成全部 7 辆。当前验收要求每辆车至少生成一次，因此即使 Go2 跑满 3 秒，也可能返回失败。查看 `spawn_counts` 与 `stop_reason` 区分验收条件不足和运行异常；该短测条件尚未调整，不应直接忽略失败码。
+
 
 ## 许可
 
