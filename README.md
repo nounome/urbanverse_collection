@@ -95,7 +95,7 @@ python batch_collect.py --scenes scene03 scene07 --count 5 --profile formal \
 
 检查器验证文件完整、帧记录等，不证明像素级同步或深度精度。旧 Scene03/07 的部分缓存滞后问题由新 writer 专项修复过，但新 writer 全路线和正式高分辨率还没有完整验收。交付前应抽看三路画面、深度和特殊区间，不把 JSON 中 passed 当作全部质量要求通过。
 
-开发自检：`PYTHONPATH=tools python -m pytest -q tests tools/urbanverse/dynamic_agents/admission/tests`。
+本交付仓库只保留运行所需检查：`python collect.py doctor` 和采集后的文件契约检查。开发回归测试及历史审阅配置已移除；上文 15 项测试是精简前的验证记录，不代表本仓库仍包含测试目录。删除的文件可从本仓库早期提交恢复。
 
 ## 许可与交付范围
 

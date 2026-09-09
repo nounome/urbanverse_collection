@@ -274,7 +274,7 @@ command=(
     --seed "${SEED}"
     --constant-vx "${CONSTANT_VX}" --constant-wz "${CONSTANT_WZ}"
     --source-usd "${SOURCE_USD}"
-    --reference-route "${ROUTE}" --route-config "${PROJECT_DIR}/configs/urbanverse_go2_routes.json"
+    --reference-route "${ROUTE}"
     --lookahead-distance "${LOOKAHEAD_DISTANCE}"
     --minimum-tracking-speed "${MINIMUM_TRACKING_SPEED}"
     --max-forward-speed "${MAX_FORWARD_SPEED}"

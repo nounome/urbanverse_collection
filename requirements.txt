@@ -9,4 +9,3 @@ imageio-ffmpeg==0.6.0
 matplotlib==3.10.9
 PyYAML==6.0.3
 huggingface-hub==1.26.0
-pytest==9.1.1

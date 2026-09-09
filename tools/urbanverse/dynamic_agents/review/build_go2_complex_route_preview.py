@@ -309,7 +309,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--grid-cache", type=Path, required=True)
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--scene", default="Asia_China_Beijing_walk_01_Cousin_29")
-    parser.add_argument("--route-config", type=Path, default=PROJECT_ROOT / "configs/urbanverse_go2_routes.json")
+    parser.add_argument("--route-config", type=Path, required=True)
     parser.add_argument("--control-points", help="semicolon-separated X,Y pairs")
     parser.add_argument("--corner-radius", type=float, default=3.0)
     parser.add_argument("--waypoint-spacing", type=float, default=0.4)

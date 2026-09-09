@@ -114,7 +114,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--route-review-only", action="store_true")
     parser.add_argument("--policy", type=Path, required=True)
     parser.add_argument("--checkpoint", type=Path, required=True)
-    parser.add_argument("--route-config", type=Path, required=True)
     parser.add_argument("--wrapper-template", type=Path, required=True)
     parser.add_argument("--run-dir", type=Path, required=True)
     parser.add_argument("--gpu", type=int, required=True)

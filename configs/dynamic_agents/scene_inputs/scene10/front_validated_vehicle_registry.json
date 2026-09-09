@@ -4042,7 +4042,7 @@
     }
   ],
   "front_direction_review": {
-    "review_file": "configs/scene10_vehicle_front_direction_review.json",
+    "review_note": "Historical visual review retained upstream; runtime uses the calibrated vehicle catalog, not the review document.",
     "view_pairs": "configs/dynamic_agents/scene_inputs/scene10/front_direction_view_pairs.json",
     "completed_at": "2026-08-12T16:26:42+08:00"
   }
