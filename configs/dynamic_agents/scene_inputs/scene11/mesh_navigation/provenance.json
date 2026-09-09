@@ -1,0 +1,15 @@
+{
+  "source_run": "outputs/rtx3090_isaac45/dynamic_agent_mesh_bootstrap/run_20260909_123827_313682_scene_11_urban_park_dogs_sports_area_gpu0",
+  "git_commit": "40fc33ec02448ab49b0c95a3f171ed021383bd46",
+  "source_usd_sha256": "517ebdbdf743925a9606c37b34a222e366c28ee24a979a7cbe267dfa468a84d1",
+  "source_tar_sha256": "49d47e0965c69a31f5af7a67281e4b86830d1a8b4c241e99a17e673f2f473090",
+  "file_sha256": {
+    "navigation_inventory.json": "2cc0f1fb4abc588eebacdd1abc06123e749544f691d0fd482c0f39c16ccc374b",
+    "ground_Lane.png": "09e3b766e5c71772882b215107cd79b8d1a184f8548b2f88459b362001577f2e",
+    "ground_Sidewalk.png": "09e3b766e5c71772882b215107cd79b8d1a184f8548b2f88459b362001577f2e",
+    "ground_NearRoad.png": "99dcdb5b5e9557d4852f11a4d43e3128b9fb2785e0b68255d8e7819731330000",
+    "ground_NearBuffer.png": "fac48ab846672a9c56052cd0dc1bd69524abf31b7cf7e4ea0e8472254814bfa7",
+    "ground_semantics.json": "f8b43db3a2556188ba679b7b6fe854da2bbe2176421ae3eb4a2ed2607c94f2d9"
+  },
+  "status": "candidate navigation input, not yet runtime-qualified"
+}

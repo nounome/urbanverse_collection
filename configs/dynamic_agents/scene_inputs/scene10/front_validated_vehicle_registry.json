@@ -1,0 +1,4049 @@
+{
+  "schema_version": 2,
+  "scene": "scene_10_cbd_cross_intersection_diverse_obstacles",
+  "coordinate_system": {
+    "world_up": "+Z",
+    "units": "meters",
+    "heading_positive": "counter-clockwise about +Z"
+  },
+  "source_audit_run": "configs/dynamic_agents/scene_inputs/scene10/vehicle_inventory.json",
+  "records": [
+    {
+      "asset_id": "06edc4c83fd7487f970664c7e4a7ab3a",
+      "category": "bicycle",
+      "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_06edc4c83fd7487f970664c7e4a7ab3a",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/06edc4c83fd7487f970664c7e4a7ab3a/vehicle-private_vehicle-bicycle_06edc4c83fd7487f970664c7e4a7ab3a.glb",
+      "eligibility": {
+        "turn_geometry_ready": false,
+        "traffic_ready": false,
+        "reason": "excluded by asset audit",
+        "audit_issues": [
+          "no_visible_mesh"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": null,
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          490.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": null
+      },
+      "footprint": {
+        "length_width_m": null,
+        "body_corners_xy": null,
+        "original_world_corners_xy": null,
+        "unsigned_long_axis_xy": null,
+        "unsigned_heading_deg": null
+      },
+      "front_direction": {
+        "heading_deg": null,
+        "status": "pending_visual_validation",
+        "unsigned_axis_heading_deg": null,
+        "candidate_headings_deg": []
+      },
+      "grounding": {
+        "original_support_z_m": null,
+        "body_center_height_above_support_m": null,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "2fb82988dfd0495aa3b4b62cb377bbfb",
+      "category": "bicycle",
+      "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_2fb82988dfd0495aa3b4b62cb377bbfb",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/2fb82988dfd0495aa3b4b62cb377bbfb/vehicle-private_vehicle-bicycle_2fb82988dfd0495aa3b4b62cb377bbfb.glb",
+      "eligibility": {
+        "turn_geometry_ready": false,
+        "traffic_ready": false,
+        "reason": "excluded by asset audit",
+        "audit_issues": [
+          "no_visible_mesh"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": null,
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          490.3634442110695,
+          0.537532709055871
+        ],
+        "root_to_visible_center_offset_xyz": null
+      },
+      "footprint": {
+        "length_width_m": null,
+        "body_corners_xy": null,
+        "original_world_corners_xy": null,
+        "unsigned_long_axis_xy": null,
+        "unsigned_heading_deg": null
+      },
+      "front_direction": {
+        "heading_deg": null,
+        "status": "pending_visual_validation",
+        "unsigned_axis_heading_deg": null,
+        "candidate_headings_deg": []
+      },
+      "grounding": {
+        "original_support_z_m": null,
+        "body_center_height_above_support_m": null,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "3bde1ab67c6448169b604dedad6828d8",
+      "category": "bicycle",
+      "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_3bde1ab67c6448169b604dedad6828d8",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/3bde1ab67c6448169b604dedad6828d8/vehicle-private_vehicle-bicycle_3bde1ab67c6448169b604dedad6828d8.glb",
+      "eligibility": {
+        "turn_geometry_ready": false,
+        "traffic_ready": false,
+        "reason": "excluded by asset audit",
+        "audit_issues": [
+          "no_visible_mesh"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": null,
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          490.3634442110696,
+          1.0
+        ],
+        "root_to_visible_center_offset_xyz": null
+      },
+      "footprint": {
+        "length_width_m": null,
+        "body_corners_xy": null,
+        "original_world_corners_xy": null,
+        "unsigned_long_axis_xy": null,
+        "unsigned_heading_deg": null
+      },
+      "front_direction": {
+        "heading_deg": null,
+        "status": "pending_visual_validation",
+        "unsigned_axis_heading_deg": null,
+        "candidate_headings_deg": []
+      },
+      "grounding": {
+        "original_support_z_m": null,
+        "body_center_height_above_support_m": null,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "89fe9b1ca558441b93975fb715044530",
+      "category": "bicycle",
+      "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_89fe9b1ca558441b93975fb715044530",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/89fe9b1ca558441b93975fb715044530/vehicle-private_vehicle-bicycle_89fe9b1ca558441b93975fb715044530.glb",
+      "eligibility": {
+        "turn_geometry_ready": false,
+        "traffic_ready": false,
+        "reason": "excluded by asset audit",
+        "audit_issues": [
+          "no_visible_mesh"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": null,
+        "original_root_origin_xyz": [
+          -735.8403746032842,
+          491.13090396171634,
+          2.589784843879596e-19
+        ],
+        "root_to_visible_center_offset_xyz": null
+      },
+      "footprint": {
+        "length_width_m": null,
+        "body_corners_xy": null,
+        "original_world_corners_xy": null,
+        "unsigned_long_axis_xy": null,
+        "unsigned_heading_deg": null
+      },
+      "front_direction": {
+        "heading_deg": null,
+        "status": "pending_visual_validation",
+        "unsigned_axis_heading_deg": null,
+        "candidate_headings_deg": []
+      },
+      "grounding": {
+        "original_support_z_m": null,
+        "body_center_height_above_support_m": null,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "99d6dce2e49e4ba185ac108ab044524d",
+      "category": "bicycle",
+      "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_99d6dce2e49e4ba185ac108ab044524d",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/99d6dce2e49e4ba185ac108ab044524d/vehicle-private_vehicle-bicycle_99d6dce2e49e4ba185ac108ab044524d.glb",
+      "eligibility": {
+        "turn_geometry_ready": false,
+        "traffic_ready": false,
+        "reason": "excluded by asset audit",
+        "audit_issues": [
+          "no_visible_mesh"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": null,
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          490.3634442110696,
+          1.1102230246251565e-16
+        ],
+        "root_to_visible_center_offset_xyz": null
+      },
+      "footprint": {
+        "length_width_m": null,
+        "body_corners_xy": null,
+        "original_world_corners_xy": null,
+        "unsigned_long_axis_xy": null,
+        "unsigned_heading_deg": null
+      },
+      "front_direction": {
+        "heading_deg": null,
+        "status": "pending_visual_validation",
+        "unsigned_axis_heading_deg": null,
+        "candidate_headings_deg": []
+      },
+      "grounding": {
+        "original_support_z_m": null,
+        "body_center_height_above_support_m": null,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "a869c645c3504e93a8b949f647e29970",
+      "category": "bicycle",
+      "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_a869c645c3504e93a8b949f647e29970",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/a869c645c3504e93a8b949f647e29970/vehicle-private_vehicle-bicycle_a869c645c3504e93a8b949f647e29970.glb",
+      "eligibility": {
+        "turn_geometry_ready": false,
+        "traffic_ready": false,
+        "reason": "excluded by asset audit",
+        "audit_issues": [
+          "no_visible_mesh"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": null,
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          490.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": null
+      },
+      "footprint": {
+        "length_width_m": null,
+        "body_corners_xy": null,
+        "original_world_corners_xy": null,
+        "unsigned_long_axis_xy": null,
+        "unsigned_heading_deg": null
+      },
+      "front_direction": {
+        "heading_deg": null,
+        "status": "pending_visual_validation",
+        "unsigned_axis_heading_deg": null,
+        "candidate_headings_deg": []
+      },
+      "grounding": {
+        "original_support_z_m": null,
+        "body_center_height_above_support_m": null,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "cbb067272da74c4d9a11b073ecbdd88d",
+      "category": "bicycle",
+      "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_cbb067272da74c4d9a11b073ecbdd88d",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/cbb067272da74c4d9a11b073ecbdd88d/vehicle-private_vehicle-bicycle_cbb067272da74c4d9a11b073ecbdd88d.glb",
+      "eligibility": {
+        "turn_geometry_ready": false,
+        "traffic_ready": false,
+        "reason": "excluded by asset audit",
+        "audit_issues": [
+          "no_visible_mesh"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": null,
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          490.3634442110696,
+          -0.2990308045691117
+        ],
+        "root_to_visible_center_offset_xyz": null
+      },
+      "footprint": {
+        "length_width_m": null,
+        "body_corners_xy": null,
+        "original_world_corners_xy": null,
+        "unsigned_long_axis_xy": null,
+        "unsigned_heading_deg": null
+      },
+      "front_direction": {
+        "heading_deg": null,
+        "status": "pending_visual_validation",
+        "unsigned_axis_heading_deg": null,
+        "candidate_headings_deg": []
+      },
+      "grounding": {
+        "original_support_z_m": null,
+        "body_center_height_above_support_m": null,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "d0a9268f7fb24dcd8f77c66f2fee33d9",
+      "category": "bicycle",
+      "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_d0a9268f7fb24dcd8f77c66f2fee33d9",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/d0a9268f7fb24dcd8f77c66f2fee33d9/vehicle-private_vehicle-bicycle_d0a9268f7fb24dcd8f77c66f2fee33d9.glb",
+      "eligibility": {
+        "turn_geometry_ready": false,
+        "traffic_ready": false,
+        "reason": "excluded by asset audit",
+        "audit_issues": [
+          "no_visible_mesh"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": null,
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          490.3634442110696,
+          -0.29999974370002747
+        ],
+        "root_to_visible_center_offset_xyz": null
+      },
+      "footprint": {
+        "length_width_m": null,
+        "body_corners_xy": null,
+        "original_world_corners_xy": null,
+        "unsigned_long_axis_xy": null,
+        "unsigned_heading_deg": null
+      },
+      "front_direction": {
+        "heading_deg": null,
+        "status": "pending_visual_validation",
+        "unsigned_axis_heading_deg": null,
+        "candidate_headings_deg": []
+      },
+      "grounding": {
+        "original_support_z_m": null,
+        "body_center_height_above_support_m": null,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "955edc733c6d44fabc0ad7c246a15896",
+      "category": "car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_car_955edc733c6d44fabc0ad7c246a15896",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-car/955edc733c6d44fabc0ad7c246a15896/vehicle-private_vehicle-car_955edc733c6d44fabc0ad7c246a15896.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -613.5213844568709,
+          540.0795267595597,
+          1.5036018886182667
+        ],
+        "original_root_origin_xyz": [
+          -735.8403746032845,
+          473.21398796948023,
+          5.139882996514251e-16
+        ],
+        "root_to_visible_center_offset_xyz": [
+          122.31899014641363,
+          66.86553879007948,
+          1.5036018886182663
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.769866012498028,
+          2.036244139604719
+        ],
+        "body_corners_xy": [
+          [
+            -2.384933006249014,
+            -1.0181220698023594
+          ],
+          [
+            2.384933006249014,
+            -1.0181220698023594
+          ],
+          [
+            2.384933006249014,
+            1.0181220698023594
+          ],
+          [
+            -2.384933006249014,
+            1.0181220698023594
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -612.4668413111999,
+            537.7086525802015
+          ],
+          [
+            -612.531414356539,
+            542.478081487209
+          ],
+          [
+            -614.5674718968785,
+            542.4505154120186
+          ],
+          [
+            -614.5028988515394,
+            537.6810865050111
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.013537706335966562,
+          0.9999083610547325
+        ],
+        "unsigned_heading_deg": 90.77567713156122
+      },
+      "front_direction": {
+        "heading_deg": 90.77567713156122,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "A",
+        "confidence": "high",
+        "visual_cue": "hood and front intake",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_01_955edc733c6d44fabc0ad7c246a15896_view_a.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_01_955edc733c6d44fabc0ad7c246a15896_view_b.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8544817087612133,
+        "body_center_height_above_support_m": 0.6491201798570534,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "f56e1c4d6ace45bf8945136ded809095",
+      "category": "car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_car_f56e1c4d6ace45bf8945136ded809095",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-car/f56e1c4d6ace45bf8945136ded809095/vehicle-private_vehicle-car_f56e1c4d6ace45bf8945136ded809095.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -655.1521306744776,
+          493.6464281777525,
+          1.5917934933861795
+        ],
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          479.4297708566429,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          80.68824392880674,
+          14.216657321109608,
+          1.5917934933861795
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          3.9561541676519028,
+          1.5801279543951523
+        ],
+        "body_corners_xy": [
+          [
+            -1.9780770838259514,
+            -0.7900639771975762
+          ],
+          [
+            1.9780770838259514,
+            -0.7900639771975762
+          ],
+          [
+            1.9780770838259514,
+            0.7900639771975762
+          ],
+          [
+            -1.9780770838259514,
+            0.7900639771975762
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -657.1302075133046,
+            492.85633642807454
+          ],
+          [
+            -653.174053345653,
+            492.85633748364796
+          ],
+          [
+            -653.1740537672597,
+            494.4364654380431
+          ],
+          [
+            -657.1302079349114,
+            494.4364643824697
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.9999999999999644,
+          2.6681808029671254e-07
+        ],
+        "unsigned_heading_deg": 1.528754989878452e-05
+      },
+      "front_direction": {
+        "heading_deg": 180.0000152875499,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front windshield wiper and hood ornament",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_02_f56e1c4d6ace45bf8945136ded809095_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_02_f56e1c4d6ace45bf8945136ded809095_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8417936722001137,
+        "body_center_height_above_support_m": 0.7499998211860658,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "0e249864d1df49818ef2c03c336a934c",
+      "category": "convertible_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_convertible_car_0e249864d1df49818ef2c03c336a934c",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/0e249864d1df49818ef2c03c336a934c/vehicle-private_vehicle-convertible_car_0e249864d1df49818ef2c03c336a934c.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -616.2403241140947,
+          547.6693054824275,
+          1.4863709672605596
+        ],
+        "original_root_origin_xyz": [
+          -740.7735577847391,
+          464.91488166936074,
+          -2.423126869993132
+        ],
+        "root_to_visible_center_offset_xyz": [
+          124.53323367064434,
+          82.75442381306675,
+          3.9094978372536917
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.038568046041519,
+          1.5233354568481445
+        ],
+        "body_corners_xy": [
+          [
+            -2.0192840230207594,
+            -0.7616677284240723
+          ],
+          [
+            2.0192840230207594,
+            -0.7616677284240723
+          ],
+          [
+            2.0192840230207594,
+            0.7616677284240723
+          ],
+          [
+            -2.0192840230207594,
+            0.7616677284240723
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -615.4786563856707,
+            545.6500214594067
+          ],
+          [
+            -615.4786563856707,
+            549.6885895054482
+          ],
+          [
+            -617.0019918425188,
+            549.6885895054482
+          ],
+          [
+            -617.0019918425188,
+            545.6500214594067
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.0,
+          1.0
+        ],
+        "unsigned_heading_deg": 90.0
+      },
+      "front_direction": {
+        "heading_deg": 90.0,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "A",
+        "confidence": "high",
+        "visual_cue": "hood and front windshield",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_03_0e249864d1df49818ef2c03c336a934c_view_a.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_03_0e249864d1df49818ef2c03c336a934c_view_b.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8613712229386121,
+        "body_center_height_above_support_m": 0.6249997443219475,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "37d8a4c7d5ec4d1e858dbd912a46eb89",
+      "category": "convertible_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_convertible_car_37d8a4c7d5ec4d1e858dbd912a46eb89",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/37d8a4c7d5ec4d1e858dbd912a46eb89/vehicle-private_vehicle-convertible_car_37d8a4c7d5ec4d1e858dbd912a46eb89.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -667.0449070649549,
+          487.2420755892843,
+          1.5463190056907559
+        ],
+        "original_root_origin_xyz": [
+          -743.5731409346303,
+          467.7351471232799,
+          1.4437954435632715e-19
+        ],
+        "root_to_visible_center_offset_xyz": [
+          76.52823386967532,
+          19.50692846600441,
+          1.5463190056907559
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          3.9078509292498893,
+          1.8981756529183258
+        ],
+        "body_corners_xy": [
+          [
+            -1.9539254646249447,
+            -0.9490878264591629
+          ],
+          [
+            1.9539254646249447,
+            -0.9490878264591629
+          ],
+          [
+            1.9539254646249447,
+            0.9490878264591629
+          ],
+          [
+            -1.9539254646249447,
+            0.9490878264591629
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -668.9631290575364,
+            486.20454755054664
+          ],
+          [
+            -665.0580473347131,
+            486.35163807814774
+          ],
+          [
+            -665.1294941896015,
+            488.24846863364246
+          ],
+          [
+            -669.0345759124248,
+            488.10137810604135
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.999291373576771,
+          0.03763974887071362
+        ],
+        "unsigned_heading_deg": 2.157108304279985
+      },
+      "front_direction": {
+        "heading_deg": 2.157108304279985,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "A",
+        "confidence": "high",
+        "visual_cue": "front windshield versus rear wiper and taillights",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_04_37d8a4c7d5ec4d1e858dbd912a46eb89_view_a.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_04_37d8a4c7d5ec4d1e858dbd912a46eb89_view_b.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8213190951320943,
+        "body_center_height_above_support_m": 0.7249999105586615,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "69e5de3f68804fbc900557b7740b680c",
+      "category": "convertible_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_convertible_car_69e5de3f68804fbc900557b7740b680c",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/69e5de3f68804fbc900557b7740b680c/vehicle-private_vehicle-convertible_car_69e5de3f68804fbc900557b7740b680c.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -638.9986142378204,
+          494.5292875645544,
+          1.494990287386731
+        ],
+        "original_root_origin_xyz": [
+          -740.5601701408038,
+          477.2835082198365,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          101.5615559029834,
+          17.245779344717903,
+          1.494990287386731
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.075035112515025,
+          1.5964293632611657
+        ],
+        "body_corners_xy": [
+          [
+            -2.0375175562575123,
+            -0.7982146816305828
+          ],
+          [
+            2.0375175562575123,
+            -0.7982146816305828
+          ],
+          [
+            2.0375175562575123,
+            0.7982146816305828
+          ],
+          [
+            -2.0375175562575123,
+            0.7982146816305828
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -636.9583531980636,
+            495.32568800314704
+          ],
+          [
+            -641.0333749640427,
+            495.3361175298291
+          ],
+          [
+            -641.037460819055,
+            493.73969339518595
+          ],
+          [
+            -636.962439053076,
+            493.7292638685039
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.9999967248046843,
+          0.002559370997828891
+        ],
+        "unsigned_heading_deg": 179.85335868352323
+      },
+      "front_direction": {
+        "heading_deg": 179.85335868352323,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "A",
+        "confidence": "high",
+        "visual_cue": "hood and windshield versus rear luggage rack",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_05_69e5de3f68804fbc900557b7740b680c_view_a.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_05_69e5de3f68804fbc900557b7740b680c_view_b.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8699903937624639,
+        "body_center_height_above_support_m": 0.624999893624267,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "1f614e803fc24946b83bdc2dd9926d62",
+      "category": "coupe_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_1f614e803fc24946b83bdc2dd9926d62",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/1f614e803fc24946b83bdc2dd9926d62/vehicle-private_vehicle-coupe_car_1f614e803fc24946b83bdc2dd9926d62.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -588.2080207810886,
+          498.4044295579099,
+          1.63495491867358
+        ],
+        "original_root_origin_xyz": [
+          -747.9766448085846,
+          470.70536180959425,
+          1.7763568394002505e-15
+        ],
+        "root_to_visible_center_offset_xyz": [
+          159.768624027496,
+          27.699067748315656,
+          1.6349549186735781
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          5.150525300150434,
+          2.074507741090457
+        ],
+        "body_corners_xy": [
+          [
+            -2.575262650075217,
+            -1.0372538705452286
+          ],
+          [
+            2.575262650075217,
+            -1.0372538705452286
+          ],
+          [
+            2.575262650075217,
+            1.0372538705452286
+          ],
+          [
+            -2.575262650075217,
+            1.0372538705452286
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -585.4517559629087,
+            498.45912755896086
+          ],
+          [
+            -590.2638486945891,
+            500.2953395318
+          ],
+          [
+            -591.0034307235962,
+            498.35714429132133
+          ],
+          [
+            -586.1913379919158,
+            496.5209323184822
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.9342916404157674,
+          0.3565096501487926
+        ],
+        "unsigned_heading_deg": 159.11400425034412
+      },
+      "front_direction": {
+        "heading_deg": 159.11400425034412,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "A",
+        "confidence": "high",
+        "visual_cue": "front hood and windshield versus rear lamp",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_06_1f614e803fc24946b83bdc2dd9926d62_view_a.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_06_1f614e803fc24946b83bdc2dd9926d62_view_b.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8849550676851919,
+        "body_center_height_above_support_m": 0.749999850988388,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "26542d66454b4d6d99dd3aa7ae27bf20",
+      "category": "coupe_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_26542d66454b4d6d99dd3aa7ae27bf20",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/26542d66454b4d6d99dd3aa7ae27bf20/vehicle-private_vehicle-coupe_car_26542d66454b4d6d99dd3aa7ae27bf20.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -616.335308476457,
+          533.3619825915916,
+          1.5041161726798367
+        ],
+        "original_root_origin_xyz": [
+          -745.6886375148084,
+          481.0447806059816,
+          -5.448122658686677e-20
+        ],
+        "root_to_visible_center_offset_xyz": [
+          129.35332903835138,
+          52.31720198561004,
+          1.5041161726798367
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.088963425414249,
+          1.8337171529526586
+        ],
+        "body_corners_xy": [
+          [
+            -2.0444817127071246,
+            -0.9168585764763293
+          ],
+          [
+            2.0444817127071246,
+            -0.9168585764763293
+          ],
+          [
+            2.0444817127071246,
+            0.9168585764763293
+          ],
+          [
+            -2.0444817127071246,
+            0.9168585764763293
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -615.3821055231809,
+            531.3295621377085
+          ],
+          [
+            -615.4563770133847,
+            535.4178509778126
+          ],
+          [
+            -617.2897916450071,
+            535.3845435374194
+          ],
+          [
+            -617.2155201548034,
+            531.2962546973154
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.018163892037304303,
+          0.9998350229043075
+        ],
+        "unsigned_heading_deg": 91.04077158838965
+      },
+      "front_direction": {
+        "heading_deg": 91.04077158838965,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "A",
+        "confidence": "high",
+        "visual_cue": "front hood vents versus rear aero deck",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_07_26542d66454b4d6d99dd3aa7ae27bf20_view_a.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_07_26542d66454b4d6d99dd3aa7ae27bf20_view_b.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8791164270504433,
+        "body_center_height_above_support_m": 0.6249997456293933,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "26ef15adc5ee4d8bbcb4a4f95ca49168",
+      "category": "coupe_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_26ef15adc5ee4d8bbcb4a4f95ca49168",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/26ef15adc5ee4d8bbcb4a4f95ca49168/vehicle-private_vehicle-coupe_car_26ef15adc5ee4d8bbcb4a4f95ca49168.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -601.2914964151021,
+          494.0892763553644,
+          1.5293590927696934
+        ],
+        "original_root_origin_xyz": [
+          -746.3278491458841,
+          474.59762756782754,
+          -8.382120989700602e-19
+        ],
+        "root_to_visible_center_offset_xyz": [
+          145.03635273078203,
+          19.49164878753686,
+          1.5293590927696934
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.975132139205243,
+          2.1843350601655516
+        ],
+        "body_corners_xy": [
+          [
+            -2.4875660696026216,
+            -1.0921675300827758
+          ],
+          [
+            2.4875660696026216,
+            -1.0921675300827758
+          ],
+          [
+            2.4875660696026216,
+            1.0921675300827758
+          ],
+          [
+            -2.4875660696026216,
+            1.0921675300827758
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -603.7558309064087,
+            492.95624433273
+          ],
+          [
+            -598.7817383309156,
+            493.0579441507037
+          ],
+          [
+            -598.8263897033409,
+            495.24182278973313
+          ],
+          [
+            -603.800482278834,
+            495.14012297175947
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.9997910480198502,
+          0.02044163152415962
+        ],
+        "unsigned_heading_deg": 1.1713007957059633
+      },
+      "front_direction": {
+        "heading_deg": 181.17130079570597,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front hood versus rear lamp strip",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_08_26ef15adc5ee4d8bbcb4a4f95ca49168_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_08_26ef15adc5ee4d8bbcb4a4f95ca49168_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8043597796819316,
+        "body_center_height_above_support_m": 0.7249993130877618,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "3be9ac82a47e4639b7d0698e1697feb9",
+      "category": "coupe_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_3be9ac82a47e4639b7d0698e1697feb9",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/3be9ac82a47e4639b7d0698e1697feb9/vehicle-private_vehicle-coupe_car_3be9ac82a47e4639b7d0698e1697feb9.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -649.7512287491058,
+          493.3648925959717,
+          1.5780839307395977
+        ],
+        "original_root_origin_xyz": [
+          -741.3958854817746,
+          464.0332482226573,
+          2.4680654042023945e-19
+        ],
+        "root_to_visible_center_offset_xyz": [
+          91.64465673266875,
+          29.33164437331442,
+          1.5780839307395977
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.5281795658610235,
+          1.9656902796461964
+        ],
+        "body_corners_xy": [
+          [
+            -2.2640897829305118,
+            -0.9828451398230982
+          ],
+          [
+            2.2640897829305118,
+            -0.9828451398230982
+          ],
+          [
+            2.2640897829305118,
+            0.9828451398230982
+          ],
+          [
+            -2.2640897829305118,
+            0.9828451398230982
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -651.9982487240567,
+            492.3507813335217
+          ],
+          [
+            -647.4707387717687,
+            492.4286518196777
+          ],
+          [
+            -647.5045424793033,
+            494.3940514189584
+          ],
+          [
+            -652.0320524315913,
+            494.31618093280235
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.9998521230080971,
+          0.017196863557083057
+        ],
+        "unsigned_heading_deg": 0.9853562736692733
+      },
+      "front_direction": {
+        "heading_deg": 180.98535627366928,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "medium",
+        "visual_cue": "front hood bulge versus rear trunk badge",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_09_3be9ac82a47e4639b7d0698e1697feb9_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_09_3be9ac82a47e4639b7d0698e1697feb9_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8780840631822804,
+        "body_center_height_above_support_m": 0.6999998675573174,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "4b8ca4f05be24825a49fb8ac6c3af730",
+      "category": "coupe_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_4b8ca4f05be24825a49fb8ac6c3af730",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/4b8ca4f05be24825a49fb8ac6c3af730/vehicle-private_vehicle-coupe_car_4b8ca4f05be24825a49fb8ac6c3af730.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -621.4971199698621,
+          542.8746457670782,
+          1.573670143663661
+        ],
+        "original_root_origin_xyz": [
+          -746.200407876906,
+          470.715225405714,
+          -1.7763954111500254e-15
+        ],
+        "root_to_visible_center_offset_xyz": [
+          124.70328790704389,
+          72.15942036136414,
+          1.5736701436636629
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.884841936904309,
+          1.9231635542947743
+        ],
+        "body_corners_xy": [
+          [
+            -2.4424209684521543,
+            -0.9615817771473871
+          ],
+          [
+            2.4424209684521543,
+            -0.9615817771473871
+          ],
+          [
+            2.4424209684521543,
+            0.9615817771473871
+          ],
+          [
+            -2.4424209684521543,
+            0.9615817771473871
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -620.4898584991076,
+            540.4544918013994
+          ],
+          [
+            -620.6073473555252,
+            545.3379206292987
+          ],
+          [
+            -622.5299545684334,
+            545.291665235651
+          ],
+          [
+            -622.4124657120158,
+            540.4082364077517
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.024051721209250823,
+          0.9997107155106784
+        ],
+        "unsigned_heading_deg": 91.37819501469221
+      },
+      "front_direction": {
+        "heading_deg": 271.3781950146922,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front windshield wiper and hood",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_10_4b8ca4f05be24825a49fb8ac6c3af730_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_10_4b8ca4f05be24825a49fb8ac6c3af730_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8736705251699846,
+        "body_center_height_above_support_m": 0.6999996184936765,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "54c227442c4b42dfbaa25e474ad9d736",
+      "category": "coupe_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_54c227442c4b42dfbaa25e474ad9d736",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/54c227442c4b42dfbaa25e474ad9d736/vehicle-private_vehicle-coupe_car_54c227442c4b42dfbaa25e474ad9d736.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -635.5564438954141,
+          486.9756593424423,
+          1.6035335192732247
+        ],
+        "original_root_origin_xyz": [
+          -745.5926508816661,
+          467.6701274981296,
+          -3.567823254598495e-19
+        ],
+        "root_to_visible_center_offset_xyz": [
+          110.03620698625207,
+          19.305531844312725,
+          1.6035335192732247
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.954823300868043,
+          2.1474053076988184
+        ],
+        "body_corners_xy": [
+          [
+            -2.4774116504340213,
+            -1.0737026538494092
+          ],
+          [
+            2.4774116504340213,
+            -1.0737026538494092
+          ],
+          [
+            2.4774116504340213,
+            1.0737026538494092
+          ],
+          [
+            -2.4774116504340213,
+            1.0737026538494092
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -637.962957156503,
+            485.7205790281512
+          ],
+          [
+            -633.0169889021089,
+            486.0166735558781
+          ],
+          [
+            -633.145315367416,
+            488.16024111344075
+          ],
+          [
+            -638.09128362181,
+            487.8641465857138
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.9982128431356353,
+          0.05975884703599538
+        ],
+        "unsigned_heading_deg": 3.4259708827898048
+      },
+      "front_direction": {
+        "heading_deg": 3.4259708827898048,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "A",
+        "confidence": "medium",
+        "visual_cue": "front windshield and hood versus rear glass and lamp",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_11_54c227442c4b42dfbaa25e474ad9d736_view_a.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_11_54c227442c4b42dfbaa25e474ad9d736_view_b.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8785335997857069,
+        "body_center_height_above_support_m": 0.7249999194875179,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "88d039e59a8e4630a06e5b4e18f536cf",
+      "category": "coupe_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_88d039e59a8e4630a06e5b4e18f536cf",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/88d039e59a8e4630a06e5b4e18f536cf/vehicle-private_vehicle-coupe_car_88d039e59a8e4630a06e5b4e18f536cf.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -615.5111059380779,
+          526.165016755968,
+          1.4637200173563434
+        ],
+        "original_root_origin_xyz": [
+          -751.4643613993408,
+          466.2238496497668,
+          1.7763568394002505e-15
+        ],
+        "root_to_visible_center_offset_xyz": [
+          135.95325546126287,
+          59.94116710620125,
+          1.4637200173563416
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.580245710345878,
+          2.1189974902491713
+        ],
+        "body_corners_xy": [
+          [
+            -2.290122855172939,
+            -1.0594987451245856
+          ],
+          [
+            2.290122855172939,
+            -1.0594987451245856
+          ],
+          [
+            2.290122855172939,
+            1.0594987451245856
+          ],
+          [
+            -2.290122855172939,
+            1.0594987451245856
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -615.5967122022788,
+            523.6898514671127
+          ],
+          [
+            -613.4103238094946,
+            527.7145696638365
+          ],
+          [
+            -615.2723129465738,
+            528.7260768645431
+          ],
+          [
+            -617.4587013393581,
+            524.7013586678192
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.47735176910830246,
+          0.8787122899613808
+        ],
+        "unsigned_heading_deg": 61.487415752615135
+      },
+      "front_direction": {
+        "heading_deg": 61.487415752615135,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "A",
+        "confidence": "high",
+        "visual_cue": "front windshield wiper versus rear engine bay",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_12_88d039e59a8e4630a06e5b4e18f536cf_view_a.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_12_88d039e59a8e4630a06e5b4e18f536cf_view_b.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8637202021307421,
+        "body_center_height_above_support_m": 0.5999998152256013,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "8c833864d0bb40f4b3f3a3fe1e99e702",
+      "category": "coupe_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_8c833864d0bb40f4b3f3a3fe1e99e702",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/8c833864d0bb40f4b3f3a3fe1e99e702/vehicle-private_vehicle-coupe_car_8c833864d0bb40f4b3f3a3fe1e99e702.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -622.6083674642838,
+          490.3915381830547,
+          1.5572454347490547
+        ],
+        "original_root_origin_xyz": [
+          -746.1552647162886,
+          463.0587332680218,
+          -1.7229795255624865e-19
+        ],
+        "root_to_visible_center_offset_xyz": [
+          123.54689725200478,
+          27.33280491503291,
+          1.5572454347490547
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.627673910369936,
+          2.0024011659436383
+        ],
+        "body_corners_xy": [
+          [
+            -2.313836955184968,
+            -1.0012005829718191
+          ],
+          [
+            2.313836955184968,
+            -1.0012005829718191
+          ],
+          [
+            2.313836955184968,
+            1.0012005829718191
+          ],
+          [
+            -2.313836955184968,
+            1.0012005829718191
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -621.6057651895844,
+            488.0783689290629
+          ],
+          [
+            -621.6089589896121,
+            492.7060417373284
+          ],
+          [
+            -623.6113596786736,
+            492.70465977545655
+          ],
+          [
+            -623.6081658786459,
+            488.07698696719103
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.0006901523507427107,
+          0.9999997618448381
+        ],
+        "unsigned_heading_deg": 90.0395428200577
+      },
+      "front_direction": {
+        "heading_deg": 270.0395428200577,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front hood intake versus rear taillights",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_13_8c833864d0bb40f4b3f3a3fe1e99e702_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_13_8c833864d0bb40f4b3f3a3fe1e99e702_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8822458147482527,
+        "body_center_height_above_support_m": 0.674999620000802,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "a5737bf3cc9b4179a6e5ebe173ff70d9",
+      "category": "coupe_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_a5737bf3cc9b4179a6e5ebe173ff70d9",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/a5737bf3cc9b4179a6e5ebe173ff70d9/vehicle-private_vehicle-coupe_car_a5737bf3cc9b4179a6e5ebe173ff70d9.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -603.2925034379339,
+          486.3652032378188,
+          1.5492524725484476
+        ],
+        "original_root_origin_xyz": [
+          -749.5582908813017,
+          479.1829652690847,
+          -2.1058212691611815e-19
+        ],
+        "root_to_visible_center_offset_xyz": [
+          146.2657874433678,
+          7.182237968734057,
+          1.5492524725484476
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.416736329541209,
+          2.017626170118433
+        ],
+        "body_corners_xy": [
+          [
+            -2.2083681647706044,
+            -1.0088130850592165
+          ],
+          [
+            2.2083681647706044,
+            -1.0088130850592165
+          ],
+          [
+            2.2083681647706044,
+            1.0088130850592165
+          ],
+          [
+            -2.2083681647706044,
+            1.0088130850592165
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -601.0780806710344,
+            487.35650942088415
+          ],
+          [
+            -605.4947166982582,
+            487.3862753026489
+          ],
+          [
+            -605.5083141642477,
+            485.36869495201466
+          ],
+          [
+            -601.0916781370239,
+            485.3389290702499
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.9999772903995512,
+          0.0067393386301299015
+        ],
+        "unsigned_heading_deg": 179.61386141676203
+      },
+      "front_direction": {
+        "heading_deg": 179.61386141676203,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "A",
+        "confidence": "medium",
+        "visual_cue": "front hood versus rear hatch wiper",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_14_a5737bf3cc9b4179a6e5ebe173ff70d9_view_a.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_14_a5737bf3cc9b4179a6e5ebe173ff70d9_view_b.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8792531554927119,
+        "body_center_height_above_support_m": 0.6699993170557357,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "ac20678eb5fc451a98de7ae6b42e66c7",
+      "category": "coupe_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_ac20678eb5fc451a98de7ae6b42e66c7",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/ac20678eb5fc451a98de7ae6b42e66c7/vehicle-private_vehicle-coupe_car_ac20678eb5fc451a98de7ae6b42e66c7.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -613.0060685045048,
+          520.2298315985933,
+          1.4549994026808766
+        ],
+        "original_root_origin_xyz": [
+          -753.2531617309147,
+          466.5744486939038,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          140.2470932264099,
+          53.655382904689475,
+          1.4549994026808766
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.3351172364454555,
+          2.0381511628364706
+        ],
+        "body_corners_xy": [
+          [
+            -2.1675586182227278,
+            -1.0190755814182353
+          ],
+          [
+            2.1675586182227278,
+            -1.0190755814182353
+          ],
+          [
+            2.1675586182227278,
+            1.0190755814182353
+          ],
+          [
+            -2.1675586182227278,
+            1.0190755814182353
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -612.0744384705218,
+            518.0287881155398
+          ],
+          [
+            -611.9207957645525,
+            522.3611818387174
+          ],
+          [
+            -613.9576664702685,
+            522.4334168078665
+          ],
+          [
+            -614.1113091762378,
+            518.1010230846889
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.03544141890272131,
+          0.9993717555675474
+        ],
+        "unsigned_heading_deg": 87.96893092315541
+      },
+      "front_direction": {
+        "heading_deg": 87.96893092315541,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "A",
+        "confidence": "high",
+        "visual_cue": "front hood and windshield versus rear engine cover",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_15_ac20678eb5fc451a98de7ae6b42e66c7_view_a.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_15_ac20678eb5fc451a98de7ae6b42e66c7_view_b.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8553295587687522,
+        "body_center_height_above_support_m": 0.5996698439121244,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "f6e0921650fb4ebbb21554251479cf26",
+      "category": "coupe_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_f6e0921650fb4ebbb21554251479cf26",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/f6e0921650fb4ebbb21554251479cf26/vehicle-private_vehicle-coupe_car_f6e0921650fb4ebbb21554251479cf26.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -636.5780364267607,
+          503.5802688780541,
+          1.4559685991002023
+        ],
+        "original_root_origin_xyz": [
+          -757.4639424659167,
+          475.4092521800881,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          120.885906039156,
+          28.171016697965968,
+          1.4559685991002023
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.470523029299443,
+          2.1265466864078917
+        ],
+        "body_corners_xy": [
+          [
+            -2.2352615146497214,
+            -1.0632733432039458
+          ],
+          [
+            2.2352615146497214,
+            -1.0632733432039458
+          ],
+          [
+            2.2352615146497214,
+            1.0632733432039458
+          ],
+          [
+            -2.2352615146497214,
+            1.0632733432039458
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -637.5080521683694,
+            501.2129081050879
+          ],
+          [
+            -634.2126047197432,
+            504.23376928508924
+          ],
+          [
+            -635.6495735688752,
+            505.80135383977745
+          ],
+          [
+            -638.9450210175014,
+            502.7804926597761
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.7371503126207399,
+          0.6757288040354247
+        ],
+        "unsigned_heading_deg": 42.51077162367079
+      },
+      "front_direction": {
+        "heading_deg": 222.5107716236708,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front windshield wiper versus rear engine louvers",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_16_f6e0921650fb4ebbb21554251479cf26_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_16_f6e0921650fb4ebbb21554251479cf26_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8568392547492425,
+        "body_center_height_above_support_m": 0.5991293443509598,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "fb0eee5402fb4bc68eeb08069b238f66",
+      "category": "coupe_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_fb0eee5402fb4bc68eeb08069b238f66",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/fb0eee5402fb4bc68eeb08069b238f66/vehicle-private_vehicle-coupe_car_fb0eee5402fb4bc68eeb08069b238f66.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -622.6826881449094,
+          510.021062928279,
+          1.4724335951049956
+        ],
+        "original_root_origin_xyz": [
+          -747.334920931364,
+          462.59194237696244,
+          -7.572782591167219e-29
+        ],
+        "root_to_visible_center_offset_xyz": [
+          124.65223278645453,
+          47.429120551316544,
+          1.4724335951049956
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.1832255322377705,
+          1.9631132619014124
+        ],
+        "body_corners_xy": [
+          [
+            -2.0916127661188852,
+            -0.9815566309507062
+          ],
+          [
+            2.0916127661188852,
+            -0.9815566309507062
+          ],
+          [
+            2.0916127661188852,
+            0.9815566309507062
+          ],
+          [
+            -2.0916127661188852,
+            0.9815566309507062
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -621.6927729499582,
+            507.93385359880835
+          ],
+          [
+            -621.7198186616313,
+            512.1169917011241
+          ],
+          [
+            -623.6828908942271,
+            512.1042996301721
+          ],
+          [
+            -623.655845182554,
+            507.9211615278564
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.006465276965028955,
+          0.9999790998784752
+        ],
+        "unsigned_heading_deg": 90.3704356641997
+      },
+      "front_direction": {
+        "heading_deg": 270.3704356641997,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front hood and windshield versus rear engine bay",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_17_fb0eee5402fb4bc68eeb08069b238f66_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_17_fb0eee5402fb4bc68eeb08069b238f66_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8724337992295833,
+        "body_center_height_above_support_m": 0.5999997958754123,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "8a1c5378fe0b4fbaa89052b049ed8929",
+      "category": "electric_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_electric_car_8a1c5378fe0b4fbaa89052b049ed8929",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/8a1c5378fe0b4fbaa89052b049ed8929/vehicle-private_vehicle-electric_car_8a1c5378fe0b4fbaa89052b049ed8929.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -631.0753917150101,
+          497.51438228127284,
+          1.6534944322072436
+        ],
+        "original_root_origin_xyz": [
+          -740.8132642643451,
+          490.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          109.73787254933495,
+          7.150938070203267,
+          1.6534944322072436
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          2.537916627419918,
+          1.711586356163025
+        ],
+        "body_corners_xy": [
+          [
+            -1.268958313709959,
+            -0.8557931780815125
+          ],
+          [
+            1.268958313709959,
+            -0.8557931780815125
+          ],
+          [
+            1.268958313709959,
+            0.8557931780815125
+          ],
+          [
+            -1.268958313709959,
+            0.8557931780815125
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -630.2195985369285,
+            496.24542396756294
+          ],
+          [
+            -630.2195985369287,
+            498.78334059498286
+          ],
+          [
+            -631.9311848930918,
+            498.78334059498275
+          ],
+          [
+            -631.9311848930915,
+            496.24542396756283
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -5.551115123125783e-14,
+          1.0
+        ],
+        "unsigned_heading_deg": 90.00000000000318
+      },
+      "front_direction": {
+        "heading_deg": 270.0000000000032,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front wipers and headlights versus rear license plate",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_18_8a1c5378fe0b4fbaa89052b049ed8929_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_18_8a1c5378fe0b4fbaa89052b049ed8929_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8784949028362254,
+        "body_center_height_above_support_m": 0.7749995293710181,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "9826aff31f7c421b9a7de6bb78d5d4a7",
+      "category": "electric_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_electric_car_9826aff31f7c421b9a7de6bb78d5d4a7",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/9826aff31f7c421b9a7de6bb78d5d4a7/vehicle-private_vehicle-electric_car_9826aff31f7c421b9a7de6bb78d5d4a7.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -638.8732024425261,
+          477.6113347563536,
+          1.71766048372198
+        ],
+        "original_root_origin_xyz": [
+          -748.4554585646802,
+          490.3634442110695,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          109.58225612215404,
+          -12.752109454715935,
+          1.71766048372198
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          5.481742651452919,
+          2.0434679274427343
+        ],
+        "body_corners_xy": [
+          [
+            -2.7408713257264594,
+            -1.0217339637213672
+          ],
+          [
+            2.7408713257264594,
+            -1.0217339637213672
+          ],
+          [
+            2.7408713257264594,
+            1.0217339637213672
+          ],
+          [
+            -2.7408713257264594,
+            1.0217339637213672
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -635.9575855662176,
+            476.69909161016864
+          ],
+          [
+            -640.3354992823938,
+            479.9980875165732
+          ],
+          [
+            -641.5652892882629,
+            478.3661016980222
+          ],
+          [
+            -637.1873755720867,
+            475.0671057916176
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.7986353965405237,
+          0.6018151737805889
+        ],
+        "unsigned_heading_deg": 142.99998919359314
+      },
+      "front_direction": {
+        "heading_deg": 322.99998919359314,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "medium",
+        "visual_cue": "front race nose versus rear lamp strip",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_19_9826aff31f7c421b9a7de6bb78d5d4a7_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_19_9826aff31f7c421b9a7de6bb78d5d4a7_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.7676606869738917,
+        "body_center_height_above_support_m": 0.9499997967480883,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "b89f5920ec0244e19992c6a4027dd969",
+      "category": "electric_car",
+      "scene_prim_path": "/World/vehicle_private_vehicle_electric_car_b89f5920ec0244e19992c6a4027dd969",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/b89f5920ec0244e19992c6a4027dd969/vehicle-private_vehicle-electric_car_b89f5920ec0244e19992c6a4027dd969.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -566.4544276108265,
+          487.36346420660965,
+          1.5891245407266146
+        ],
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          490.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          169.38594699245778,
+          -2.9999800044599283,
+          1.5891245407266146
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          5.062728418233974,
+          2.2173456488124543
+        ],
+        "body_corners_xy": [
+          [
+            -2.531364209116987,
+            -1.1086728244062272
+          ],
+          [
+            2.531364209116987,
+            -1.1086728244062272
+          ],
+          [
+            2.531364209116987,
+            1.1086728244062272
+          ],
+          [
+            -2.531364209116987,
+            1.1086728244062272
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -563.8652420428331,
+            488.3550239876925
+          ],
+          [
+            -568.9201178938764,
+            488.63689127442996
+          ],
+          [
+            -569.0435685612159,
+            486.4229848493431
+          ],
+          [
+            -563.9886927101726,
+            486.14111756260564
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.9984489455996982,
+          0.055674976702742004
+        ],
+        "unsigned_heading_deg": 176.80840852908827
+      },
+      "front_direction": {
+        "heading_deg": 356.8084085290883,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front hood versus rear Tesla badge",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_20_b89f5920ec0244e19992c6a4027dd969_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_20_b89f5920ec0244e19992c6a4027dd969_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8641250932766824,
+        "body_center_height_above_support_m": 0.7249994474499322,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "61d2800a3a9548db81f21eebc1f257fb",
+      "category": "pickup_truck",
+      "scene_prim_path": "/World/vehicle_private_vehicle_pickup_truck_61d2800a3a9548db81f21eebc1f257fb",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/61d2800a3a9548db81f21eebc1f257fb/vehicle-private_vehicle-pickup_truck_61d2800a3a9548db81f21eebc1f257fb.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -661.3856989619844,
+          487.0405378607737,
+          1.8683157269441897
+        ],
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          490.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          74.4546756412999,
+          -3.3229063502958525,
+          1.8683157269441897
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          5.698502028345956,
+          2.610135916972638
+        ],
+        "body_corners_xy": [
+          [
+            -2.849251014172978,
+            -1.305067958486319
+          ],
+          [
+            2.849251014172978,
+            -1.305067958486319
+          ],
+          [
+            2.849251014172978,
+            1.305067958486319
+          ],
+          [
+            -2.849251014172978,
+            1.305067958486319
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -658.5238373604828,
+            488.32680108064847
+          ],
+          [
+            -664.2220629571376,
+            488.3829296534981
+          ],
+          [
+            -664.2477720300193,
+            485.77292035300854
+          ],
+          [
+            -658.5495464333645,
+            485.7167917801589
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.9999514904636864,
+          0.009849706566809313
+        ],
+        "unsigned_heading_deg": 179.43564425870494
+      },
+      "front_direction": {
+        "heading_deg": 359.43564425870494,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front windshield and hood versus tailgate brake lamp",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_21_61d2800a3a9548db81f21eebc1f257fb_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_21_61d2800a3a9548db81f21eebc1f257fb_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8683159355604461,
+        "body_center_height_above_support_m": 0.9999997913837436,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "63515c5e20914d6496d1470ddc366a78",
+      "category": "pickup_truck",
+      "scene_prim_path": "/World/vehicle_private_vehicle_pickup_truck_63515c5e20914d6496d1470ddc366a78",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/63515c5e20914d6496d1470ddc366a78/vehicle-private_vehicle-pickup_truck_63515c5e20914d6496d1470ddc366a78.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -559.3210395683426,
+          487.1813423400853,
+          1.7195188898474025
+        ],
+        "original_root_origin_xyz": [
+          -740.8403746032842,
+          490.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          181.5193350349416,
+          -3.1821018709842974,
+          1.7195188898474025
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.3917887210570825,
+          1.7280354497697203
+        ],
+        "body_corners_xy": [
+          [
+            -2.1958943605285413,
+            -0.8640177248848602
+          ],
+          [
+            2.1958943605285413,
+            -0.8640177248848602
+          ],
+          [
+            2.1958943605285413,
+            0.8640177248848602
+          ],
+          [
+            -2.1958943605285413,
+            0.8640177248848602
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -557.1184844492556,
+            488.033800695504
+          ],
+          [
+            -561.5101471801025,
+            488.0670667276224
+          ],
+          [
+            -561.5232363531992,
+            486.33908085117304
+          ],
+          [
+            -557.1315736223522,
+            486.30581481905466
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.9999713123244317,
+          0.007574597557220548
+        ],
+        "unsigned_heading_deg": 179.56600337833515
+      },
+      "front_direction": {
+        "heading_deg": 359.56600337833515,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front windshield and hood versus open cargo bed",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_22_63515c5e20914d6496d1470ddc366a78_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_22_63515c5e20914d6496d1470ddc366a78_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8695187858292465,
+        "body_center_height_above_support_m": 0.8500001040181561,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "c640e4e7c68545e09a9348494c2c13a1",
+      "category": "pickup_truck",
+      "scene_prim_path": "/World/vehicle_private_vehicle_pickup_truck_c640e4e7c68545e09a9348494c2c13a1",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/c640e4e7c68545e09a9348494c2c13a1/vehicle-private_vehicle-pickup_truck_c640e4e7c68545e09a9348494c2c13a1.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -638.2587443730906,
+          482.6247935814822,
+          1.7826880156031621
+        ],
+        "original_root_origin_xyz": [
+          -737.8403746032842,
+          487.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          99.58163023019358,
+          -4.738650629587369,
+          1.7826880156031621
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          5.376204668603123,
+          2.458345228005385
+        ],
+        "body_corners_xy": [
+          [
+            -2.6881023343015613,
+            -1.2291726140026924
+          ],
+          [
+            2.6881023343015613,
+            -1.2291726140026924
+          ],
+          [
+            2.6881023343015613,
+            1.2291726140026924
+          ],
+          [
+            -2.6881023343015613,
+            1.2291726140026924
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -635.2385803362964,
+            482.2067237016579
+          ],
+          [
+            -639.8398323271784,
+            484.9873813136471
+          ],
+          [
+            -641.111327144158,
+            482.8833941011263
+          ],
+          [
+            -636.510075153276,
+            480.1027364891371
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.8558550640293311,
+          0.5172157280819577
+        ],
+        "unsigned_heading_deg": 148.85432733237923
+      },
+      "front_direction": {
+        "heading_deg": 328.8543273323792,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front windshield and hood versus cargo bed",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_23_c640e4e7c68545e09a9348494c2c13a1_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_23_c640e4e7c68545e09a9348494c2c13a1_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8326877653655671,
+        "body_center_height_above_support_m": 0.950000250237595,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "09ebc68dcb634807a9dace7404ce5e66",
+      "category": "suv",
+      "scene_prim_path": "/World/vehicle_private_vehicle_suv_09ebc68dcb634807a9dace7404ce5e66",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/09ebc68dcb634807a9dace7404ce5e66/vehicle-private_vehicle-suv_09ebc68dcb634807a9dace7404ce5e66.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -576.0416897640024,
+          493.43561554261805,
+          1.8091268115549848
+        ],
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          490.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          159.79868483928192,
+          3.072171331548475,
+          1.8091268115549848
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.503192328623186,
+          2.055662159657004
+        ],
+        "body_corners_xy": [
+          [
+            -2.251596164311593,
+            -1.027831079828502
+          ],
+          [
+            2.251596164311593,
+            -1.027831079828502
+          ],
+          [
+            2.251596164311593,
+            1.027831079828502
+          ],
+          [
+            -2.251596164311593,
+            1.027831079828502
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -578.2828223554661,
+            492.4057004540277
+          ],
+          [
+            -573.7796344810149,
+            492.4120341705997
+          ],
+          [
+            -573.7825257591433,
+            494.46769429697196
+          ],
+          [
+            -578.2857136335945,
+            494.4613605803999
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.9999990108857063,
+          0.0014064947952056631
+        ],
+        "unsigned_heading_deg": 0.08058624224207132
+      },
+      "front_direction": {
+        "heading_deg": 180.08058624224208,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front windshield and hood versus rear spare wheel",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_24_09ebc68dcb634807a9dace7404ce5e66_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_24_09ebc68dcb634807a9dace7404ce5e66_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8841270080235916,
+        "body_center_height_above_support_m": 0.9249998035313932,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "1da79a33e49d4d2eabc5b5cbac578adf",
+      "category": "suv",
+      "scene_prim_path": "/World/vehicle_private_vehicle_suv_1da79a33e49d4d2eabc5b5cbac578adf",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/1da79a33e49d4d2eabc5b5cbac578adf/vehicle-private_vehicle-suv_1da79a33e49d4d2eabc5b5cbac578adf.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -676.0508587233484,
+          493.2089967378746,
+          1.8358017215059819
+        ],
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          490.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          59.78951587993595,
+          2.8455525268050224,
+          1.8358017215059819
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          5.114159031992585,
+          2.257871920535763
+        ],
+        "body_corners_xy": [
+          [
+            -2.5570795159962927,
+            -1.1289359602678815
+          ],
+          [
+            2.5570795159962927,
+            -1.1289359602678815
+          ],
+          [
+            2.5570795159962927,
+            1.1289359602678815
+          ],
+          [
+            -2.5570795159962927,
+            1.1289359602678815
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -678.5168958011278,
+            491.9551397460774
+          ],
+          [
+            -673.4143515892882,
+            492.2996178596544
+          ],
+          [
+            -673.566436703384,
+            494.55236190361825
+          ],
+          [
+            -678.6689809152236,
+            494.20788379004125
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.9977288895240971,
+          0.06735772419709564
+        ],
+        "unsigned_heading_deg": 3.862237613133904
+      },
+      "front_direction": {
+        "heading_deg": 183.8622376131339,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front hood and wipers versus rear Lincoln lettering",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_25_1da79a33e49d4d2eabc5b5cbac578adf_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_25_1da79a33e49d4d2eabc5b5cbac578adf_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.9108018471367657,
+        "body_center_height_above_support_m": 0.9249998743692162,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "26f042fcf1594890a529bfb41f0fae0d",
+      "category": "suv",
+      "scene_prim_path": "/World/vehicle_private_vehicle_suv_26f042fcf1594890a529bfb41f0fae0d",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/26f042fcf1594890a529bfb41f0fae0d/vehicle-private_vehicle-suv_26f042fcf1594890a529bfb41f0fae0d.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -648.5172843083761,
+          487.212079907868,
+          1.8586794549156198
+        ],
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          463.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          87.32309029490818,
+          23.848635696798397,
+          1.8586794549156198
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.983113404323149,
+          2.098460137606253
+        ],
+        "body_corners_xy": [
+          [
+            -2.4915567021615743,
+            -1.0492300688031264
+          ],
+          [
+            2.4915567021615743,
+            -1.0492300688031264
+          ],
+          [
+            2.4915567021615743,
+            1.0492300688031264
+          ],
+          [
+            -2.4915567021615743,
+            1.0492300688031264
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -645.9915325298413,
+            488.18727283920344
+          ],
+          [
+            -650.9710387737692,
+            488.37684279206286
+          ],
+          [
+            -651.050869385093,
+            486.2799016811544
+          ],
+          [
+            -646.0713631411651,
+            486.090331728295
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.9992761231578594,
+          0.038042472140999276
+        ],
+        "unsigned_heading_deg": 177.81980081345114
+      },
+      "front_direction": {
+        "heading_deg": 357.81980081345114,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front hood and windshield versus rear spare wheel",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_26_26f042fcf1594890a529bfb41f0fae0d_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_26_26f042fcf1594890a529bfb41f0fae0d_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8736801502785819,
+        "body_center_height_above_support_m": 0.9849993046370379,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "31a894c9f1f544fd931b6bb5a0762c7b",
+      "category": "suv",
+      "scene_prim_path": "/World/vehicle_private_vehicle_suv_31a894c9f1f544fd931b6bb5a0762c7b",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/31a894c9f1f544fd931b6bb5a0762c7b/vehicle-private_vehicle-suv_31a894c9f1f544fd931b6bb5a0762c7b.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -622.6419652878607,
+          523.1195337186728,
+          1.783891843361768
+        ],
+        "original_root_origin_xyz": [
+          -739.8403746032844,
+          490.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          117.19840931542376,
+          32.75608950760318,
+          1.783891843361768
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.743359400852455,
+          1.9465690688909945
+        ],
+        "body_corners_xy": [
+          [
+            -2.3716797004262276,
+            -0.9732845344454972
+          ],
+          [
+            2.3716797004262276,
+            -0.9732845344454972
+          ],
+          [
+            2.3716797004262276,
+            0.9732845344454972
+          ],
+          [
+            -2.3716797004262276,
+            0.9732845344454972
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -621.7096667235735,
+            520.7257868017514
+          ],
+          [
+            -621.6056416791475,
+            525.4680053960158
+          ],
+          [
+            -623.5517425864193,
+            525.5106949577287
+          ],
+          [
+            -623.6557676308453,
+            520.7684763634643
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.02193066888570237,
+          0.9997594939595351
+        ],
+        "unsigned_heading_deg": 88.74336448652446
+      },
+      "front_direction": {
+        "heading_deg": 268.74336448652446,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front hood and windshield versus rear hatch wiper",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_27_31a894c9f1f544fd931b6bb5a0762c7b_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_27_31a894c9f1f544fd931b6bb5a0762c7b_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8838921924766413,
+        "body_center_height_above_support_m": 0.8999996508851268,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "403d199e0940423188f9425581342a67",
+      "category": "suv",
+      "scene_prim_path": "/World/vehicle_private_vehicle_suv_403d199e0940423188f9425581342a67",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/403d199e0940423188f9425581342a67/vehicle-private_vehicle-suv_403d199e0940423188f9425581342a67.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -569.5619623763109,
+          493.2455403718611,
+          1.6962014764811062
+        ],
+        "original_root_origin_xyz": [
+          -735.8403746032843,
+          495.83378965220817,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          166.2784122269734,
+          -2.5882492803470427,
+          1.6962014764811062
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          4.635527617863431,
+          2.106040183059008
+        ],
+        "body_corners_xy": [
+          [
+            -2.3177638089317156,
+            -1.053020091529504
+          ],
+          [
+            2.3177638089317156,
+            -1.053020091529504
+          ],
+          [
+            2.3177638089317156,
+            1.053020091529504
+          ],
+          [
+            -2.3177638089317156,
+            1.053020091529504
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -567.1861402097138,
+            494.1186304549202
+          ],
+          [
+            -571.8131121899894,
+            494.4001381630187
+          ],
+          [
+            -571.9410084283402,
+            492.29798502757046
+          ],
+          [
+            -567.3140364480646,
+            492.01647731947196
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          -0.99815433359628,
+          0.06072829919375364
+        ],
+        "unsigned_heading_deg": 176.5183825273838
+      },
+      "front_direction": {
+        "heading_deg": 176.5183825273838,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "A",
+        "confidence": "high",
+        "visual_cue": "front hood and wipers versus rear glass and spoiler",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_28_403d199e0940423188f9425581342a67_view_a.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_28_403d199e0940423188f9425581342a67_view_b.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8462017208601497,
+        "body_center_height_above_support_m": 0.8499997556209565,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "49c2a07da71846bf88da0e4d13ff5e20",
+      "category": "suv",
+      "scene_prim_path": "/World/vehicle_private_vehicle_suv_49c2a07da71846bf88da0e4d13ff5e20",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/49c2a07da71846bf88da0e4d13ff5e20/vehicle-private_vehicle-suv_49c2a07da71846bf88da0e4d13ff5e20.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -619.8602748562392,
+          501.0048974112515,
+          1.8042548773453606
+        ],
+        "original_root_origin_xyz": [
+          -764.8403746032843,
+          490.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          144.98009974704507,
+          10.6414532001819,
+          1.8042548773453606
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          5.736458371417825,
+          2.1991366148304223
+        ],
+        "body_corners_xy": [
+          [
+            -2.8682291857089126,
+            -1.0995683074152112
+          ],
+          [
+            2.8682291857089126,
+            -1.0995683074152112
+          ],
+          [
+            2.8682291857089126,
+            1.0995683074152112
+          ],
+          [
+            -2.8682291857089126,
+            1.0995683074152112
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -618.760205121123,
+            498.13666821161144
+          ],
+          [
+            -618.7602050438296,
+            503.87312658302926
+          ],
+          [
+            -620.95934165866,
+            503.8731266126606
+          ],
+          [
+            -620.9593417359534,
+            498.1366682412428
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          1.3474080801271424e-08,
+          0.9999999999999999
+        ],
+        "unsigned_heading_deg": 89.99999922799203
+      },
+      "front_direction": {
+        "heading_deg": 269.999999227992,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front grille and hood versus rear brake lamp",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_29_49c2a07da71846bf88da0e4d13ff5e20_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_29_49c2a07da71846bf88da0e4d13ff5e20_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8542548096011935,
+        "body_center_height_above_support_m": 0.9500000677441671,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "a7ff90a4675542579170e1efb20e32da",
+      "category": "suv",
+      "scene_prim_path": "/World/vehicle_private_vehicle_suv_a7ff90a4675542579170e1efb20e32da",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/a7ff90a4675542579170e1efb20e32da/vehicle-private_vehicle-suv_a7ff90a4675542579170e1efb20e32da.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -665.8935693981858,
+          494.3264303856223,
+          1.7809430078892594
+        ],
+        "original_root_origin_xyz": [
+          -758.8403746032844,
+          490.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          92.9468052050986,
+          3.962986174552725,
+          1.7809430078892594
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          3.894437826590206,
+          1.963935778877044
+        ],
+        "body_corners_xy": [
+          [
+            -1.947218913295103,
+            -0.981967889438522
+          ],
+          [
+            1.947218913295103,
+            -0.981967889438522
+          ],
+          [
+            1.947218913295103,
+            0.981967889438522
+          ],
+          [
+            -1.947218913295103,
+            0.981967889438522
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -667.840774385758,
+            493.34444098150897
+          ],
+          [
+            -663.9463365594476,
+            493.3444876633819
+          ],
+          [
+            -663.9463601007659,
+            495.3084234421179
+          ],
+          [
+            -667.8407979270763,
+            495.3083767602449
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.9999999999281582,
+          1.19868065797018e-05
+        ],
+        "unsigned_heading_deg": 0.0006867934268730056
+      },
+      "front_direction": {
+        "heading_deg": 180.00068679342687,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "B",
+        "confidence": "high",
+        "visual_cue": "front hood and wipers versus rear spare wheel",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_30_a7ff90a4675542579170e1efb20e32da_view_b.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_30_a7ff90a4675542579170e1efb20e32da_view_a.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.855965087365671,
+        "body_center_height_above_support_m": 0.9249779205235884,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "b2df8ec40fa54a9c932f576761ef85de",
+      "category": "suv",
+      "scene_prim_path": "/World/vehicle_private_vehicle_suv_b2df8ec40fa54a9c932f576761ef85de",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/b2df8ec40fa54a9c932f576761ef85de/vehicle-private_vehicle-suv_b2df8ec40fa54a9c932f576761ef85de.glb",
+      "eligibility": {
+        "turn_geometry_ready": false,
+        "traffic_ready": false,
+        "reason": "excluded by asset audit",
+        "audit_issues": [
+          "root_origin_far_from_visible_body",
+          "implausible_vehicle_dimensions"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -638.2322377158678,
+          489.0572043283342,
+          1.7997379265325446
+        ],
+        "original_root_origin_xyz": [
+          -699.1385188636592,
+          490.7344228293147,
+          0.8949996232986402
+        ],
+        "root_to_visible_center_offset_xyz": [
+          60.90628114779145,
+          -1.6772185009805298,
+          0.9047383032339044
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          91.0223462791082,
+          2.672659856806547
+        ],
+        "body_corners_xy": [
+          [
+            -45.5111731395541,
+            -1.3363299284032735
+          ],
+          [
+            45.5111731395541,
+            -1.3363299284032735
+          ],
+          [
+            45.5111731395541,
+            1.3363299284032735
+          ],
+          [
+            -45.5111731395541,
+            1.3363299284032735
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -683.6829262331587,
+            486.7875287258397
+          ],
+          [
+            -592.6964084632241,
+            489.3411744051135
+          ],
+          [
+            -592.7713903393733,
+            492.0127822409372
+          ],
+          [
+            -683.7579081093079,
+            489.4591365616634
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.9996063767784691,
+          0.02805515111029263
+        ],
+        "unsigned_heading_deg": 1.6076526942348877
+      },
+      "front_direction": {
+        "heading_deg": null,
+        "status": "pending_visual_validation",
+        "unsigned_axis_heading_deg": 1.6076526942348877,
+        "candidate_headings_deg": [
+          1.6076526942348877,
+          181.6076526942349
+        ]
+      },
+      "grounding": {
+        "original_support_z_m": 0.8664185368128048,
+        "body_center_height_above_support_m": 0.9333193897197398,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "d90c7f830f9c41398bb55de4a2e001be",
+      "category": "suv",
+      "scene_prim_path": "/World/vehicle_private_vehicle_suv_d90c7f830f9c41398bb55de4a2e001be",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/d90c7f830f9c41398bb55de4a2e001be/vehicle-private_vehicle-suv_d90c7f830f9c41398bb55de4a2e001be.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -654.7702605481832,
+          487.41653840363085,
+          1.7801045102462376
+        ],
+        "original_root_origin_xyz": [
+          -741.4987471799595,
+          495.91883331994177,
+          0.40942284291082354
+        ],
+        "root_to_visible_center_offset_xyz": [
+          86.72848663177638,
+          -8.502294916310916,
+          1.370681667335414
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          3.513628385884772,
+          1.7576998366747603
+        ],
+        "body_corners_xy": [
+          [
+            -1.756814192942386,
+            -0.8788499183373801
+          ],
+          [
+            1.756814192942386,
+            -0.8788499183373801
+          ],
+          [
+            1.756814192942386,
+            0.8788499183373801
+          ],
+          [
+            -1.756814192942386,
+            0.8788499183373801
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -656.5270656558899,
+            486.5376844829489
+          ],
+          [
+            -653.0134372700085,
+            486.53768924178536
+          ],
+          [
+            -653.0134396506263,
+            488.2953890784585
+          ],
+          [
+            -656.5270680365078,
+            488.2953843196221
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.9999999999990828,
+          1.3543937904532423e-06
+        ],
+        "unsigned_heading_deg": 7.76010479917205e-05
+      },
+      "front_direction": {
+        "heading_deg": 0.0,
+        "status": "verified_by_existing_motion_showcase",
+        "evidence": "scene10_straight_traffic accepted +X whole-body motion"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8551047963485323,
+        "body_center_height_above_support_m": 0.9249997138977053,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "f69b8a867f8f479bbac0c356029d9ccf",
+      "category": "suv",
+      "scene_prim_path": "/World/vehicle_private_vehicle_suv_f69b8a867f8f479bbac0c356029d9ccf",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/f69b8a867f8f479bbac0c356029d9ccf/vehicle-private_vehicle-suv_f69b8a867f8f479bbac0c356029d9ccf.glb",
+      "eligibility": {
+        "turn_geometry_ready": false,
+        "traffic_ready": false,
+        "reason": "excluded by asset audit",
+        "audit_issues": [
+          "no_visible_mesh"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": null,
+        "original_root_origin_xyz": [
+          -757.8403746032842,
+          498.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": null
+      },
+      "footprint": {
+        "length_width_m": null,
+        "body_corners_xy": null,
+        "original_world_corners_xy": null,
+        "unsigned_long_axis_xy": null,
+        "unsigned_heading_deg": null
+      },
+      "front_direction": {
+        "heading_deg": null,
+        "status": "pending_visual_validation",
+        "unsigned_axis_heading_deg": null,
+        "candidate_headings_deg": []
+      },
+      "grounding": {
+        "original_support_z_m": null,
+        "body_center_height_above_support_m": null,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    },
+    {
+      "asset_id": "86e731089800401eb3fb12e91baf1456",
+      "category": "truck",
+      "scene_prim_path": "/World/vehicle_private_vehicle_truck_86e731089800401eb3fb12e91baf1456",
+      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-truck/86e731089800401eb3fb12e91baf1456/vehicle-private_vehicle-truck_86e731089800401eb3fb12e91baf1456.glb",
+      "eligibility": {
+        "turn_geometry_ready": true,
+        "traffic_ready": true,
+        "reason": "recenter around visible footprint before yaw",
+        "audit_issues": [
+          "root_origin_far_from_visible_body"
+        ]
+      },
+      "body_frame": {
+        "origin_definition": "visible OBB center in XY; support plane in Z",
+        "up_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "original_visible_center_xyz": [
+          -592.4436496395847,
+          486.5990009188857,
+          2.7690969711853812
+        ],
+        "original_root_origin_xyz": [
+          -759.8403746032844,
+          490.3634442110696,
+          0.0
+        ],
+        "root_to_visible_center_offset_xyz": [
+          167.39672496369974,
+          -3.7644432921838984,
+          2.7690969711853812
+        ]
+      },
+      "footprint": {
+        "length_width_m": [
+          6.005233264188632,
+          2.813670885357851
+        ],
+        "body_corners_xy": [
+          [
+            -3.002616632094316,
+            -1.4068354426789256
+          ],
+          [
+            3.002616632094316,
+            -1.4068354426789256
+          ],
+          [
+            3.002616632094316,
+            1.4068354426789256
+          ],
+          [
+            -3.002616632094316,
+            1.4068354426789256
+          ]
+        ],
+        "original_world_corners_xy": [
+          [
+            -595.3719761758797,
+            485.16783246661333
+          ],
+          [
+            -589.372545080238,
+            485.4317511775161
+          ],
+          [
+            -589.4962006253767,
+            488.24270353521746
+          ],
+          [
+            -595.4956317210184,
+            487.9787848243147
+          ]
+        ],
+        "unsigned_long_axis_xy": [
+          0.9990338146260714,
+          0.043948119796872805
+        ],
+        "unsigned_heading_deg": 2.518853060489884
+      },
+      "front_direction": {
+        "heading_deg": 2.518853060489884,
+        "status": "verified_by_paired_rtx_visual_review",
+        "selected_view": "A",
+        "confidence": "high",
+        "visual_cue": "truck cab front versus rear cargo body",
+        "evidence_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_31_86e731089800401eb3fb12e91baf1456_view_a.png",
+        "opposite_end_image": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_31_86e731089800401eb3fb12e91baf1456_view_b.png"
+      },
+      "grounding": {
+        "original_support_z_m": 0.8690972701027747,
+        "body_center_height_above_support_m": 1.8999997010826064,
+        "runtime_method": "four support-point road rays; fit plane; set pose Z/pitch/roll"
+      },
+      "pose_application": {
+        "formula": "M_new = T(target_body_center) * Rz(delta_yaw) * T(-original_body_center) * M_original",
+        "constraint": "never rotate the authored root directly around its own origin"
+      }
+    }
+  ],
+  "front_direction_review": {
+    "review_file": "configs/scene10_vehicle_front_direction_review.json",
+    "view_pairs": "configs/dynamic_agents/scene_inputs/scene10/front_direction_view_pairs.json",
+    "completed_at": "2026-08-12T16:26:42+08:00"
+  }
+}

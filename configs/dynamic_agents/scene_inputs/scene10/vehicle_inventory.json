@@ -1,0 +1,3941 @@
+[
+  {
+    "path": "/World/vehicle_private_vehicle_bicycle_06edc4c83fd7487f970664c7e4a7ab3a",
+    "name": "vehicle_private_vehicle_bicycle_06edc4c83fd7487f970664c7e4a7ab3a",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/06edc4c83fd7487f970664c7e4a7ab3a/vehicle-private_vehicle-bicycle_06edc4c83fd7487f970664c7e4a7ab3a.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/06edc4c83fd7487f970664c7e4a7ab3a/vehicle-private_vehicle-bicycle_06edc4c83fd7487f970664c7e4a7ab3a.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 12,
+    "mesh_count": 0,
+    "collision_api_count": 0,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      490.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": null,
+    "visible_world_aabb_max_xyz": null,
+    "visible_world_aabb_center_xyz": null,
+    "visible_world_aabb_size_xyz": null,
+    "root_to_visible_center_offset_xyz": null,
+    "visible_bottom_z": null,
+    "obb": null,
+    "mesh_records": [],
+    "quality": {
+      "status": "reject",
+      "issues": [
+        "no_visible_mesh"
+      ],
+      "recommended_motion": "exclude"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_bicycle_2fb82988dfd0495aa3b4b62cb377bbfb",
+    "name": "vehicle_private_vehicle_bicycle_2fb82988dfd0495aa3b4b62cb377bbfb",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/2fb82988dfd0495aa3b4b62cb377bbfb/vehicle-private_vehicle-bicycle_2fb82988dfd0495aa3b4b62cb377bbfb.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/2fb82988dfd0495aa3b4b62cb377bbfb/vehicle-private_vehicle-bicycle_2fb82988dfd0495aa3b4b62cb377bbfb.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 33,
+    "mesh_count": 0,
+    "collision_api_count": 0,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      490.3634442110695,
+      0.537532709055871
+    ],
+    "visible_world_aabb_min_xyz": null,
+    "visible_world_aabb_max_xyz": null,
+    "visible_world_aabb_center_xyz": null,
+    "visible_world_aabb_size_xyz": null,
+    "root_to_visible_center_offset_xyz": null,
+    "visible_bottom_z": null,
+    "obb": null,
+    "mesh_records": [],
+    "quality": {
+      "status": "reject",
+      "issues": [
+        "no_visible_mesh"
+      ],
+      "recommended_motion": "exclude"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_bicycle_3bde1ab67c6448169b604dedad6828d8",
+    "name": "vehicle_private_vehicle_bicycle_3bde1ab67c6448169b604dedad6828d8",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/3bde1ab67c6448169b604dedad6828d8/vehicle-private_vehicle-bicycle_3bde1ab67c6448169b604dedad6828d8.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/3bde1ab67c6448169b604dedad6828d8/vehicle-private_vehicle-bicycle_3bde1ab67c6448169b604dedad6828d8.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 8,
+    "mesh_count": 0,
+    "collision_api_count": 0,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      490.3634442110696,
+      1.0
+    ],
+    "visible_world_aabb_min_xyz": null,
+    "visible_world_aabb_max_xyz": null,
+    "visible_world_aabb_center_xyz": null,
+    "visible_world_aabb_size_xyz": null,
+    "root_to_visible_center_offset_xyz": null,
+    "visible_bottom_z": null,
+    "obb": null,
+    "mesh_records": [],
+    "quality": {
+      "status": "reject",
+      "issues": [
+        "no_visible_mesh"
+      ],
+      "recommended_motion": "exclude"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_bicycle_89fe9b1ca558441b93975fb715044530",
+    "name": "vehicle_private_vehicle_bicycle_89fe9b1ca558441b93975fb715044530",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/89fe9b1ca558441b93975fb715044530/vehicle-private_vehicle-bicycle_89fe9b1ca558441b93975fb715044530.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/89fe9b1ca558441b93975fb715044530/vehicle-private_vehicle-bicycle_89fe9b1ca558441b93975fb715044530.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 43,
+    "mesh_count": 0,
+    "collision_api_count": 0,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032842,
+      491.13090396171634,
+      2.589784843879596e-19
+    ],
+    "visible_world_aabb_min_xyz": null,
+    "visible_world_aabb_max_xyz": null,
+    "visible_world_aabb_center_xyz": null,
+    "visible_world_aabb_size_xyz": null,
+    "root_to_visible_center_offset_xyz": null,
+    "visible_bottom_z": null,
+    "obb": null,
+    "mesh_records": [],
+    "quality": {
+      "status": "reject",
+      "issues": [
+        "no_visible_mesh"
+      ],
+      "recommended_motion": "exclude"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_bicycle_99d6dce2e49e4ba185ac108ab044524d",
+    "name": "vehicle_private_vehicle_bicycle_99d6dce2e49e4ba185ac108ab044524d",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/99d6dce2e49e4ba185ac108ab044524d/vehicle-private_vehicle-bicycle_99d6dce2e49e4ba185ac108ab044524d.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/99d6dce2e49e4ba185ac108ab044524d/vehicle-private_vehicle-bicycle_99d6dce2e49e4ba185ac108ab044524d.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 13,
+    "mesh_count": 0,
+    "collision_api_count": 0,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      490.3634442110696,
+      1.1102230246251565e-16
+    ],
+    "visible_world_aabb_min_xyz": null,
+    "visible_world_aabb_max_xyz": null,
+    "visible_world_aabb_center_xyz": null,
+    "visible_world_aabb_size_xyz": null,
+    "root_to_visible_center_offset_xyz": null,
+    "visible_bottom_z": null,
+    "obb": null,
+    "mesh_records": [],
+    "quality": {
+      "status": "reject",
+      "issues": [
+        "no_visible_mesh"
+      ],
+      "recommended_motion": "exclude"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_bicycle_a869c645c3504e93a8b949f647e29970",
+    "name": "vehicle_private_vehicle_bicycle_a869c645c3504e93a8b949f647e29970",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/a869c645c3504e93a8b949f647e29970/vehicle-private_vehicle-bicycle_a869c645c3504e93a8b949f647e29970.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/a869c645c3504e93a8b949f647e29970/vehicle-private_vehicle-bicycle_a869c645c3504e93a8b949f647e29970.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 32,
+    "mesh_count": 0,
+    "collision_api_count": 0,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      490.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": null,
+    "visible_world_aabb_max_xyz": null,
+    "visible_world_aabb_center_xyz": null,
+    "visible_world_aabb_size_xyz": null,
+    "root_to_visible_center_offset_xyz": null,
+    "visible_bottom_z": null,
+    "obb": null,
+    "mesh_records": [],
+    "quality": {
+      "status": "reject",
+      "issues": [
+        "no_visible_mesh"
+      ],
+      "recommended_motion": "exclude"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_bicycle_cbb067272da74c4d9a11b073ecbdd88d",
+    "name": "vehicle_private_vehicle_bicycle_cbb067272da74c4d9a11b073ecbdd88d",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/cbb067272da74c4d9a11b073ecbdd88d/vehicle-private_vehicle-bicycle_cbb067272da74c4d9a11b073ecbdd88d.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/cbb067272da74c4d9a11b073ecbdd88d/vehicle-private_vehicle-bicycle_cbb067272da74c4d9a11b073ecbdd88d.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 5,
+    "mesh_count": 0,
+    "collision_api_count": 0,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      490.3634442110696,
+      -0.2990308045691117
+    ],
+    "visible_world_aabb_min_xyz": null,
+    "visible_world_aabb_max_xyz": null,
+    "visible_world_aabb_center_xyz": null,
+    "visible_world_aabb_size_xyz": null,
+    "root_to_visible_center_offset_xyz": null,
+    "visible_bottom_z": null,
+    "obb": null,
+    "mesh_records": [],
+    "quality": {
+      "status": "reject",
+      "issues": [
+        "no_visible_mesh"
+      ],
+      "recommended_motion": "exclude"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_bicycle_d0a9268f7fb24dcd8f77c66f2fee33d9",
+    "name": "vehicle_private_vehicle_bicycle_d0a9268f7fb24dcd8f77c66f2fee33d9",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/d0a9268f7fb24dcd8f77c66f2fee33d9/vehicle-private_vehicle-bicycle_d0a9268f7fb24dcd8f77c66f2fee33d9.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/d0a9268f7fb24dcd8f77c66f2fee33d9/vehicle-private_vehicle-bicycle_d0a9268f7fb24dcd8f77c66f2fee33d9.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 28,
+    "mesh_count": 0,
+    "collision_api_count": 0,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      490.3634442110696,
+      -0.29999974370002747
+    ],
+    "visible_world_aabb_min_xyz": null,
+    "visible_world_aabb_max_xyz": null,
+    "visible_world_aabb_center_xyz": null,
+    "visible_world_aabb_size_xyz": null,
+    "root_to_visible_center_offset_xyz": null,
+    "visible_bottom_z": null,
+    "obb": null,
+    "mesh_records": [],
+    "quality": {
+      "status": "reject",
+      "issues": [
+        "no_visible_mesh"
+      ],
+      "recommended_motion": "exclude"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_car_955edc733c6d44fabc0ad7c246a15896",
+    "name": "vehicle_private_vehicle_car_955edc733c6d44fabc0ad7c246a15896",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-car/955edc733c6d44fabc0ad7c246a15896/vehicle-private_vehicle-car_955edc733c6d44fabc0ad7c246a15896.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-car/955edc733c6d44fabc0ad7c246a15896/vehicle-private_vehicle-car_955edc733c6d44fabc0ad7c246a15896.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 40,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032845,
+      473.21398796948023,
+      5.139882996514251e-16
+    ],
+    "visible_world_aabb_min_xyz": [
+      -614.5395998346394,
+      537.6943751772789,
+      0.8544817087612133
+    ],
+    "visible_world_aabb_max_xyz": [
+      -612.5031690791023,
+      542.4646783418407,
+      2.1527220684753203
+    ],
+    "visible_world_aabb_center_xyz": [
+      -613.5213844568709,
+      540.0795267595597,
+      1.5036018886182667
+    ],
+    "visible_world_aabb_size_xyz": [
+      2.036430755537026,
+      4.770303164561824,
+      1.298240359714107
+    ],
+    "root_to_visible_center_offset_xyz": [
+      122.31899014641363,
+      66.86553879007948,
+      1.5036018886182663
+    ],
+    "visible_bottom_z": 0.8544817087612133,
+    "obb": {
+      "center_xy": [
+        -613.5171566040392,
+        540.07958399611
+      ],
+      "length_width": [
+        4.769866012498028,
+        2.036244139604719
+      ],
+      "heading_deg": 90.77567713156122,
+      "forward_axis_xy_unsigned": [
+        -0.013537706335966562,
+        0.9999083610547325
+      ],
+      "corners_xy": [
+        [
+          -612.4668413111999,
+          537.7086525802015
+        ],
+        [
+          -612.531414356539,
+          542.478081487209
+        ],
+        [
+          -614.5674718968785,
+          542.4505154120186
+        ],
+        [
+          -614.5028988515394,
+          537.6810865050111
+        ]
+      ],
+      "hull_vertex_count": 50
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_car_955edc733c6d44fabc0ad7c246a15896/Body_body_0",
+        "vertex_count": 22404,
+        "min_xyz": [
+          -614.5395998346394,
+          537.6943751772789,
+          0.8544817087612133
+        ],
+        "max_xyz": [
+          -612.5031690791023,
+          542.4646783418407,
+          2.1527220684753203
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_car_f56e1c4d6ace45bf8945136ded809095",
+    "name": "vehicle_private_vehicle_car_f56e1c4d6ace45bf8945136ded809095",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-car/f56e1c4d6ace45bf8945136ded809095/vehicle-private_vehicle-car_f56e1c4d6ace45bf8945136ded809095.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-car/f56e1c4d6ace45bf8945136ded809095/vehicle-private_vehicle-car_f56e1c4d6ace45bf8945136ded809095.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 27,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      479.4297708566429,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -657.1302077924918,
+      492.8563238481665,
+      0.8417936722001137
+    ],
+    "visible_world_aabb_max_xyz": [
+      -653.1740535564634,
+      494.43653250733854,
+      2.341793314572245
+    ],
+    "visible_world_aabb_center_xyz": [
+      -655.1521306744776,
+      493.6464281777525,
+      1.5917934933861795
+    ],
+    "visible_world_aabb_size_xyz": [
+      3.9561542360283966,
+      1.580208659172058,
+      1.4999996423721313
+    ],
+    "root_to_visible_center_offset_xyz": [
+      80.68824392880674,
+      14.216657321109608,
+      1.5917934933861795
+    ],
+    "visible_bottom_z": 0.8417936722001137,
+    "obb": {
+      "center_xy": [
+        -655.1521306402822,
+        493.6464009330588
+      ],
+      "length_width": [
+        3.9561541676519028,
+        1.5801279543951523
+      ],
+      "heading_deg": 1.528754989878452e-05,
+      "forward_axis_xy_unsigned": [
+        0.9999999999999644,
+        2.6681808029671254e-07
+      ],
+      "corners_xy": [
+        [
+          -657.1302075133046,
+          492.85633642807454
+        ],
+        [
+          -653.174053345653,
+          492.85633748364796
+        ],
+        [
+          -653.1740537672597,
+          494.4364654380431
+        ],
+        [
+          -657.1302079349114,
+          494.4364643824697
+        ]
+      ],
+      "hull_vertex_count": 146
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_car_f56e1c4d6ace45bf8945136ded809095/Main_MainBody_0",
+        "vertex_count": 296364,
+        "min_xyz": [
+          -657.1302077924918,
+          492.8563238481665,
+          0.8417936722001137
+        ],
+        "max_xyz": [
+          -653.1740535564634,
+          494.43653250733854,
+          2.341793314572245
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_convertible_car_0e249864d1df49818ef2c03c336a934c",
+    "name": "vehicle_private_vehicle_convertible_car_0e249864d1df49818ef2c03c336a934c",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/0e249864d1df49818ef2c03c336a934c/vehicle-private_vehicle-convertible_car_0e249864d1df49818ef2c03c336a934c.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/0e249864d1df49818ef2c03c336a934c/vehicle-private_vehicle-convertible_car_0e249864d1df49818ef2c03c336a934c.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 85,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -740.7735577847391,
+      464.91488166936074,
+      -2.423126869993132
+    ],
+    "visible_world_aabb_min_xyz": [
+      -617.0019918425188,
+      545.6500214594067,
+      0.8613712229386121
+    ],
+    "visible_world_aabb_max_xyz": [
+      -615.4786563856707,
+      549.6885895054482,
+      2.111370711582507
+    ],
+    "visible_world_aabb_center_xyz": [
+      -616.2403241140947,
+      547.6693054824275,
+      1.4863709672605596
+    ],
+    "visible_world_aabb_size_xyz": [
+      1.5233354568481445,
+      4.038568046041519,
+      1.249999488643895
+    ],
+    "root_to_visible_center_offset_xyz": [
+      124.53323367064434,
+      82.75442381306675,
+      3.9094978372536917
+    ],
+    "visible_bottom_z": 0.8613712229386121,
+    "obb": {
+      "center_xy": [
+        -616.2403241140947,
+        547.6693054824275
+      ],
+      "length_width": [
+        4.038568046041519,
+        1.5233354568481445
+      ],
+      "heading_deg": 90.0,
+      "forward_axis_xy_unsigned": [
+        -0.0,
+        1.0
+      ],
+      "corners_xy": [
+        [
+          -615.4786563856707,
+          545.6500214594067
+        ],
+        [
+          -615.4786563856707,
+          549.6885895054482
+        ],
+        [
+          -617.0019918425188,
+          549.6885895054482
+        ],
+        [
+          -617.0019918425188,
+          545.6500214594067
+        ]
+      ],
+      "hull_vertex_count": 50
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_convertible_car_0e249864d1df49818ef2c03c336a934c/Object_0",
+        "vertex_count": 28545,
+        "min_xyz": [
+          -617.0019918425188,
+          545.6500214594067,
+          0.8613712229386121
+        ],
+        "max_xyz": [
+          -615.4786563856707,
+          549.6885895054482,
+          2.111370711582507
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_convertible_car_37d8a4c7d5ec4d1e858dbd912a46eb89",
+    "name": "vehicle_private_vehicle_convertible_car_37d8a4c7d5ec4d1e858dbd912a46eb89",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/37d8a4c7d5ec4d1e858dbd912a46eb89/vehicle-private_vehicle-convertible_car_37d8a4c7d5ec4d1e858dbd912a46eb89.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/37d8a4c7d5ec4d1e858dbd912a46eb89/vehicle-private_vehicle-convertible_car_37d8a4c7d5ec4d1e858dbd912a46eb89.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 70,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -743.5731409346303,
+      467.7351471232799,
+      1.4437954435632715e-19
+    ],
+    "visible_world_aabb_min_xyz": [
+      -668.9996597089788,
+      486.2920216759767,
+      0.8213190951320943
+    ],
+    "visible_world_aabb_max_xyz": [
+      -665.0901544209311,
+      488.1921295025919,
+      2.2713189162494176
+    ],
+    "visible_world_aabb_center_xyz": [
+      -667.0449070649549,
+      487.2420755892843,
+      1.5463190056907559
+    ],
+    "visible_world_aabb_size_xyz": [
+      3.9095052880477397,
+      1.9001078266152263,
+      1.4499998211173233
+    ],
+    "root_to_visible_center_offset_xyz": [
+      76.52823386967532,
+      19.50692846600441,
+      1.5463190056907559
+    ],
+    "visible_bottom_z": 0.8213190951320943,
+    "obb": {
+      "center_xy": [
+        -667.046311623569,
+        487.22650809209455
+      ],
+      "length_width": [
+        3.9078509292498893,
+        1.8981756529183258
+      ],
+      "heading_deg": 2.157108304279985,
+      "forward_axis_xy_unsigned": [
+        0.999291373576771,
+        0.03763974887071362
+      ],
+      "corners_xy": [
+        [
+          -668.9631290575364,
+          486.20454755054664
+        ],
+        [
+          -665.0580473347131,
+          486.35163807814774
+        ],
+        [
+          -665.1294941896015,
+          488.24846863364246
+        ],
+        [
+          -669.0345759124248,
+          488.10137810604135
+        ]
+      ],
+      "hull_vertex_count": 68
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_convertible_car_37d8a4c7d5ec4d1e858dbd912a46eb89/Object_0",
+        "vertex_count": 2095516,
+        "min_xyz": [
+          -668.9996597089788,
+          486.2920216759767,
+          0.8213190951320943
+        ],
+        "max_xyz": [
+          -665.0901544209311,
+          488.1921295025919,
+          2.2713189162494176
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_convertible_car_69e5de3f68804fbc900557b7740b680c",
+    "name": "vehicle_private_vehicle_convertible_car_69e5de3f68804fbc900557b7740b680c",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/69e5de3f68804fbc900557b7740b680c/vehicle-private_vehicle-convertible_car_69e5de3f68804fbc900557b7740b680c.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/69e5de3f68804fbc900557b7740b680c/vehicle-private_vehicle-convertible_car_69e5de3f68804fbc900557b7740b680c.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 90,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -740.5601701408038,
+      477.2835082198365,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -641.0389904739527,
+      493.7290481773383,
+      0.8699903937624639
+    ],
+    "visible_world_aabb_max_xyz": [
+      -636.9582380016881,
+      495.3295269517705,
+      2.119990181010998
+    ],
+    "visible_world_aabb_center_xyz": [
+      -638.9986142378204,
+      494.5292875645544,
+      1.494990287386731
+    ],
+    "visible_world_aabb_size_xyz": [
+      4.080752472264635,
+      1.6004787744321902,
+      1.2499997872485338
+    ],
+    "root_to_visible_center_offset_xyz": [
+      101.5615559029834,
+      17.245779344717903,
+      1.494990287386731
+    ],
+    "visible_bottom_z": 0.8699903937624639,
+    "obb": {
+      "center_xy": [
+        -638.9979070085593,
+        494.5326906991665
+      ],
+      "length_width": [
+        4.075035112515025,
+        1.5964293632611657
+      ],
+      "heading_deg": 179.85335868352323,
+      "forward_axis_xy_unsigned": [
+        -0.9999967248046843,
+        0.002559370997828891
+      ],
+      "corners_xy": [
+        [
+          -636.9583531980636,
+          495.32568800314704
+        ],
+        [
+          -641.0333749640427,
+          495.3361175298291
+        ],
+        [
+          -641.037460819055,
+          493.73969339518595
+        ],
+        [
+          -636.962439053076,
+          493.7292638685039
+        ]
+      ],
+      "hull_vertex_count": 46
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_convertible_car_69e5de3f68804fbc900557b7740b680c/Object_0",
+        "vertex_count": 479672,
+        "min_xyz": [
+          -641.0389904739527,
+          493.7290481773383,
+          0.8699903937624639
+        ],
+        "max_xyz": [
+          -636.9582380016881,
+          495.3295269517705,
+          2.119990181010998
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_coupe_car_1f614e803fc24946b83bdc2dd9926d62",
+    "name": "vehicle_private_vehicle_coupe_car_1f614e803fc24946b83bdc2dd9926d62",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/1f614e803fc24946b83bdc2dd9926d62/vehicle-private_vehicle-coupe_car_1f614e803fc24946b83bdc2dd9926d62.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/1f614e803fc24946b83bdc2dd9926d62/vehicle-private_vehicle-coupe_car_1f614e803fc24946b83bdc2dd9926d62.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 137,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -747.9766448085846,
+      470.70536180959425,
+      1.7763568394002505e-15
+    ],
+    "visible_world_aabb_min_xyz": [
+      -590.7031752426429,
+      496.7266446954006,
+      0.8849550676851919
+    ],
+    "visible_world_aabb_max_xyz": [
+      -585.7128663195343,
+      500.0822144204193,
+      2.384954769661968
+    ],
+    "visible_world_aabb_center_xyz": [
+      -588.2080207810886,
+      498.4044295579099,
+      1.63495491867358
+    ],
+    "visible_world_aabb_size_xyz": [
+      4.990308923108614,
+      3.355569725018711,
+      1.4999997019767761
+    ],
+    "root_to_visible_center_offset_xyz": [
+      159.768624027496,
+      27.699067748315656,
+      1.6349549186735781
+    ],
+    "visible_bottom_z": 0.8849550676851919,
+    "obb": {
+      "center_xy": [
+        -588.2275933432525,
+        498.4081359251411
+      ],
+      "length_width": [
+        5.150525300150434,
+        2.074507741090457
+      ],
+      "heading_deg": 159.11400425034412,
+      "forward_axis_xy_unsigned": [
+        -0.9342916404157674,
+        0.3565096501487926
+      ],
+      "corners_xy": [
+        [
+          -585.4517559629087,
+          498.45912755896086
+        ],
+        [
+          -590.2638486945891,
+          500.2953395318
+        ],
+        [
+          -591.0034307235962,
+          498.35714429132133
+        ],
+        [
+          -586.1913379919158,
+          496.5209323184822
+        ]
+      ],
+      "hull_vertex_count": 72
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_coupe_car_1f614e803fc24946b83bdc2dd9926d62/defaultMaterial",
+        "vertex_count": 145078,
+        "min_xyz": [
+          -590.7031752426429,
+          496.7266446954006,
+          0.8849550676851919
+        ],
+        "max_xyz": [
+          -585.7128663195343,
+          500.0822144204193,
+          2.384954769661968
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_coupe_car_26542d66454b4d6d99dd3aa7ae27bf20",
+    "name": "vehicle_private_vehicle_coupe_car_26542d66454b4d6d99dd3aa7ae27bf20",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/26542d66454b4d6d99dd3aa7ae27bf20/vehicle-private_vehicle-coupe_car_26542d66454b4d6d99dd3aa7ae27bf20.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/26542d66454b4d6d99dd3aa7ae27bf20/vehicle-private_vehicle-coupe_car_26542d66454b4d6d99dd3aa7ae27bf20.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 67,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -745.6886375148084,
+      481.0447806059816,
+      -5.448122658686677e-20
+    ],
+    "visible_world_aabb_min_xyz": [
+      -617.2524304232687,
+      531.3128633183406,
+      0.8791164270504433
+    ],
+    "visible_world_aabb_max_xyz": [
+      -615.4181865296454,
+      535.4111018648425,
+      2.12911591830923
+    ],
+    "visible_world_aabb_center_xyz": [
+      -616.335308476457,
+      533.3619825915916,
+      1.5041161726798367
+    ],
+    "visible_world_aabb_size_xyz": [
+      1.834243893623352,
+      4.098238546501875,
+      1.2499994912587868
+    ],
+    "root_to_visible_center_offset_xyz": [
+      129.35332903835138,
+      52.31720198561004,
+      1.5041161726798367
+    ],
+    "visible_bottom_z": 0.8791164270504433,
+    "obb": {
+      "center_xy": [
+        -616.335948584094,
+        533.357052837564
+      ],
+      "length_width": [
+        4.088963425414249,
+        1.8337171529526586
+      ],
+      "heading_deg": 91.04077158838965,
+      "forward_axis_xy_unsigned": [
+        -0.018163892037304303,
+        0.9998350229043075
+      ],
+      "corners_xy": [
+        [
+          -615.3821055231809,
+          531.3295621377085
+        ],
+        [
+          -615.4563770133847,
+          535.4178509778126
+        ],
+        [
+          -617.2897916450071,
+          535.3845435374194
+        ],
+        [
+          -617.2155201548034,
+          531.2962546973154
+        ]
+      ],
+      "hull_vertex_count": 51
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_coupe_car_26542d66454b4d6d99dd3aa7ae27bf20/Object_0",
+        "vertex_count": 129723,
+        "min_xyz": [
+          -617.2524304232687,
+          531.3128633183406,
+          0.8791164270504433
+        ],
+        "max_xyz": [
+          -615.4181865296454,
+          535.4111018648425,
+          2.12911591830923
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_coupe_car_26ef15adc5ee4d8bbcb4a4f95ca49168",
+    "name": "vehicle_private_vehicle_coupe_car_26ef15adc5ee4d8bbcb4a4f95ca49168",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/26ef15adc5ee4d8bbcb4a4f95ca49168/vehicle-private_vehicle-coupe_car_26ef15adc5ee4d8bbcb4a4f95ca49168.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/26ef15adc5ee4d8bbcb4a4f95ca49168/vehicle-private_vehicle-coupe_car_26ef15adc5ee4d8bbcb4a4f95ca49168.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 127,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -746.3278491458841,
+      474.59762756782754,
+      -8.382120989700602e-19
+    ],
+    "visible_world_aabb_min_xyz": [
+      -603.780935626203,
+      492.9969738993586,
+      0.8043597796819316
+    ],
+    "visible_world_aabb_max_xyz": [
+      -598.802057204001,
+      495.18157881137023,
+      2.254358405857455
+    ],
+    "visible_world_aabb_center_xyz": [
+      -601.2914964151021,
+      494.0892763553644,
+      1.5293590927696934
+    ],
+    "visible_world_aabb_size_xyz": [
+      4.978878422202001,
+      2.1846049120116504,
+      1.4499986261755233
+    ],
+    "root_to_visible_center_offset_xyz": [
+      145.03635273078203,
+      19.49164878753686,
+      1.5293590927696934
+    ],
+    "visible_bottom_z": 0.8043597796819316,
+    "obb": {
+      "center_xy": [
+        -601.2911103048748,
+        494.0990335612316
+      ],
+      "length_width": [
+        4.975132139205243,
+        2.1843350601655516
+      ],
+      "heading_deg": 1.1713007957059633,
+      "forward_axis_xy_unsigned": [
+        0.9997910480198502,
+        0.02044163152415962
+      ],
+      "corners_xy": [
+        [
+          -603.7558309064087,
+          492.95624433273
+        ],
+        [
+          -598.7817383309156,
+          493.0579441507037
+        ],
+        [
+          -598.8263897033409,
+          495.24182278973313
+        ],
+        [
+          -603.800482278834,
+          495.14012297175947
+        ]
+      ],
+      "hull_vertex_count": 90
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_coupe_car_26ef15adc5ee4d8bbcb4a4f95ca49168/bonnet_bonnet_0_0",
+        "vertex_count": 624573,
+        "min_xyz": [
+          -603.780935626203,
+          492.9969738993586,
+          0.8043597796819316
+        ],
+        "max_xyz": [
+          -598.802057204001,
+          495.18157881137023,
+          2.254358405857455
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_coupe_car_3be9ac82a47e4639b7d0698e1697feb9",
+    "name": "vehicle_private_vehicle_coupe_car_3be9ac82a47e4639b7d0698e1697feb9",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/3be9ac82a47e4639b7d0698e1697feb9/vehicle-private_vehicle-coupe_car_3be9ac82a47e4639b7d0698e1697feb9.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/3be9ac82a47e4639b7d0698e1697feb9/vehicle-private_vehicle-coupe_car_3be9ac82a47e4639b7d0698e1697feb9.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 81,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -741.3958854817746,
+      464.0332482226573,
+      2.4680654042023945e-19
+    ],
+    "visible_world_aabb_min_xyz": [
+      -652.0156987302996,
+      492.38134729262697,
+      0.8780840631822804
+    ],
+    "visible_world_aabb_max_xyz": [
+      -647.486758767912,
+      494.34843789931637,
+      2.278083798296915
+    ],
+    "visible_world_aabb_center_xyz": [
+      -649.7512287491058,
+      493.3648925959717,
+      1.5780839307395977
+    ],
+    "visible_world_aabb_size_xyz": [
+      4.528939962387653,
+      1.9670906066893963,
+      1.3999997351146345
+    ],
+    "root_to_visible_center_offset_xyz": [
+      91.64465673266875,
+      29.33164437331442,
+      1.5780839307395977
+    ],
+    "visible_bottom_z": 0.8780840631822804,
+    "obb": {
+      "center_xy": [
+        -649.75139560168,
+        493.37241637624004
+      ],
+      "length_width": [
+        4.5281795658610235,
+        1.9656902796461964
+      ],
+      "heading_deg": 0.9853562736692733,
+      "forward_axis_xy_unsigned": [
+        0.9998521230080971,
+        0.017196863557083057
+      ],
+      "corners_xy": [
+        [
+          -651.9982487240567,
+          492.3507813335217
+        ],
+        [
+          -647.4707387717687,
+          492.4286518196777
+        ],
+        [
+          -647.5045424793033,
+          494.3940514189584
+        ],
+        [
+          -652.0320524315913,
+          494.31618093280235
+        ]
+      ],
+      "hull_vertex_count": 108
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_coupe_car_3be9ac82a47e4639b7d0698e1697feb9/Object_0",
+        "vertex_count": 1092481,
+        "min_xyz": [
+          -652.0156987302996,
+          492.38134729262697,
+          0.8780840631822804
+        ],
+        "max_xyz": [
+          -647.486758767912,
+          494.34843789931637,
+          2.278083798296915
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_coupe_car_4b8ca4f05be24825a49fb8ac6c3af730",
+    "name": "vehicle_private_vehicle_coupe_car_4b8ca4f05be24825a49fb8ac6c3af730",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/4b8ca4f05be24825a49fb8ac6c3af730/vehicle-private_vehicle-coupe_car_4b8ca4f05be24825a49fb8ac6c3af730.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/4b8ca4f05be24825a49fb8ac6c3af730/vehicle-private_vehicle-coupe_car_4b8ca4f05be24825a49fb8ac6c3af730.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 58,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -746.200407876906,
+      470.715225405714,
+      -1.7763954111500254e-15
+    ],
+    "visible_world_aabb_min_xyz": [
+      -622.4604894995857,
+      540.429768132295,
+      0.8736705251699846
+    ],
+    "visible_world_aabb_max_xyz": [
+      -620.5337504401383,
+      545.3195234018613,
+      2.2736697621573376
+    ],
+    "visible_world_aabb_center_xyz": [
+      -621.4971199698621,
+      542.8746457670782,
+      1.573670143663661
+    ],
+    "visible_world_aabb_size_xyz": [
+      1.9267390594474136,
+      4.889755269566308,
+      1.399999236987353
+    ],
+    "root_to_visible_center_offset_xyz": [
+      124.70328790704389,
+      72.15942036136414,
+      1.5736701436636629
+    ],
+    "visible_bottom_z": 0.8736705251699846,
+    "obb": {
+      "center_xy": [
+        -621.5099065337705,
+        542.8730785185252
+      ],
+      "length_width": [
+        4.884841936904309,
+        1.9231635542947743
+      ],
+      "heading_deg": 91.37819501469221,
+      "forward_axis_xy_unsigned": [
+        -0.024051721209250823,
+        0.9997107155106784
+      ],
+      "corners_xy": [
+        [
+          -620.4898584991076,
+          540.4544918013994
+        ],
+        [
+          -620.6073473555252,
+          545.3379206292987
+        ],
+        [
+          -622.5299545684334,
+          545.291665235651
+        ],
+        [
+          -622.4124657120158,
+          540.4082364077517
+        ]
+      ],
+      "hull_vertex_count": 69
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_coupe_car_4b8ca4f05be24825a49fb8ac6c3af730/Undercarriage_Underside_0",
+        "vertex_count": 110352,
+        "min_xyz": [
+          -622.4604894995857,
+          540.429768132295,
+          0.8736705251699846
+        ],
+        "max_xyz": [
+          -620.5337504401383,
+          545.3195234018613,
+          2.2736697621573376
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_coupe_car_54c227442c4b42dfbaa25e474ad9d736",
+    "name": "vehicle_private_vehicle_coupe_car_54c227442c4b42dfbaa25e474ad9d736",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/54c227442c4b42dfbaa25e474ad9d736/vehicle-private_vehicle-coupe_car_54c227442c4b42dfbaa25e474ad9d736.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/54c227442c4b42dfbaa25e474ad9d736/vehicle-private_vehicle-coupe_car_54c227442c4b42dfbaa25e474ad9d736.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 6,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -745.5926508816661,
+      467.6701274981296,
+      -3.567823254598495e-19
+    ],
+    "visible_world_aabb_min_xyz": [
+      -638.0303628018971,
+      485.8972680626508,
+      0.8785335997857069
+    ],
+    "visible_world_aabb_max_xyz": [
+      -633.0825249889311,
+      488.05405062223383,
+      2.3285334387607426
+    ],
+    "visible_world_aabb_center_xyz": [
+      -635.5564438954141,
+      486.9756593424423,
+      1.6035335192732247
+    ],
+    "visible_world_aabb_size_xyz": [
+      4.947837812965986,
+      2.1567825595830072,
+      1.4499998389750357
+    ],
+    "root_to_visible_center_offset_xyz": [
+      110.03620698625207,
+      19.305531844312725,
+      1.6035335192732247
+    ],
+    "visible_bottom_z": 0.8785335997857069,
+    "obb": {
+      "center_xy": [
+        -635.5541362619595,
+        486.94041007079596
+      ],
+      "length_width": [
+        4.954823300868043,
+        2.1474053076988184
+      ],
+      "heading_deg": 3.4259708827898048,
+      "forward_axis_xy_unsigned": [
+        0.9982128431356353,
+        0.05975884703599538
+      ],
+      "corners_xy": [
+        [
+          -637.962957156503,
+          485.7205790281512
+        ],
+        [
+          -633.0169889021089,
+          486.0166735558781
+        ],
+        [
+          -633.145315367416,
+          488.16024111344075
+        ],
+        [
+          -638.09128362181,
+          487.8641465857138
+        ]
+      ],
+      "hull_vertex_count": 90
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_coupe_car_54c227442c4b42dfbaa25e474ad9d736/Object_0",
+        "vertex_count": 193649,
+        "min_xyz": [
+          -638.0303628018971,
+          485.8972680626508,
+          0.8785335997857069
+        ],
+        "max_xyz": [
+          -633.0825249889311,
+          488.05405062223383,
+          2.3285334387607426
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_coupe_car_88d039e59a8e4630a06e5b4e18f536cf",
+    "name": "vehicle_private_vehicle_coupe_car_88d039e59a8e4630a06e5b4e18f536cf",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/88d039e59a8e4630a06e5b4e18f536cf/vehicle-private_vehicle-coupe_car_88d039e59a8e4630a06e5b4e18f536cf.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/88d039e59a8e4630a06e5b4e18f536cf/vehicle-private_vehicle-coupe_car_88d039e59a8e4630a06e5b4e18f536cf.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 176,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -751.4643613993408,
+      466.2238496497668,
+      1.7763568394002505e-15
+    ],
+    "visible_world_aabb_min_xyz": [
+      -617.2433327263553,
+      523.9956140348776,
+      0.8637202021307421
+    ],
+    "visible_world_aabb_max_xyz": [
+      -613.7788791498006,
+      528.3344194770586,
+      2.0637198325819446
+    ],
+    "visible_world_aabb_center_xyz": [
+      -615.5111059380779,
+      526.165016755968,
+      1.4637200173563434
+    ],
+    "visible_world_aabb_size_xyz": [
+      3.4644535765547744,
+      4.338805442181069,
+      1.1999996304512024
+    ],
+    "root_to_visible_center_offset_xyz": [
+      135.95325546126287,
+      59.94116710620125,
+      1.4637200173563416
+    ],
+    "visible_bottom_z": 0.8637202021307421,
+    "obb": {
+      "center_xy": [
+        -615.4345125744263,
+        526.2079641658279
+      ],
+      "length_width": [
+        4.580245710345878,
+        2.1189974902491713
+      ],
+      "heading_deg": 61.487415752615135,
+      "forward_axis_xy_unsigned": [
+        0.47735176910830246,
+        0.8787122899613808
+      ],
+      "corners_xy": [
+        [
+          -615.5967122022788,
+          523.6898514671127
+        ],
+        [
+          -613.4103238094946,
+          527.7145696638365
+        ],
+        [
+          -615.2723129465738,
+          528.7260768645431
+        ],
+        [
+          -617.4587013393581,
+          524.7013586678192
+        ]
+      ],
+      "hull_vertex_count": 68
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_coupe_car_88d039e59a8e4630a06e5b4e18f536cf/Mesh33_paint1_McLaren_Sport_series1_G_570S_coupe1_Model_0",
+        "vertex_count": 168060,
+        "min_xyz": [
+          -617.2433327263553,
+          523.9956140348776,
+          0.8637202021307421
+        ],
+        "max_xyz": [
+          -613.7788791498006,
+          528.3344194770586,
+          2.0637198325819446
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_coupe_car_8c833864d0bb40f4b3f3a3fe1e99e702",
+    "name": "vehicle_private_vehicle_coupe_car_8c833864d0bb40f4b3f3a3fe1e99e702",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/8c833864d0bb40f4b3f3a3fe1e99e702/vehicle-private_vehicle-coupe_car_8c833864d0bb40f4b3f3a3fe1e99e702.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/8c833864d0bb40f4b3f3a3fe1e99e702/vehicle-private_vehicle-coupe_car_8c833864d0bb40f4b3f3a3fe1e99e702.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 11,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -746.1552647162886,
+      463.0587332680218,
+      -1.7229795255624865e-19
+    ],
+    "visible_world_aabb_min_xyz": [
+      -623.6095677826203,
+      488.0776784289843,
+      0.8822458147482527
+    ],
+    "visible_world_aabb_max_xyz": [
+      -621.6071671459473,
+      492.7053979371251,
+      2.232245054749857
+    ],
+    "visible_world_aabb_center_xyz": [
+      -622.6083674642838,
+      490.3915381830547,
+      1.5572454347490547
+    ],
+    "visible_world_aabb_size_xyz": [
+      2.0024006366729736,
+      4.627719508140785,
+      1.3499992400016043
+    ],
+    "root_to_visible_center_offset_xyz": [
+      123.54689725200478,
+      27.33280491503291,
+      1.5572454347490547
+    ],
+    "visible_bottom_z": 0.8822458147482527,
+    "obb": {
+      "center_xy": [
+        -622.608562434129,
+        490.3915143522597
+      ],
+      "length_width": [
+        4.627673910369936,
+        2.0024011659436383
+      ],
+      "heading_deg": 90.0395428200577,
+      "forward_axis_xy_unsigned": [
+        -0.0006901523507427107,
+        0.9999997618448381
+      ],
+      "corners_xy": [
+        [
+          -621.6057651895844,
+          488.0783689290629
+        ],
+        [
+          -621.6089589896121,
+          492.7060417373284
+        ],
+        [
+          -623.6113596786736,
+          492.70465977545655
+        ],
+        [
+          -623.6081658786459,
+          488.07698696719103
+        ]
+      ],
+      "hull_vertex_count": 43
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_coupe_car_8c833864d0bb40f4b3f3a3fe1e99e702/Mesh_0104_Tex_0094_0_dds_0",
+        "vertex_count": 10139,
+        "min_xyz": [
+          -623.6095677826203,
+          488.0776784289843,
+          0.8822458147482527
+        ],
+        "max_xyz": [
+          -621.6071671459473,
+          492.7053979371251,
+          2.232245054749857
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_coupe_car_a5737bf3cc9b4179a6e5ebe173ff70d9",
+    "name": "vehicle_private_vehicle_coupe_car_a5737bf3cc9b4179a6e5ebe173ff70d9",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/a5737bf3cc9b4179a6e5ebe173ff70d9/vehicle-private_vehicle-coupe_car_a5737bf3cc9b4179a6e5ebe173ff70d9.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/a5737bf3cc9b4179a6e5ebe173ff70d9/vehicle-private_vehicle-coupe_car_a5737bf3cc9b4179a6e5ebe173ff70d9.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 98,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -749.5582908813017,
+      479.1829652690847,
+      -2.1058212691611815e-19
+    ],
+    "visible_world_aabb_min_xyz": [
+      -605.5027149136273,
+      485.355604150606,
+      0.8792531554927119
+    ],
+    "visible_world_aabb_max_xyz": [
+      -601.0822919622403,
+      487.37480232503157,
+      2.2192517896041832
+    ],
+    "visible_world_aabb_center_xyz": [
+      -603.2925034379339,
+      486.3652032378188,
+      1.5492524725484476
+    ],
+    "visible_world_aabb_size_xyz": [
+      4.420422951386968,
+      2.0191981744255827,
+      1.3399986341114714
+    ],
+    "root_to_visible_center_offset_xyz": [
+      146.2657874433678,
+      7.182237968734057,
+      1.5492524725484476
+    ],
+    "visible_bottom_z": 0.8792531554927119,
+    "obb": {
+      "center_xy": [
+        -603.2931974176411,
+        486.3626021864494
+      ],
+      "length_width": [
+        4.416736329541209,
+        2.017626170118433
+      ],
+      "heading_deg": 179.61386141676203,
+      "forward_axis_xy_unsigned": [
+        -0.9999772903995512,
+        0.0067393386301299015
+      ],
+      "corners_xy": [
+        [
+          -601.0780806710344,
+          487.35650942088415
+        ],
+        [
+          -605.4947166982582,
+          487.3862753026489
+        ],
+        [
+          -605.5083141642477,
+          485.36869495201466
+        ],
+        [
+          -601.0916781370239,
+          485.3389290702499
+        ]
+      ],
+      "hull_vertex_count": 38
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_coupe_car_a5737bf3cc9b4179a6e5ebe173ff70d9/Interior_Seatbelt_0",
+        "vertex_count": 418698,
+        "min_xyz": [
+          -605.5027149136273,
+          485.355604150606,
+          0.8792531554927119
+        ],
+        "max_xyz": [
+          -601.0822919622403,
+          487.37480232503157,
+          2.2192517896041832
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_coupe_car_ac20678eb5fc451a98de7ae6b42e66c7",
+    "name": "vehicle_private_vehicle_coupe_car_ac20678eb5fc451a98de7ae6b42e66c7",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/ac20678eb5fc451a98de7ae6b42e66c7/vehicle-private_vehicle-coupe_car_ac20678eb5fc451a98de7ae6b42e66c7.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/ac20678eb5fc451a98de7ae6b42e66c7/vehicle-private_vehicle-coupe_car_ac20678eb5fc451a98de7ae6b42e66c7.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 198,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -753.2531617309147,
+      466.5744486939038,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -614.0341135627552,
+      518.057794712378,
+      0.8553295587687522
+    ],
+    "visible_world_aabb_max_xyz": [
+      -611.9780234462544,
+      522.4018684848085,
+      2.054669246593001
+    ],
+    "visible_world_aabb_center_xyz": [
+      -613.0060685045048,
+      520.2298315985933,
+      1.4549994026808766
+    ],
+    "visible_world_aabb_size_xyz": [
+      2.0560901165008545,
+      4.34407377243042,
+      1.199339687824249
+    ],
+    "root_to_visible_center_offset_xyz": [
+      140.2470932264099,
+      53.655382904689475,
+      1.4549994026808766
+    ],
+    "visible_bottom_z": 0.8553295587687522,
+    "obb": {
+      "center_xy": [
+        -613.0160524703952,
+        520.2311024617031
+      ],
+      "length_width": [
+        4.3351172364454555,
+        2.0381511628364706
+      ],
+      "heading_deg": 87.96893092315541,
+      "forward_axis_xy_unsigned": [
+        0.03544141890272131,
+        0.9993717555675474
+      ],
+      "corners_xy": [
+        [
+          -612.0744384705218,
+          518.0287881155398
+        ],
+        [
+          -611.9207957645525,
+          522.3611818387174
+        ],
+        [
+          -613.9576664702685,
+          522.4334168078665
+        ],
+        [
+          -614.1113091762378,
+          518.1010230846889
+        ]
+      ],
+      "hull_vertex_count": 35
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_coupe_car_ac20678eb5fc451a98de7ae6b42e66c7/mesh_1",
+        "vertex_count": 900282,
+        "min_xyz": [
+          -614.0341135627552,
+          518.057794712378,
+          0.8553295587687522
+        ],
+        "max_xyz": [
+          -611.9780234462544,
+          522.4018684848085,
+          2.054669246593001
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_coupe_car_f6e0921650fb4ebbb21554251479cf26",
+    "name": "vehicle_private_vehicle_coupe_car_f6e0921650fb4ebbb21554251479cf26",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/f6e0921650fb4ebbb21554251479cf26/vehicle-private_vehicle-coupe_car_f6e0921650fb4ebbb21554251479cf26.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/f6e0921650fb4ebbb21554251479cf26/vehicle-private_vehicle-coupe_car_f6e0921650fb4ebbb21554251479cf26.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 132,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -757.4639424659167,
+      475.4092521800881,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -638.5514015389087,
+      501.60690241166844,
+      0.8568392547492425
+    ],
+    "visible_world_aabb_max_xyz": [
+      -634.6046713146127,
+      505.5536353444397,
+      2.055097943451162
+    ],
+    "visible_world_aabb_center_xyz": [
+      -636.5780364267607,
+      503.5802688780541,
+      1.4559685991002023
+    ],
+    "visible_world_aabb_size_xyz": [
+      3.9467302242960614,
+      3.9467329327712832,
+      1.1982586887019195
+    ],
+    "root_to_visible_center_offset_xyz": [
+      120.885906039156,
+      28.171016697965968,
+      1.4559685991002023
+    ],
+    "visible_bottom_z": 0.8568392547492425,
+    "obb": {
+      "center_xy": [
+        -636.5788128686223,
+        503.50713097243266
+      ],
+      "length_width": [
+        4.470523029299443,
+        2.1265466864078917
+      ],
+      "heading_deg": 42.51077162367079,
+      "forward_axis_xy_unsigned": [
+        0.7371503126207399,
+        0.6757288040354247
+      ],
+      "corners_xy": [
+        [
+          -637.5080521683694,
+          501.2129081050879
+        ],
+        [
+          -634.2126047197432,
+          504.23376928508924
+        ],
+        [
+          -635.6495735688752,
+          505.80135383977745
+        ],
+        [
+          -638.9450210175014,
+          502.7804926597761
+        ]
+      ],
+      "hull_vertex_count": 48
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_coupe_car_f6e0921650fb4ebbb21554251479cf26/Object_0",
+        "vertex_count": 431307,
+        "min_xyz": [
+          -638.5514015389087,
+          501.60690241166844,
+          0.8568392547492425
+        ],
+        "max_xyz": [
+          -634.6046713146127,
+          505.5536353444397,
+          2.055097943451162
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_coupe_car_fb0eee5402fb4bc68eeb08069b238f66",
+    "name": "vehicle_private_vehicle_coupe_car_fb0eee5402fb4bc68eeb08069b238f66",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/fb0eee5402fb4bc68eeb08069b238f66/vehicle-private_vehicle-coupe_car_fb0eee5402fb4bc68eeb08069b238f66.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/fb0eee5402fb4bc68eeb08069b238f66/vehicle-private_vehicle-coupe_car_fb0eee5402fb4bc68eeb08069b238f66.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 112,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -747.334920931364,
+      462.59194237696244,
+      -7.572782591167219e-29
+    ],
+    "visible_world_aabb_min_xyz": [
+      -623.6665889474655,
+      507.9269343083744,
+      0.8724337992295833
+    ],
+    "visible_world_aabb_max_xyz": [
+      -621.6987873423535,
+      512.1151915481835,
+      2.072433390980408
+    ],
+    "visible_world_aabb_center_xyz": [
+      -622.6826881449094,
+      510.021062928279,
+      1.4724335951049956
+    ],
+    "visible_world_aabb_size_xyz": [
+      1.9678016051119585,
+      4.188257239809047,
+      1.1999995917508244
+    ],
+    "root_to_visible_center_offset_xyz": [
+      124.65223278645453,
+      47.429120551316544,
+      1.4724335951049956
+    ],
+    "visible_bottom_z": 0.8724337992295833,
+    "obb": {
+      "center_xy": [
+        -622.6878319220926,
+        510.01907661449025
+      ],
+      "length_width": [
+        4.1832255322377705,
+        1.9631132619014124
+      ],
+      "heading_deg": 90.3704356641997,
+      "forward_axis_xy_unsigned": [
+        -0.006465276965028955,
+        0.9999790998784752
+      ],
+      "corners_xy": [
+        [
+          -621.6927729499582,
+          507.93385359880835
+        ],
+        [
+          -621.7198186616313,
+          512.1169917011241
+        ],
+        [
+          -623.6828908942271,
+          512.1042996301721
+        ],
+        [
+          -623.655845182554,
+          507.9211615278564
+        ]
+      ],
+      "hull_vertex_count": 38
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_coupe_car_fb0eee5402fb4bc68eeb08069b238f66/Object051_Realistic_Glass_0",
+        "vertex_count": 2005275,
+        "min_xyz": [
+          -623.6665889474655,
+          507.9269343083744,
+          0.8724337992295833
+        ],
+        "max_xyz": [
+          -621.6987873423535,
+          512.1151915481835,
+          2.072433390980408
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_electric_car_8a1c5378fe0b4fbaa89052b049ed8929",
+    "name": "vehicle_private_vehicle_electric_car_8a1c5378fe0b4fbaa89052b049ed8929",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/8a1c5378fe0b4fbaa89052b049ed8929/vehicle-private_vehicle-electric_car_8a1c5378fe0b4fbaa89052b049ed8929.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/8a1c5378fe0b4fbaa89052b049ed8929/vehicle-private_vehicle-electric_car_8a1c5378fe0b4fbaa89052b049ed8929.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 97,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -740.8132642643451,
+      490.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -631.9311848930917,
+      496.2454239675629,
+      0.8784949028362254
+    ],
+    "visible_world_aabb_max_xyz": [
+      -630.2195985369286,
+      498.7833405949828,
+      2.428493961578262
+    ],
+    "visible_world_aabb_center_xyz": [
+      -631.0753917150101,
+      497.51438228127284,
+      1.6534944322072436
+    ],
+    "visible_world_aabb_size_xyz": [
+      1.711586356163025,
+      2.537916627419918,
+      1.5499990587420365
+    ],
+    "root_to_visible_center_offset_xyz": [
+      109.73787254933495,
+      7.150938070203267,
+      1.6534944322072436
+    ],
+    "visible_bottom_z": 0.8784949028362254,
+    "obb": {
+      "center_xy": [
+        -631.0753917150101,
+        497.51438228127284
+      ],
+      "length_width": [
+        2.537916627419918,
+        1.711586356163025
+      ],
+      "heading_deg": 90.00000000000318,
+      "forward_axis_xy_unsigned": [
+        -5.551115123125783e-14,
+        1.0
+      ],
+      "corners_xy": [
+        [
+          -630.2195985369285,
+          496.24542396756294
+        ],
+        [
+          -630.2195985369287,
+          498.78334059498286
+        ],
+        [
+          -631.9311848930918,
+          498.78334059498275
+        ],
+        [
+          -631.9311848930915,
+          496.24542396756283
+        ]
+      ],
+      "hull_vertex_count": 60
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_electric_car_8a1c5378fe0b4fbaa89052b049ed8929/Object_0",
+        "vertex_count": 30456,
+        "min_xyz": [
+          -631.9311848930917,
+          496.2454239675629,
+          0.8784949028362254
+        ],
+        "max_xyz": [
+          -630.2195985369286,
+          498.7833405949828,
+          2.428493961578262
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_electric_car_9826aff31f7c421b9a7de6bb78d5d4a7",
+    "name": "vehicle_private_vehicle_electric_car_9826aff31f7c421b9a7de6bb78d5d4a7",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/9826aff31f7c421b9a7de6bb78d5d4a7/vehicle-private_vehicle-electric_car_9826aff31f7c421b9a7de6bb78d5d4a7.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/9826aff31f7c421b9a7de6bb78d5d4a7/vehicle-private_vehicle-electric_car_9826aff31f7c421b9a7de6bb78d5d4a7.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 133,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -748.4554585646802,
+      490.3634442110695,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -641.5072727133436,
+      475.30157204105757,
+      0.7676606869738917
+    ],
+    "visible_world_aabb_max_xyz": [
+      -636.2391321717087,
+      479.9210974716496,
+      2.667660280470068
+    ],
+    "visible_world_aabb_center_xyz": [
+      -638.8732024425261,
+      477.6113347563536,
+      1.71766048372198
+    ],
+    "visible_world_aabb_size_xyz": [
+      5.268140541634921,
+      4.619525430592034,
+      1.8999995934961764
+    ],
+    "root_to_visible_center_offset_xyz": [
+      109.58225612215404,
+      -12.752109454715935,
+      1.71766048372198
+    ],
+    "visible_bottom_z": 0.7676606869738917,
+    "obb": {
+      "center_xy": [
+        -638.7614374272403,
+        477.5325966540954
+      ],
+      "length_width": [
+        5.481742651452919,
+        2.0434679274427343
+      ],
+      "heading_deg": 142.99998919359314,
+      "forward_axis_xy_unsigned": [
+        -0.7986353965405237,
+        0.6018151737805889
+      ],
+      "corners_xy": [
+        [
+          -635.9575855662176,
+          476.69909161016864
+        ],
+        [
+          -640.3354992823938,
+          479.9980875165732
+        ],
+        [
+          -641.5652892882629,
+          478.3661016980222
+        ],
+        [
+          -637.1873755720867,
+          475.0671057916176
+        ]
+      ],
+      "hull_vertex_count": 20
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_electric_car_9826aff31f7c421b9a7de6bb78d5d4a7/defaultMaterial",
+        "vertex_count": 10635,
+        "min_xyz": [
+          -641.5072727133436,
+          475.30157204105757,
+          0.7676606869738917
+        ],
+        "max_xyz": [
+          -636.2391321717087,
+          479.9210974716496,
+          2.667660280470068
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_electric_car_b89f5920ec0244e19992c6a4027dd969",
+    "name": "vehicle_private_vehicle_electric_car_b89f5920ec0244e19992c6a4027dd969",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/b89f5920ec0244e19992c6a4027dd969/vehicle-private_vehicle-electric_car_b89f5920ec0244e19992c6a4027dd969.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/b89f5920ec0244e19992c6a4027dd969/vehicle-private_vehicle-electric_car_b89f5920ec0244e19992c6a4027dd969.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 247,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      490.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -568.9873285593113,
+      486.25165115079665,
+      0.8641250932766824
+    ],
+    "visible_world_aabb_max_xyz": [
+      -563.9215266623419,
+      488.47527726242265,
+      2.3141239881765467
+    ],
+    "visible_world_aabb_center_xyz": [
+      -566.4544276108265,
+      487.36346420660965,
+      1.5891245407266146
+    ],
+    "visible_world_aabb_size_xyz": [
+      5.065801896969447,
+      2.223626111626004,
+      1.4499988948998643
+    ],
+    "root_to_visible_center_offset_xyz": [
+      169.38594699245778,
+      -2.9999800044599283,
+      1.5891245407266146
+    ],
+    "visible_bottom_z": 0.8641250932766824,
+    "obb": {
+      "center_xy": [
+        -566.4544053020245,
+        487.3890044185178
+      ],
+      "length_width": [
+        5.062728418233974,
+        2.2173456488124543
+      ],
+      "heading_deg": 176.80840852908827,
+      "forward_axis_xy_unsigned": [
+        -0.9984489455996982,
+        0.055674976702742004
+      ],
+      "corners_xy": [
+        [
+          -563.8652420428331,
+          488.3550239876925
+        ],
+        [
+          -568.9201178938764,
+          488.63689127442996
+        ],
+        [
+          -569.0435685612159,
+          486.4229848493431
+        ],
+        [
+          -563.9886927101726,
+          486.14111756260564
+        ]
+      ],
+      "hull_vertex_count": 92
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_electric_car_b89f5920ec0244e19992c6a4027dd969/Obj3d66_806492_1_240_Obj3d66_806492_1_240_mtl_0",
+        "vertex_count": 621383,
+        "min_xyz": [
+          -568.9873285593113,
+          486.25165115079665,
+          0.8641250932766824
+        ],
+        "max_xyz": [
+          -563.9215266623419,
+          488.47527726242265,
+          2.3141239881765467
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_pickup_truck_61d2800a3a9548db81f21eebc1f257fb",
+    "name": "vehicle_private_vehicle_pickup_truck_61d2800a3a9548db81f21eebc1f257fb",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/61d2800a3a9548db81f21eebc1f257fb/vehicle-private_vehicle-pickup_truck_61d2800a3a9548db81f21eebc1f257fb.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/61d2800a3a9548db81f21eebc1f257fb/vehicle-private_vehicle-pickup_truck_61d2800a3a9548db81f21eebc1f257fb.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 87,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      490.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -664.2386286940308,
+      485.73407164597654,
+      0.8683159355604461
+    ],
+    "visible_world_aabb_max_xyz": [
+      -658.5327692299379,
+      488.34700407557085,
+      2.8683155183279334
+    ],
+    "visible_world_aabb_center_xyz": [
+      -661.3856989619844,
+      487.0405378607737,
+      1.8683157269441897
+    ],
+    "visible_world_aabb_size_xyz": [
+      5.705859464092896,
+      2.6129324295943093,
+      1.9999995827674875
+    ],
+    "root_to_visible_center_offset_xyz": [
+      74.4546756412999,
+      -3.3229063502958525,
+      1.8683157269441897
+    ],
+    "visible_bottom_z": 0.8683159355604461,
+    "obb": {
+      "center_xy": [
+        -661.3858046952511,
+        487.0498607168285
+      ],
+      "length_width": [
+        5.698502028345956,
+        2.610135916972638
+      ],
+      "heading_deg": 179.43564425870494,
+      "forward_axis_xy_unsigned": [
+        -0.9999514904636864,
+        0.009849706566809313
+      ],
+      "corners_xy": [
+        [
+          -658.5238373604828,
+          488.32680108064847
+        ],
+        [
+          -664.2220629571376,
+          488.3829296534981
+        ],
+        [
+          -664.2477720300193,
+          485.77292035300854
+        ],
+        [
+          -658.5495464333645,
+          485.7167917801589
+        ]
+      ],
+      "hull_vertex_count": 41
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_pickup_truck_61d2800a3a9548db81f21eebc1f257fb/Object_0",
+        "vertex_count": 72791,
+        "min_xyz": [
+          -664.2386286940308,
+          485.73407164597654,
+          0.8683159355604461
+        ],
+        "max_xyz": [
+          -658.5327692299379,
+          488.34700407557085,
+          2.8683155183279334
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_pickup_truck_63515c5e20914d6496d1470ddc366a78",
+    "name": "vehicle_private_vehicle_pickup_truck_63515c5e20914d6496d1470ddc366a78",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/63515c5e20914d6496d1470ddc366a78/vehicle-private_vehicle-pickup_truck_63515c5e20914d6496d1470ddc366a78.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/63515c5e20914d6496d1470ddc366a78/vehicle-private_vehicle-pickup_truck_63515c5e20914d6496d1470ddc366a78.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 82,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -740.8403746032842,
+      490.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -561.5180284056635,
+      486.3169128703112,
+      0.8695187858292465
+    ],
+    "visible_world_aabb_max_xyz": [
+      -557.1240507310217,
+      488.0457718098593,
+      2.5695189938655587
+    ],
+    "visible_world_aabb_center_xyz": [
+      -559.3210395683426,
+      487.1813423400853,
+      1.7195188898474025
+    ],
+    "visible_world_aabb_size_xyz": [
+      4.3939776746417465,
+      1.7288589395480471,
+      1.7000002080363124
+    ],
+    "root_to_visible_center_offset_xyz": [
+      181.5193350349416,
+      -3.1821018709842974,
+      1.7195188898474025
+    ],
+    "visible_bottom_z": 0.8695187858292465,
+    "obb": {
+      "center_xy": [
+        -559.3208604012274,
+        487.1864407733385
+      ],
+      "length_width": [
+        4.3917887210570825,
+        1.7280354497697203
+      ],
+      "heading_deg": 179.56600337833515,
+      "forward_axis_xy_unsigned": [
+        -0.9999713123244317,
+        0.007574597557220548
+      ],
+      "corners_xy": [
+        [
+          -557.1184844492556,
+          488.033800695504
+        ],
+        [
+          -561.5101471801025,
+          488.0670667276224
+        ],
+        [
+          -561.5232363531992,
+          486.33908085117304
+        ],
+        [
+          -557.1315736223522,
+          486.30581481905466
+        ]
+      ],
+      "hull_vertex_count": 59
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_pickup_truck_63515c5e20914d6496d1470ddc366a78/Object_0",
+        "vertex_count": 122717,
+        "min_xyz": [
+          -561.5180284056635,
+          486.3169128703112,
+          0.8695187858292465
+        ],
+        "max_xyz": [
+          -557.1240507310217,
+          488.0457718098593,
+          2.5695189938655587
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_pickup_truck_c640e4e7c68545e09a9348494c2c13a1",
+    "name": "vehicle_private_vehicle_pickup_truck_c640e4e7c68545e09a9348494c2c13a1",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/c640e4e7c68545e09a9348494c2c13a1/vehicle-private_vehicle-pickup_truck_c640e4e7c68545e09a9348494c2c13a1.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/c640e4e7c68545e09a9348494c2c13a1/vehicle-private_vehicle-pickup_truck_c640e4e7c68545e09a9348494c2c13a1.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 146,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -737.8403746032842,
+      487.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -640.9052056859839,
+      480.5049379054169,
+      0.8326877653655671
+    ],
+    "visible_world_aabb_max_xyz": [
+      -635.6122830601973,
+      484.74464925754745,
+      2.732688265840757
+    ],
+    "visible_world_aabb_center_xyz": [
+      -638.2587443730906,
+      482.6247935814822,
+      1.7826880156031621
+    ],
+    "visible_world_aabb_size_xyz": [
+      5.292922625786559,
+      4.239711352130541,
+      1.9000005004751899
+    ],
+    "root_to_visible_center_offset_xyz": [
+      99.58163023019358,
+      -4.738650629587369,
+      1.7826880156031621
+    ],
+    "visible_bottom_z": 0.8326877653655671,
+    "obb": {
+      "center_xy": [
+        -638.1749537402272,
+        482.5450589013921
+      ],
+      "length_width": [
+        5.376204668603123,
+        2.458345228005385
+      ],
+      "heading_deg": 148.85432733237923,
+      "forward_axis_xy_unsigned": [
+        -0.8558550640293311,
+        0.5172157280819577
+      ],
+      "corners_xy": [
+        [
+          -635.2385803362964,
+          482.2067237016579
+        ],
+        [
+          -639.8398323271784,
+          484.9873813136471
+        ],
+        [
+          -641.111327144158,
+          482.8833941011263
+        ],
+        [
+          -636.510075153276,
+          480.1027364891371
+        ]
+      ],
+      "hull_vertex_count": 55
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_pickup_truck_c640e4e7c68545e09a9348494c2c13a1/Object_0",
+        "vertex_count": 604354,
+        "min_xyz": [
+          -640.9052056859839,
+          480.5049379054169,
+          0.8326877653655671
+        ],
+        "max_xyz": [
+          -635.6122830601973,
+          484.74464925754745,
+          2.732688265840757
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_suv_09ebc68dcb634807a9dace7404ce5e66",
+    "name": "vehicle_private_vehicle_suv_09ebc68dcb634807a9dace7404ce5e66",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/09ebc68dcb634807a9dace7404ce5e66/vehicle-private_vehicle-suv_09ebc68dcb634807a9dace7404ce5e66.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/09ebc68dcb634807a9dace7404ce5e66/vehicle-private_vehicle-suv_09ebc68dcb634807a9dace7404ce5e66.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 52,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      490.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -578.3021802670651,
+      492.4077498281514,
+      0.8841270080235916
+    ],
+    "visible_world_aabb_max_xyz": [
+      -573.7811992609397,
+      494.46348125708465,
+      2.734126615086378
+    ],
+    "visible_world_aabb_center_xyz": [
+      -576.0416897640024,
+      493.43561554261805,
+      1.8091268115549848
+    ],
+    "visible_world_aabb_size_xyz": [
+      4.520981006125339,
+      2.0557314289332567,
+      1.8499996070627867
+    ],
+    "root_to_visible_center_offset_xyz": [
+      159.79868483928192,
+      3.072171331548475,
+      1.8091268115549848
+    ],
+    "visible_bottom_z": 0.8841270080235916,
+    "obb": {
+      "center_xy": [
+        -576.0326740573047,
+        493.4366973754998
+      ],
+      "length_width": [
+        4.503192328623186,
+        2.055662159657004
+      ],
+      "heading_deg": 0.08058624224207132,
+      "forward_axis_xy_unsigned": [
+        0.9999990108857063,
+        0.0014064947952056631
+      ],
+      "corners_xy": [
+        [
+          -578.2828223554661,
+          492.4057004540277
+        ],
+        [
+          -573.7796344810149,
+          492.4120341705997
+        ],
+        [
+          -573.7825257591433,
+          494.46769429697196
+        ],
+        [
+          -578.2857136335945,
+          494.4613605803999
+        ]
+      ],
+      "hull_vertex_count": 36
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_suv_09ebc68dcb634807a9dace7404ce5e66/Material2",
+        "vertex_count": 451775,
+        "min_xyz": [
+          -578.3021802670651,
+          492.4077498281514,
+          0.8841270080235916
+        ],
+        "max_xyz": [
+          -573.7811992609397,
+          494.46348125708465,
+          2.734126615086378
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_suv_1da79a33e49d4d2eabc5b5cbac578adf",
+    "name": "vehicle_private_vehicle_suv_1da79a33e49d4d2eabc5b5cbac578adf",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/1da79a33e49d4d2eabc5b5cbac578adf/vehicle-private_vehicle-suv_1da79a33e49d4d2eabc5b5cbac578adf.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/1da79a33e49d4d2eabc5b5cbac578adf/vehicle-private_vehicle-suv_1da79a33e49d4d2eabc5b5cbac578adf.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 88,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      490.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -678.6207849882927,
+      492.07780262284047,
+      0.9108018471367657
+    ],
+    "visible_world_aabb_max_xyz": [
+      -673.480932458404,
+      494.34019085290873,
+      2.760801595875198
+    ],
+    "visible_world_aabb_center_xyz": [
+      -676.0508587233484,
+      493.2089967378746,
+      1.8358017215059819
+    ],
+    "visible_world_aabb_size_xyz": [
+      5.139852529888685,
+      2.262388230068268,
+      1.849999748738432
+    ],
+    "root_to_visible_center_offset_xyz": [
+      59.78951587993595,
+      2.8455525268050224,
+      1.8358017215059819
+    ],
+    "visible_bottom_z": 0.9108018471367657,
+    "obb": {
+      "center_xy": [
+        -676.0416662522559,
+        493.2537508248478
+      ],
+      "length_width": [
+        5.114159031992585,
+        2.257871920535763
+      ],
+      "heading_deg": 3.862237613133904,
+      "forward_axis_xy_unsigned": [
+        0.9977288895240971,
+        0.06735772419709564
+      ],
+      "corners_xy": [
+        [
+          -678.5168958011278,
+          491.9551397460774
+        ],
+        [
+          -673.4143515892882,
+          492.2996178596544
+        ],
+        [
+          -673.566436703384,
+          494.55236190361825
+        ],
+        [
+          -678.6689809152236,
+          494.20788379004125
+        ]
+      ],
+      "hull_vertex_count": 61
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_suv_1da79a33e49d4d2eabc5b5cbac578adf/Material3",
+        "vertex_count": 407978,
+        "min_xyz": [
+          -678.6207849882927,
+          492.07780262284047,
+          0.9108018471367657
+        ],
+        "max_xyz": [
+          -673.480932458404,
+          494.34019085290873,
+          2.760801595875198
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_suv_26f042fcf1594890a529bfb41f0fae0d",
+    "name": "vehicle_private_vehicle_suv_26f042fcf1594890a529bfb41f0fae0d",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/26f042fcf1594890a529bfb41f0fae0d/vehicle-private_vehicle-suv_26f042fcf1594890a529bfb41f0fae0d.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/26f042fcf1594890a529bfb41f0fae0d/vehicle-private_vehicle-suv_26f042fcf1594890a529bfb41f0fae0d.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 103,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      463.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -651.0167060380656,
+      486.16129815083843,
+      0.8736801502785819
+    ],
+    "visible_world_aabb_max_xyz": [
+      -646.0178625786866,
+      488.26286166489757,
+      2.843678759552658
+    ],
+    "visible_world_aabb_center_xyz": [
+      -648.5172843083761,
+      487.212079907868,
+      1.8586794549156198
+    ],
+    "visible_world_aabb_size_xyz": [
+      4.998843459379032,
+      2.101563514059137,
+      1.969998609274076
+    ],
+    "root_to_visible_center_offset_xyz": [
+      87.32309029490818,
+      23.848635696798397,
+      1.8586794549156198
+    ],
+    "visible_bottom_z": 0.8736801502785819,
+    "obb": {
+      "center_xy": [
+        -648.5212009574672,
+        487.2335872601789
+      ],
+      "length_width": [
+        4.983113404323149,
+        2.098460137606253
+      ],
+      "heading_deg": 177.81980081345114,
+      "forward_axis_xy_unsigned": [
+        -0.9992761231578594,
+        0.038042472140999276
+      ],
+      "corners_xy": [
+        [
+          -645.9915325298413,
+          488.18727283920344
+        ],
+        [
+          -650.9710387737692,
+          488.37684279206286
+        ],
+        [
+          -651.050869385093,
+          486.2799016811544
+        ],
+        [
+          -646.0713631411651,
+          486.090331728295
+        ]
+      ],
+      "hull_vertex_count": 64
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_suv_26f042fcf1594890a529bfb41f0fae0d/Material3",
+        "vertex_count": 493648,
+        "min_xyz": [
+          -651.0167060380656,
+          486.16129815083843,
+          0.8736801502785819
+        ],
+        "max_xyz": [
+          -646.0178625786866,
+          488.26286166489757,
+          2.843678759552658
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_suv_31a894c9f1f544fd931b6bb5a0762c7b",
+    "name": "vehicle_private_vehicle_suv_31a894c9f1f544fd931b6bb5a0762c7b",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/31a894c9f1f544fd931b6bb5a0762c7b/vehicle-private_vehicle-suv_31a894c9f1f544fd931b6bb5a0762c7b.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/31a894c9f1f544fd931b6bb5a0762c7b/vehicle-private_vehicle-suv_31a894c9f1f544fd931b6bb5a0762c7b.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 88,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -739.8403746032844,
+      490.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -623.6154839574659,
+      520.7472237811885,
+      0.8838921924766413
+    ],
+    "visible_world_aabb_max_xyz": [
+      -621.6684466182554,
+      525.491843656157,
+      2.683891494246895
+    ],
+    "visible_world_aabb_center_xyz": [
+      -622.6419652878607,
+      523.1195337186728,
+      1.783891843361768
+    ],
+    "visible_world_aabb_size_xyz": [
+      1.9470373392105103,
+      4.744619874968521,
+      1.7999993017702538
+    ],
+    "root_to_visible_center_offset_xyz": [
+      117.19840931542376,
+      32.75608950760318,
+      1.783891843361768
+    ],
+    "visible_bottom_z": 0.8838921924766413,
+    "obb": {
+      "center_xy": [
+        -622.6307046549964,
+        523.11824087974
+      ],
+      "length_width": [
+        4.743359400852455,
+        1.9465690688909945
+      ],
+      "heading_deg": 88.74336448652446,
+      "forward_axis_xy_unsigned": [
+        0.02193066888570237,
+        0.9997594939595351
+      ],
+      "corners_xy": [
+        [
+          -621.7096667235735,
+          520.7257868017514
+        ],
+        [
+          -621.6056416791475,
+          525.4680053960158
+        ],
+        [
+          -623.5517425864193,
+          525.5106949577287
+        ],
+        [
+          -623.6557676308453,
+          520.7684763634643
+        ]
+      ],
+      "hull_vertex_count": 90
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_suv_31a894c9f1f544fd931b6bb5a0762c7b/Object_0",
+        "vertex_count": 42831,
+        "min_xyz": [
+          -623.6154839574659,
+          520.7472237811885,
+          0.8838921924766413
+        ],
+        "max_xyz": [
+          -621.6684466182554,
+          525.491843656157,
+          2.683891494246895
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_suv_403d199e0940423188f9425581342a67",
+    "name": "vehicle_private_vehicle_suv_403d199e0940423188f9425581342a67",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/403d199e0940423188f9425581342a67/vehicle-private_vehicle-suv_403d199e0940423188f9425581342a67.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/403d199e0940423188f9425581342a67/vehicle-private_vehicle-suv_403d199e0940423188f9425581342a67.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 75,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -735.8403746032843,
+      495.83378965220817,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -571.8856456381823,
+      492.1904387387893,
+      0.8462017208601497
+    ],
+    "visible_world_aabb_max_xyz": [
+      -567.2382791144396,
+      494.300642004933,
+      2.546201232102063
+    ],
+    "visible_world_aabb_center_xyz": [
+      -569.5619623763109,
+      493.2455403718611,
+      1.6962014764811062
+    ],
+    "visible_world_aabb_size_xyz": [
+      4.647366523742676,
+      2.110203266143742,
+      1.6999995112419133
+    ],
+    "root_to_visible_center_offset_xyz": [
+      166.2784122269734,
+      -2.5882492803470427,
+      1.6962014764811062
+    ],
+    "visible_bottom_z": 0.8462017208601497,
+    "obb": {
+      "center_xy": [
+        -569.563574319027,
+        493.20830774124533
+      ],
+      "length_width": [
+        4.635527617863431,
+        2.106040183059008
+      ],
+      "heading_deg": 176.5183825273838,
+      "forward_axis_xy_unsigned": [
+        -0.99815433359628,
+        0.06072829919375364
+      ],
+      "corners_xy": [
+        [
+          -567.1861402097138,
+          494.1186304549202
+        ],
+        [
+          -571.8131121899894,
+          494.4001381630187
+        ],
+        [
+          -571.9410084283402,
+          492.29798502757046
+        ],
+        [
+          -567.3140364480646,
+          492.01647731947196
+        ]
+      ],
+      "hull_vertex_count": 80
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_suv_403d199e0940423188f9425581342a67/defaultMaterial",
+        "vertex_count": 800090,
+        "min_xyz": [
+          -571.8856456381823,
+          492.1904387387893,
+          0.8462017208601497
+        ],
+        "max_xyz": [
+          -567.2382791144396,
+          494.300642004933,
+          2.546201232102063
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_suv_49c2a07da71846bf88da0e4d13ff5e20",
+    "name": "vehicle_private_vehicle_suv_49c2a07da71846bf88da0e4d13ff5e20",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/49c2a07da71846bf88da0e4d13ff5e20/vehicle-private_vehicle-suv_49c2a07da71846bf88da0e4d13ff5e20.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/49c2a07da71846bf88da0e4d13ff5e20/vehicle-private_vehicle-suv_49c2a07da71846bf88da0e4d13ff5e20.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 108,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -764.8403746032843,
+      490.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -620.9603449751434,
+      498.13666822465126,
+      0.8542548096011935
+    ],
+    "visible_world_aabb_max_xyz": [
+      -618.7602047373351,
+      503.8731265978517,
+      2.754254945089528
+    ],
+    "visible_world_aabb_center_xyz": [
+      -619.8602748562392,
+      501.0048974112515,
+      1.8042548773453606
+    ],
+    "visible_world_aabb_size_xyz": [
+      2.2001402378082275,
+      5.736458373200435,
+      1.9000001354883345
+    ],
+    "root_to_visible_center_offset_xyz": [
+      144.98009974704507,
+      10.6414532001819,
+      1.8042548773453606
+    ],
+    "visible_bottom_z": 0.8542548096011935,
+    "obb": {
+      "center_xy": [
+        -619.8597733898915,
+        501.004897412136
+      ],
+      "length_width": [
+        5.736458371417825,
+        2.1991366148304223
+      ],
+      "heading_deg": 89.99999922799203,
+      "forward_axis_xy_unsigned": [
+        1.3474080801271424e-08,
+        0.9999999999999999
+      ],
+      "corners_xy": [
+        [
+          -618.760205121123,
+          498.13666821161144
+        ],
+        [
+          -618.7602050438296,
+          503.87312658302926
+        ],
+        [
+          -620.95934165866,
+          503.8731266126606
+        ],
+        [
+          -620.9593417359534,
+          498.1366682412428
+        ]
+      ],
+      "hull_vertex_count": 58
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_suv_49c2a07da71846bf88da0e4d13ff5e20/Object_0",
+        "vertex_count": 109415,
+        "min_xyz": [
+          -620.9603449751434,
+          498.13666822465126,
+          0.8542548096011935
+        ],
+        "max_xyz": [
+          -618.7602047373351,
+          503.8731265978517,
+          2.754254945089528
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_suv_a7ff90a4675542579170e1efb20e32da",
+    "name": "vehicle_private_vehicle_suv_a7ff90a4675542579170e1efb20e32da",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/a7ff90a4675542579170e1efb20e32da/vehicle-private_vehicle-suv_a7ff90a4675542579170e1efb20e32da.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/a7ff90a4675542579170e1efb20e32da/vehicle-private_vehicle-suv_a7ff90a4675542579170e1efb20e32da.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 334,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -758.8403746032844,
+      490.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -667.8407905065596,
+      493.3444624967063,
+      0.855965087365671
+    ],
+    "visible_world_aabb_max_xyz": [
+      -663.946348289812,
+      495.3083982745384,
+      2.705920928412848
+    ],
+    "visible_world_aabb_center_xyz": [
+      -665.8935693981858,
+      494.3264303856223,
+      1.7809430078892594
+    ],
+    "visible_world_aabb_size_xyz": [
+      3.8944422167476205,
+      1.9639357778320914,
+      1.8499558410471768
+    ],
+    "root_to_visible_center_offset_xyz": [
+      92.9468052050986,
+      3.962986174552725,
+      1.7809430078892594
+    ],
+    "visible_bottom_z": 0.855965087365671,
+    "obb": {
+      "center_xy": [
+        -665.8935672432619,
+        494.3264322118134
+      ],
+      "length_width": [
+        3.894437826590206,
+        1.963935778877044
+      ],
+      "heading_deg": 0.0006867934268730056,
+      "forward_axis_xy_unsigned": [
+        0.9999999999281582,
+        1.19868065797018e-05
+      ],
+      "corners_xy": [
+        [
+          -667.840774385758,
+          493.34444098150897
+        ],
+        [
+          -663.9463365594476,
+          493.3444876633819
+        ],
+        [
+          -663.9463601007659,
+          495.3084234421179
+        ],
+        [
+          -667.8407979270763,
+          495.3083767602449
+        ]
+      ],
+      "hull_vertex_count": 37
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_suv_a7ff90a4675542579170e1efb20e32da/wrangler_20374_Shape_0_body_0",
+        "vertex_count": 21010,
+        "min_xyz": [
+          -667.8407905065596,
+          493.3444624967063,
+          0.855965087365671
+        ],
+        "max_xyz": [
+          -663.946348289812,
+          495.3083982745384,
+          2.705920928412848
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_suv_b2df8ec40fa54a9c932f576761ef85de",
+    "name": "vehicle_private_vehicle_suv_b2df8ec40fa54a9c932f576761ef85de",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/b2df8ec40fa54a9c932f576761ef85de/vehicle-private_vehicle-suv_b2df8ec40fa54a9c932f576761ef85de.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/b2df8ec40fa54a9c932f576761ef85de/vehicle-private_vehicle-suv_b2df8ec40fa54a9c932f576761ef85de.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 64,
+    "mesh_count": 2,
+    "collision_api_count": 2,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -699.1385188636592,
+      490.7344228293147,
+      0.8949996232986402
+    ],
+    "visible_world_aabb_min_xyz": [
+      -683.7267419611989,
+      486.800234943722,
+      0.8664185368128048
+    ],
+    "visible_world_aabb_max_xyz": [
+      -592.7377334705366,
+      491.3141737129464,
+      2.7330573162522844
+    ],
+    "visible_world_aabb_center_xyz": [
+      -638.2322377158678,
+      489.0572043283342,
+      1.7997379265325446
+    ],
+    "visible_world_aabb_size_xyz": [
+      90.98900849066229,
+      4.51393876922441,
+      1.8666387794394796
+    ],
+    "root_to_visible_center_offset_xyz": [
+      60.90628114779145,
+      -1.6772185009805298,
+      0.9047383032339044
+    ],
+    "visible_bottom_z": 0.8664185368128048,
+    "obb": {
+      "center_xy": [
+        -638.227158286266,
+        489.40015548338846
+      ],
+      "length_width": [
+        91.0223462791082,
+        2.672659856806547
+      ],
+      "heading_deg": 1.6076526942348877,
+      "forward_axis_xy_unsigned": [
+        0.9996063767784691,
+        0.02805515111029263
+      ],
+      "corners_xy": [
+        [
+          -683.6829262331587,
+          486.7875287258397
+        ],
+        [
+          -592.6964084632241,
+          489.3411744051135
+        ],
+        [
+          -592.7713903393733,
+          492.0127822409372
+        ],
+        [
+          -683.7579081093079,
+          489.4591365616634
+        ]
+      ],
+      "hull_vertex_count": 51
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_suv_b2df8ec40fa54a9c932f576761ef85de/Plane_003_None_003_0",
+        "vertex_count": 1348408,
+        "min_xyz": [
+          -683.7267419611989,
+          486.800234943722,
+          0.8664185368128048
+        ],
+        "max_xyz": [
+          -679.7544832864166,
+          489.5584598091834,
+          2.716417818487277
+        ]
+      },
+      {
+        "path": "/World/vehicle_private_vehicle_suv_b2df8ec40fa54a9c932f576761ef85de/Plane_003_None_003_01",
+        "vertex_count": 1348408,
+        "min_xyz": [
+          -596.6171774322985,
+          489.27987761757515,
+          0.8830580345778133
+        ],
+        "max_xyz": [
+          -592.7377334705366,
+          491.3141737129464,
+          2.7330573162522844
+        ]
+      }
+    ],
+    "quality": {
+      "status": "reject",
+      "issues": [
+        "root_origin_far_from_visible_body",
+        "implausible_vehicle_dimensions"
+      ],
+      "recommended_motion": "exclude"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_suv_d90c7f830f9c41398bb55de4a2e001be",
+    "name": "vehicle_private_vehicle_suv_d90c7f830f9c41398bb55de4a2e001be",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/d90c7f830f9c41398bb55de4a2e001be/vehicle-private_vehicle-suv_d90c7f830f9c41398bb55de4a2e001be.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/d90c7f830f9c41398bb55de4a2e001be/vehicle-private_vehicle-suv_d90c7f830f9c41398bb55de4a2e001be.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 19,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -741.4987471799595,
+      495.91883331994177,
+      0.40942284291082354
+    ],
+    "visible_world_aabb_min_xyz": [
+      -656.5270831256815,
+      486.53768720360216,
+      0.8551047963485323
+    ],
+    "visible_world_aabb_max_xyz": [
+      -653.0134379706848,
+      488.2953896036595,
+      2.705104224143943
+    ],
+    "visible_world_aabb_center_xyz": [
+      -654.7702605481832,
+      487.41653840363085,
+      1.7801045102462376
+    ],
+    "visible_world_aabb_size_xyz": [
+      3.513645154996766,
+      1.757702400057326,
+      1.8499994277954106
+    ],
+    "root_to_visible_center_offset_xyz": [
+      86.72848663177638,
+      -8.502294916310916,
+      1.370681667335414
+    ],
+    "visible_bottom_z": 0.8551047963485323,
+    "obb": {
+      "center_xy": [
+        -654.7702526532581,
+        487.4165367807037
+      ],
+      "length_width": [
+        3.513628385884772,
+        1.7576998366747603
+      ],
+      "heading_deg": 7.76010479917205e-05,
+      "forward_axis_xy_unsigned": [
+        0.9999999999990828,
+        1.3543937904532423e-06
+      ],
+      "corners_xy": [
+        [
+          -656.5270656558899,
+          486.5376844829489
+        ],
+        [
+          -653.0134372700085,
+          486.53768924178536
+        ],
+        [
+          -653.0134396506263,
+          488.2953890784585
+        ],
+        [
+          -656.5270680365078,
+          488.2953843196221
+        ]
+      ],
+      "hull_vertex_count": 42
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_suv_d90c7f830f9c41398bb55de4a2e001be/Chassis_Real_Car_22_Body_0",
+        "vertex_count": 108056,
+        "min_xyz": [
+          -656.5270831256815,
+          486.53768720360216,
+          0.8551047963485323
+        ],
+        "max_xyz": [
+          -653.0134379706848,
+          488.2953896036595,
+          2.705104224143943
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_suv_f69b8a867f8f479bbac0c356029d9ccf",
+    "name": "vehicle_private_vehicle_suv_f69b8a867f8f479bbac0c356029d9ccf",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/f69b8a867f8f479bbac0c356029d9ccf/vehicle-private_vehicle-suv_f69b8a867f8f479bbac0c356029d9ccf.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/f69b8a867f8f479bbac0c356029d9ccf/vehicle-private_vehicle-suv_f69b8a867f8f479bbac0c356029d9ccf.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 5,
+    "mesh_count": 0,
+    "collision_api_count": 0,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -757.8403746032842,
+      498.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": null,
+    "visible_world_aabb_max_xyz": null,
+    "visible_world_aabb_center_xyz": null,
+    "visible_world_aabb_size_xyz": null,
+    "root_to_visible_center_offset_xyz": null,
+    "visible_bottom_z": null,
+    "obb": null,
+    "mesh_records": [],
+    "quality": {
+      "status": "reject",
+      "issues": [
+        "no_visible_mesh"
+      ],
+      "recommended_motion": "exclude"
+    }
+  },
+  {
+    "path": "/World/vehicle_private_vehicle_truck_86e731089800401eb3fb12e91baf1456",
+    "name": "vehicle_private_vehicle_truck_86e731089800401eb3fb12e91baf1456",
+    "type_name": "Xform",
+    "active": true,
+    "loaded": true,
+    "asset_references": [
+      {
+        "authored": "./home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-truck/86e731089800401eb3fb12e91baf1456/vehicle-private_vehicle-truck_86e731089800401eb3fb12e91baf1456.glb",
+        "resolved": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-truck/86e731089800401eb3fb12e91baf1456/vehicle-private_vehicle-truck_86e731089800401eb3fb12e91baf1456.glb",
+        "prim_path": ""
+      }
+    ],
+    "descendant_count": 230,
+    "mesh_count": 1,
+    "collision_api_count": 1,
+    "rigid_body_api_count": 1,
+    "root_has_rigid_body_api": true,
+    "kinematic_enabled": true,
+    "root_world_origin_xyz": [
+      -759.8403746032844,
+      490.3634442110696,
+      0.0
+    ],
+    "visible_world_aabb_min_xyz": [
+      -595.4529867435632,
+      485.1850028837298,
+      0.8690972701027747
+    ],
+    "visible_world_aabb_max_xyz": [
+      -589.4343125356063,
+      488.01299895404156,
+      4.669096672267988
+    ],
+    "visible_world_aabb_center_xyz": [
+      -592.4436496395847,
+      486.5990009188857,
+      2.7690969711853812
+    ],
+    "visible_world_aabb_size_xyz": [
+      6.018674207956906,
+      2.8279960703117695,
+      3.799999402165213
+    ],
+    "root_to_visible_center_offset_xyz": [
+      167.39672496369974,
+      -3.7644432921838984,
+      2.7690969711853812
+    ],
+    "visible_bottom_z": 0.8690972701027747,
+    "obb": {
+      "center_xy": [
+        -592.4340884006282,
+        486.7052680009154
+      ],
+      "length_width": [
+        6.005233264188632,
+        2.813670885357851
+      ],
+      "heading_deg": 2.518853060489884,
+      "forward_axis_xy_unsigned": [
+        0.9990338146260714,
+        0.043948119796872805
+      ],
+      "corners_xy": [
+        [
+          -595.3719761758797,
+          485.16783246661333
+        ],
+        [
+          -589.372545080238,
+          485.4317511775161
+        ],
+        [
+          -589.4962006253767,
+          488.24270353521746
+        ],
+        [
+          -595.4956317210184,
+          487.9787848243147
+        ]
+      ],
+      "hull_vertex_count": 34
+    },
+    "mesh_records": [
+      {
+        "path": "/World/vehicle_private_vehicle_truck_86e731089800401eb3fb12e91baf1456/Mesh1_Color_M08_0",
+        "vertex_count": 336349,
+        "min_xyz": [
+          -595.4529867435632,
+          485.1850028837298,
+          0.8690972701027747
+        ],
+        "max_xyz": [
+          -589.4343125356063,
+          488.01299895404156,
+          4.669096672267988
+        ]
+      }
+    ],
+    "quality": {
+      "status": "translation_only",
+      "issues": [
+        "root_origin_far_from_visible_body"
+      ],
+      "recommended_motion": "whole-body translation only"
+    }
+  }
+]

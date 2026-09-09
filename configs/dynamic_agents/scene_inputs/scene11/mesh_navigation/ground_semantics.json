@@ -1,0 +1,32 @@
+{
+  "source_sha256": "b6f6ea7e8de97e16a50c64c751a5d1c5d2a270997f5ad23e1f6cb4506d7bc369",
+  "surfaces": [
+    {
+      "path": "/World/ground/terrain/export_version/flat_plane_04/GroundPlane/CollisionMesh",
+      "semantic": "NearBuffer",
+      "top_face_count": 2,
+      "z_range_m": [
+        1.1240795443759335,
+        1.1240795443759335
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/export_version/flat_plane_09/GroundPlane/CollisionMesh",
+      "semantic": "NearRoad",
+      "top_face_count": 2,
+      "z_range_m": [
+        1.1258060065823794,
+        1.1258060065823794
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/export_version/flat_plane_10/GroundPlane/CollisionMesh",
+      "semantic": "NearRoad",
+      "top_face_count": 2,
+      "z_range_m": [
+        1.1258056216309396,
+        1.1258056216309396
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "scene_id": "scene_08_commercial_street_bike_lane_dual_sidewalks",
+  "source_usd": "../../../data/urbanverse_craftbench/extracted/scene_08_commercial_street_bike_lane_dual_sidewalks/Collected_export_version/export_version.usd",
+  "source_tar": "../../../data/urbanverse_craftbench/raw/scene_08_commercial_street_bike_lane_dual_sidewalks/Collected_export_version.tar",
+  "vehicle_catalog": "../catalogs/scene10_portable_15_vehicle_catalog.json",
+  "automotive_routes": "../scene_inputs/scene08/mesh_loops/automotive_routes.json",
+  "go2_reference_route": "scene08_auto_compact_v2_settings_go2_route.json",
+  "pedestrian_config": null,
+  "static_obstacle_inventory": null,
+  "static_vehicle_bodies": [],
+  "road_surface": {
+    "polygons_xy": [
+      [
+        [
+          -771.8371387455647,
+          495.3600873917696
+        ],
+        [
+          -771.8371387455647,
+          483.26101293232904
+        ],
+        [
+          -640.6399114477379,
+          483.26101293232904
+        ],
+        [
+          -640.539913561078,
+          483.16102058142457
+        ],
+        [
+          -640.3399177877582,
+          483.16102058142457
+        ],
+        [
+          -640.3399177877582,
+          489.2605539865971
+        ],
+        [
+          -640.539913561078,
+          489.2605539865971
+        ],
+        [
+          -640.6399114477379,
+          489.36054633750155
+        ],
+        [
+          -640.6399114477379,
+          495.3600873917696
+        ]
+      ]
+    ],
+    "fallback_ground_z_m": 1.0843665502652704,
+    "fallback_ground_provenance": "area-weighted composed semantic mesh top; source PhysX support rechecked at Go2 startup"
+  },
+  "traffic": {
+    "vehicle_count": 4,
+    "initial_fill": true,
+    "junction_xy": [
+      -745.8919035522807,
+      488.34095159520297
+    ],
+    "junction_group_count": 1,
+    "green_duration_s": 120.0,
+    "stop_line_m": 8.0,
+    "desired_merge_times_s": [
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ],
+    "physx_route_preflight": false,
+    "runtime_ground_raycast": false,
+    "physx_route_preflight_disabled_reason": "Use audited semantic plane and dense mesh-body guards; first down-ray may hit overhead structures",
+    "road_height_tolerance_m": 0.2,
+    "enabled": true,
+    "disabled_reason": null,
+    "mesh_navigation": {
+      "inventory": "../scene_inputs/scene08/mesh_navigation/navigation_inventory.json",
+      "settings": "scene08_auto_compact_v2_settings.json"
+    },
+    "controller_lookahead_m": 1.2,
+    "asset_ids": [
+      "8a1c5378fe0b4fbaa89052b049ed8929"
+    ],
+    "maximum_steering_deg": 35.0,
+    "use_target_chord": true,
+    "steer_before_drive": true
+  },
+  "overview": {
+    "source_dome_texture_enabled": false,
+    "focal_length": 18.0
+  }
+}

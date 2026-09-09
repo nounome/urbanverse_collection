@@ -1,0 +1,15 @@
+{
+  "source_run": "outputs/rtx3090_isaac45/dynamic_agent_mesh_bootstrap/run_20260908_191446_706071_scene_07_narrow_alley_outdoor_dining_gpu2",
+  "git_commit": "8f6fcf90c003a401531058e9b3b4d539e07fad2a",
+  "source_usd_sha256": "460c487e6b748fede29411cf55f5e7d378b8eb374680c8808641f059c0ac5a1e",
+  "source_tar_sha256": "877348c59086da480c0d918646abf678c55666516c86d869bb276fb63f1cb4ca",
+  "file_sha256": {
+    "navigation_inventory.json": "ecee2bb8bbf3189598f6e1a7370faddd0b44ba30b3f8646f84439046fe782f6b",
+    "ground_Lane.png": "8d7cde317213552c2cbccb369022e10114f4bbb6496b36daf7fa108f1e055001",
+    "ground_Sidewalk.png": "8d7cde317213552c2cbccb369022e10114f4bbb6496b36daf7fa108f1e055001",
+    "ground_NearRoad.png": "4b4fc62e6a21c38db75cb1dc90a1e9254fd9a6ff3deb091c0fc7a61a6a0b636c",
+    "ground_NearBuffer.png": "55c72ca784bc3eb36dbe4e283dd0e34aaf12913d1edb40f88a9d2e7c3b943b0f",
+    "ground_semantics.json": "1398866e456a1c521a07f02501be4f987ee98f23187bd796f767669d4b63c6a6"
+  },
+  "status": "candidate navigation input, not yet runtime-qualified"
+}

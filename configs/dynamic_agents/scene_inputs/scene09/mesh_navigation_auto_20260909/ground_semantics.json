@@ -1,0 +1,995 @@
+{
+  "source_sha256": "521e0e871dba69f1c3e044a780061d717ade72758cd45a6a4a79f21eacd7729d",
+  "surfaces": [
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/t_02/Lane/Lane/lane_0000/mesh",
+      "semantic": "Lane",
+      "top_face_count": 1608,
+      "z_range_m": [
+        0.9788072181024066,
+        0.9788072181024066
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/t_02/Lane/Lane/lane_0000/mesh_01",
+      "semantic": "Lane",
+      "top_face_count": 1608,
+      "z_range_m": [
+        0.9788072181025274,
+        0.9788072181025274
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/t_02/NearRoad/NearRoad/nearroad_0000/mesh",
+      "semantic": "NearRoad",
+      "top_face_count": 604,
+      "z_range_m": [
+        1.1050000190735787,
+        1.1050000190735787
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/t_02/NearRoad/NearRoad/nearroad_0000/mesh_01",
+      "semantic": "NearRoad",
+      "top_face_count": 604,
+      "z_range_m": [
+        1.1050000190737737,
+        1.1050000190737737
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/t_02/NearRoad/NearRoad/nearroad_0000/mesh_02",
+      "semantic": "NearRoad",
+      "top_face_count": 604,
+      "z_range_m": [
+        1.1050000190736995,
+        1.1050000190736995
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/t_02/NearBuffer/NearBuffer/nearbuffer_0000/mesh",
+      "semantic": "NearBuffer",
+      "top_face_count": 604,
+      "z_range_m": [
+        1.1050000190735787,
+        1.1050000190735787
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/t_02/NearBuffer/NearBuffer/nearbuffer_0000/mesh_01",
+      "semantic": "NearBuffer",
+      "top_face_count": 604,
+      "z_range_m": [
+        1.1050000190737737,
+        1.1050000190737737
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/t_02/NearBuffer/NearBuffer/nearbuffer_0000/mesh_02",
+      "semantic": "NearBuffer",
+      "top_face_count": 604,
+      "z_range_m": [
+        1.1050000190736995,
+        1.1050000190736995
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/t_02/Sidewalk/Sidewalk/sidewalk_0000/mesh",
+      "semantic": "Sidewalk",
+      "top_face_count": 604,
+      "z_range_m": [
+        1.1050000190735787,
+        1.1050000190735787
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/t_02/Sidewalk/Sidewalk/sidewalk_0000/mesh_01",
+      "semantic": "Sidewalk",
+      "top_face_count": 604,
+      "z_range_m": [
+        1.1050000190737737,
+        1.1050000190737737
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/t_02/Sidewalk/Sidewalk/sidewalk_0000/mesh_02",
+      "semantic": "Sidewalk",
+      "top_face_count": 604,
+      "z_range_m": [
+        1.1050000190736995,
+        1.1050000190736995
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Lane/Lane/lane_0000/mesh",
+      "semantic": "Lane",
+      "top_face_count": 976,
+      "z_range_m": [
+        0.9788072181023102,
+        0.9788072181023102
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/NearRoad/NearRoad/nearroad_0000/mesh",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/NearRoad/NearRoad/nearroad_0000/mesh_01",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/NearBuffer/NearBuffer/nearbuffer_0000/mesh",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/NearBuffer/NearBuffer/nearbuffer_0000/mesh_01",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_01",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_02",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_03",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_04",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_05",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_06",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_07",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_08",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_09",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_10",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_11",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_12",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_13",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_14",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_15",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_16",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_17",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_18",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_19",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_20",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_21",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_22",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_23",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_24",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_25",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_26",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_27",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_28",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_29",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_30",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_31",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_32",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_33",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_34",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_35",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_36",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_37",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_38",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_39",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_40",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_41",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_42",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_43",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_44",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_45",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_46",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_47",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_48",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_49",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_50",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_51",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_52",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_53",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_54",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_55",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_56",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_57",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_58",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_59",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_60",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_61",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_62",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_63",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_64",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_65",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_66",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_67",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_68",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_69",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_70",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_71",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_72",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_73",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_74",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_75",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_76",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_77",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_78",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_79",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_80",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_81",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_82",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_83",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_84",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_04/Sidewalk/Sidewalk/sidewalk_0000/mesh_85",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_05/Lane/Lane/lane_0000/mesh",
+      "semantic": "Lane",
+      "top_face_count": 976,
+      "z_range_m": [
+        0.9788072181023102,
+        0.9788072181023102
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_05/Lane/Lane/lane_0000/mesh_01",
+      "semantic": "Lane",
+      "top_face_count": 976,
+      "z_range_m": [
+        0.9788072181023104,
+        0.9788072181023104
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_05/NearRoad/NearRoad/nearroad_0000/mesh",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_05/NearRoad/NearRoad/nearroad_0000/mesh_01",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734866,
+        1.1050000190734866
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_05/NearBuffer/NearBuffer/nearbuffer_0000/mesh",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_05/NearBuffer/NearBuffer/nearbuffer_0000/mesh_01",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734866,
+        1.1050000190734866
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_05/Sidewalk/Sidewalk/sidewalk_0000/mesh",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734863,
+        1.1050000190734863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_02/Big_Block/s_05/Sidewalk/Sidewalk/sidewalk_0000/mesh_01",
+      "semantic": "Sidewalk",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1050000190734866,
+        1.1050000190734866
+      ]
+    }
+  ]
+}

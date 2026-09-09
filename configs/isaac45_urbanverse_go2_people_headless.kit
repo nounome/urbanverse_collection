@@ -1,0 +1,56 @@
+[package]
+title = "RTX3090 Isaac 4.5 UrbanVerse Go2 + Official People"
+description = "Isaac Lab rendering with startup-preloaded People, Animation Graph and Recast schemas."
+version = "1.0.0"
+keywords = ["isaaclab", "people", "navmesh", "go2", "urbanverse"]
+
+[dependencies]
+"isaaclab.python.headless.rendering" = {}
+"omni.kit.asset_converter" = {}
+"omni.usd" = {}
+"omni.kit.renderer.core" = {}
+"omni.hydra.rtx" = {}
+"omni.syntheticdata" = {}
+"omni.replicator.core" = {}
+"omni.physx.tensors" = {}
+"isaacsim.core.api" = {}
+"isaacsim.core.prims" = {}
+"isaacsim.core.utils" = {}
+"isaacsim.core.simulation_manager" = {}
+"omni.anim.graph.schema" = { version = "106.5.0", exact = true }
+"omni.anim.navigation.schema" = { version = "106.4.0", exact = true }
+"omni.usd.schema.omniscripting" = { version = "1.0.0", exact = true }
+"omni.anim.graph.core" = { version = "106.5.1", exact = true }
+"isaacsim.replicator.agent.core" = {}
+
+[settings.isaaclab]
+cameras_enabled = true
+
+[settings]
+app.name = "Isaac-Sim"
+app.version = "4.5.0"
+app.content.emptyStageOnStart = true
+app.stageFrameHistoryCount = 3
+app.settings.fabricDefaultStageFrameHistoryCount = 3
+renderer.enabled = "rtx"
+renderer.active = "rtx"
+renderer.multiGpu.enabled = false
+renderer.multiGpu.autoEnable = false
+renderer.multiGpu.maxGpuCount = 1
+renderer.gpuEnumeration.glInterop.enabled = false
+omni.replicator.asyncRendering = false
+app.asyncRendering = false
+app.vulkan = true
+app.window.hideUi = true
+exts."omni.replicator.core".Orchestrator.enabled = true
+
+[settings.app.exts]
+folders = [
+    "/data1/jiangxw/workspace/project/urbanverse_collection/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/exts",
+    "/data1/jiangxw/workspace/project/urbanverse_collection/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/extscache",
+    "/data1/jiangxw/workspace/project/urbanverse_collection/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/extsPhysics",
+    "/data1/jiangxw/workspace/project/urbanverse_collection/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/extsUser",
+    "/data1/jiangxw/workspace/project/urbanverse_collection/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/extsDeprecated",
+    "/data1/jiangxw/workspace/project/urbanverse_collection/repos/IsaacLab/apps",
+    "/data1/jiangxw/workspace/project/urbanverse_collection/repos/IsaacLab/source",
+]

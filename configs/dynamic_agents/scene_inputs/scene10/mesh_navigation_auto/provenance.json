@@ -1,0 +1,15 @@
+{
+  "source_run": "outputs/rtx3090_isaac45/dynamic_agent_mesh_bootstrap/run_20260908_233827_541472_scene_10_cbd_cross_intersection_diverse_obstacles_gpu1",
+  "git_commit": "6a59448a6ae5b154e303037acef623c024e15e73",
+  "source_usd_sha256": "f42110d87fd78de2d091dfd844dd8af510d93b1a8b5a67bd9de072472a958784",
+  "source_tar_sha256": "b3d6fa6af1ed3de1f2e1f492cf21e186738cd8d371c099d13a0ac689e93f5579",
+  "file_sha256": {
+    "navigation_inventory.json": "23a0d1b8360d7d98a12e1c6cff5d8b08c022817f2a6e61cd3b6fbd24d023e43b",
+    "ground_Lane.png": "58639a85cafa3f7027cd1091c0ef49a0ee632b5f79139977556f321d2feb30cd",
+    "ground_Sidewalk.png": "ed3ebe01d1c45ee91d1372af0012b879658cb7aaf60d647018cda0d70b079786",
+    "ground_NearRoad.png": "17f0157e27507a3440649321504ad14e8382897d6788fa7e4aecbfdc1f66cd8e",
+    "ground_NearBuffer.png": "ec6e45503814b87d1f61e4e33ae80f379a69bdd8daac7e49e7181f191a2dd0f2",
+    "ground_semantics.json": "b345a654d587cf0383cbe2b09f2ff81d704a3ce4aec11d3ccad3e8a1aa51fb62"
+  },
+  "status": "candidate navigation input, not yet runtime-qualified"
+}

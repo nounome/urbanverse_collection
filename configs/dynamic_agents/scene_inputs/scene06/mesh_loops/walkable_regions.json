@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "semantic_image": "semantic_categories.png",
+    "obstacle_mask": "obstacles.png",
+    "semantic_sha256": "b1c425b776641bc2e139ab792f5081c3f2119d739aa52a9becd887d396e0cb0d",
+    "obstacle_sha256": "3ed29ab7115efc7af83cd3e74b0c1db72c363b751bb61fdbb57df6a07e6cc78f"
+  },
+  "world_bounds_xyxy": [
+    -848.063724406496,
+    438.66138711444444,
+    -554.255602064685,
+    603.9284559317131
+  ],
+  "allowed_semantics": [
+    "nearroad",
+    "nearbuffer"
+  ],
+  "clearance_m": 0.45,
+  "minimum_component_area_m2": 10.0,
+  "ground_z_m": 1.1550000190739127,
+  "fixed_seed": 20260827,
+  "erosion_metric": "euclidean"
+}

@@ -1,0 +1,15 @@
+{
+  "source_run": "outputs/rtx3090_isaac45/dynamic_agent_mesh_bootstrap/run_20260908_233121_940610_scene_04_commercial_street_asymmetric_sidewalks_benches_bicycles_gpu2",
+  "git_commit": "6a59448a6ae5b154e303037acef623c024e15e73",
+  "source_usd_sha256": "236a3afc9df545ba4edb991e748feab80a619466bdb335b6a9f2db2a5c034df5",
+  "source_tar_sha256": "31c25040fac26771803298e1960740741e270565410bfd62efe4ef384478b19e",
+  "file_sha256": {
+    "navigation_inventory.json": "c0c1e960ba43dfacf388966e9d21eef35fcdc59a31eee9761e9e7a5899273a44",
+    "ground_Lane.png": "c32d87c722ecf17683260ab786ed385237846a3a0456c898dc2f5f83691ece9f",
+    "ground_Sidewalk.png": "3ad99261e127a84ae9d9f94dd3a8feba099b5dff1681e47c6093b0cd0d31c3c1",
+    "ground_NearRoad.png": "b24321fd284113379fe40bc06c50bace2056f133be784115148e61a38fd27235",
+    "ground_NearBuffer.png": "3ad99261e127a84ae9d9f94dd3a8feba099b5dff1681e47c6093b0cd0d31c3c1",
+    "ground_semantics.json": "b984dafb7e232daaa515423b746a19af966dfd3692fce6895df903e75387cdbb"
+  },
+  "status": "candidate navigation input, not yet runtime-qualified"
+}

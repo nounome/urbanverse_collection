@@ -1,0 +1,281 @@
+[
+  {
+    "index": 1,
+    "asset_id": "955edc733c6d44fabc0ad7c246a15896",
+    "category": "car",
+    "candidate_a_heading_deg": 90.77567713156122,
+    "candidate_b_heading_deg": 270.7756771315612,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_01_955edc733c6d44fabc0ad7c246a15896_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_01_955edc733c6d44fabc0ad7c246a15896_view_b.png"
+  },
+  {
+    "index": 2,
+    "asset_id": "f56e1c4d6ace45bf8945136ded809095",
+    "category": "car",
+    "candidate_a_heading_deg": 1.528754989878452e-05,
+    "candidate_b_heading_deg": 180.0000152875499,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_02_f56e1c4d6ace45bf8945136ded809095_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_02_f56e1c4d6ace45bf8945136ded809095_view_b.png"
+  },
+  {
+    "index": 3,
+    "asset_id": "0e249864d1df49818ef2c03c336a934c",
+    "category": "convertible_car",
+    "candidate_a_heading_deg": 90.0,
+    "candidate_b_heading_deg": 270.0,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_03_0e249864d1df49818ef2c03c336a934c_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_03_0e249864d1df49818ef2c03c336a934c_view_b.png"
+  },
+  {
+    "index": 4,
+    "asset_id": "37d8a4c7d5ec4d1e858dbd912a46eb89",
+    "category": "convertible_car",
+    "candidate_a_heading_deg": 2.157108304279985,
+    "candidate_b_heading_deg": 182.15710830427997,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_04_37d8a4c7d5ec4d1e858dbd912a46eb89_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_04_37d8a4c7d5ec4d1e858dbd912a46eb89_view_b.png"
+  },
+  {
+    "index": 5,
+    "asset_id": "69e5de3f68804fbc900557b7740b680c",
+    "category": "convertible_car",
+    "candidate_a_heading_deg": 179.85335868352323,
+    "candidate_b_heading_deg": 359.8533586835232,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_05_69e5de3f68804fbc900557b7740b680c_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_05_69e5de3f68804fbc900557b7740b680c_view_b.png"
+  },
+  {
+    "index": 6,
+    "asset_id": "1f614e803fc24946b83bdc2dd9926d62",
+    "category": "coupe_car",
+    "candidate_a_heading_deg": 159.11400425034412,
+    "candidate_b_heading_deg": 339.1140042503441,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_06_1f614e803fc24946b83bdc2dd9926d62_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_06_1f614e803fc24946b83bdc2dd9926d62_view_b.png"
+  },
+  {
+    "index": 7,
+    "asset_id": "26542d66454b4d6d99dd3aa7ae27bf20",
+    "category": "coupe_car",
+    "candidate_a_heading_deg": 91.04077158838965,
+    "candidate_b_heading_deg": 271.04077158838965,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_07_26542d66454b4d6d99dd3aa7ae27bf20_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_07_26542d66454b4d6d99dd3aa7ae27bf20_view_b.png"
+  },
+  {
+    "index": 8,
+    "asset_id": "26ef15adc5ee4d8bbcb4a4f95ca49168",
+    "category": "coupe_car",
+    "candidate_a_heading_deg": 1.1713007957059633,
+    "candidate_b_heading_deg": 181.17130079570597,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_08_26ef15adc5ee4d8bbcb4a4f95ca49168_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_08_26ef15adc5ee4d8bbcb4a4f95ca49168_view_b.png"
+  },
+  {
+    "index": 9,
+    "asset_id": "3be9ac82a47e4639b7d0698e1697feb9",
+    "category": "coupe_car",
+    "candidate_a_heading_deg": 0.9853562736692733,
+    "candidate_b_heading_deg": 180.98535627366928,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_09_3be9ac82a47e4639b7d0698e1697feb9_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_09_3be9ac82a47e4639b7d0698e1697feb9_view_b.png"
+  },
+  {
+    "index": 10,
+    "asset_id": "4b8ca4f05be24825a49fb8ac6c3af730",
+    "category": "coupe_car",
+    "candidate_a_heading_deg": 91.37819501469221,
+    "candidate_b_heading_deg": 271.3781950146922,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_10_4b8ca4f05be24825a49fb8ac6c3af730_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_10_4b8ca4f05be24825a49fb8ac6c3af730_view_b.png"
+  },
+  {
+    "index": 11,
+    "asset_id": "54c227442c4b42dfbaa25e474ad9d736",
+    "category": "coupe_car",
+    "candidate_a_heading_deg": 3.4259708827898048,
+    "candidate_b_heading_deg": 183.4259708827898,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_11_54c227442c4b42dfbaa25e474ad9d736_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_11_54c227442c4b42dfbaa25e474ad9d736_view_b.png"
+  },
+  {
+    "index": 12,
+    "asset_id": "88d039e59a8e4630a06e5b4e18f536cf",
+    "category": "coupe_car",
+    "candidate_a_heading_deg": 61.487415752615135,
+    "candidate_b_heading_deg": 241.48741575261514,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_12_88d039e59a8e4630a06e5b4e18f536cf_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_12_88d039e59a8e4630a06e5b4e18f536cf_view_b.png"
+  },
+  {
+    "index": 13,
+    "asset_id": "8c833864d0bb40f4b3f3a3fe1e99e702",
+    "category": "coupe_car",
+    "candidate_a_heading_deg": 90.0395428200577,
+    "candidate_b_heading_deg": 270.0395428200577,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_13_8c833864d0bb40f4b3f3a3fe1e99e702_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_13_8c833864d0bb40f4b3f3a3fe1e99e702_view_b.png"
+  },
+  {
+    "index": 14,
+    "asset_id": "a5737bf3cc9b4179a6e5ebe173ff70d9",
+    "category": "coupe_car",
+    "candidate_a_heading_deg": 179.61386141676203,
+    "candidate_b_heading_deg": 359.613861416762,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_14_a5737bf3cc9b4179a6e5ebe173ff70d9_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_14_a5737bf3cc9b4179a6e5ebe173ff70d9_view_b.png"
+  },
+  {
+    "index": 15,
+    "asset_id": "ac20678eb5fc451a98de7ae6b42e66c7",
+    "category": "coupe_car",
+    "candidate_a_heading_deg": 87.96893092315541,
+    "candidate_b_heading_deg": 267.9689309231554,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_15_ac20678eb5fc451a98de7ae6b42e66c7_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_15_ac20678eb5fc451a98de7ae6b42e66c7_view_b.png"
+  },
+  {
+    "index": 16,
+    "asset_id": "f6e0921650fb4ebbb21554251479cf26",
+    "category": "coupe_car",
+    "candidate_a_heading_deg": 42.51077162367079,
+    "candidate_b_heading_deg": 222.5107716236708,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_16_f6e0921650fb4ebbb21554251479cf26_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_16_f6e0921650fb4ebbb21554251479cf26_view_b.png"
+  },
+  {
+    "index": 17,
+    "asset_id": "fb0eee5402fb4bc68eeb08069b238f66",
+    "category": "coupe_car",
+    "candidate_a_heading_deg": 90.3704356641997,
+    "candidate_b_heading_deg": 270.3704356641997,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_17_fb0eee5402fb4bc68eeb08069b238f66_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_17_fb0eee5402fb4bc68eeb08069b238f66_view_b.png"
+  },
+  {
+    "index": 18,
+    "asset_id": "8a1c5378fe0b4fbaa89052b049ed8929",
+    "category": "electric_car",
+    "candidate_a_heading_deg": 90.00000000000318,
+    "candidate_b_heading_deg": 270.0000000000032,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_18_8a1c5378fe0b4fbaa89052b049ed8929_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_18_8a1c5378fe0b4fbaa89052b049ed8929_view_b.png"
+  },
+  {
+    "index": 19,
+    "asset_id": "9826aff31f7c421b9a7de6bb78d5d4a7",
+    "category": "electric_car",
+    "candidate_a_heading_deg": 142.99998919359314,
+    "candidate_b_heading_deg": 322.99998919359314,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_19_9826aff31f7c421b9a7de6bb78d5d4a7_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_19_9826aff31f7c421b9a7de6bb78d5d4a7_view_b.png"
+  },
+  {
+    "index": 20,
+    "asset_id": "b89f5920ec0244e19992c6a4027dd969",
+    "category": "electric_car",
+    "candidate_a_heading_deg": 176.80840852908827,
+    "candidate_b_heading_deg": 356.8084085290883,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_20_b89f5920ec0244e19992c6a4027dd969_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_20_b89f5920ec0244e19992c6a4027dd969_view_b.png"
+  },
+  {
+    "index": 21,
+    "asset_id": "61d2800a3a9548db81f21eebc1f257fb",
+    "category": "pickup_truck",
+    "candidate_a_heading_deg": 179.43564425870494,
+    "candidate_b_heading_deg": 359.43564425870494,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_21_61d2800a3a9548db81f21eebc1f257fb_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_21_61d2800a3a9548db81f21eebc1f257fb_view_b.png"
+  },
+  {
+    "index": 22,
+    "asset_id": "63515c5e20914d6496d1470ddc366a78",
+    "category": "pickup_truck",
+    "candidate_a_heading_deg": 179.56600337833515,
+    "candidate_b_heading_deg": 359.56600337833515,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_22_63515c5e20914d6496d1470ddc366a78_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_22_63515c5e20914d6496d1470ddc366a78_view_b.png"
+  },
+  {
+    "index": 23,
+    "asset_id": "c640e4e7c68545e09a9348494c2c13a1",
+    "category": "pickup_truck",
+    "candidate_a_heading_deg": 148.85432733237923,
+    "candidate_b_heading_deg": 328.8543273323792,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_23_c640e4e7c68545e09a9348494c2c13a1_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_23_c640e4e7c68545e09a9348494c2c13a1_view_b.png"
+  },
+  {
+    "index": 24,
+    "asset_id": "09ebc68dcb634807a9dace7404ce5e66",
+    "category": "suv",
+    "candidate_a_heading_deg": 0.08058624224207132,
+    "candidate_b_heading_deg": 180.08058624224208,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_24_09ebc68dcb634807a9dace7404ce5e66_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_24_09ebc68dcb634807a9dace7404ce5e66_view_b.png"
+  },
+  {
+    "index": 25,
+    "asset_id": "1da79a33e49d4d2eabc5b5cbac578adf",
+    "category": "suv",
+    "candidate_a_heading_deg": 3.862237613133904,
+    "candidate_b_heading_deg": 183.8622376131339,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_25_1da79a33e49d4d2eabc5b5cbac578adf_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_25_1da79a33e49d4d2eabc5b5cbac578adf_view_b.png"
+  },
+  {
+    "index": 26,
+    "asset_id": "26f042fcf1594890a529bfb41f0fae0d",
+    "category": "suv",
+    "candidate_a_heading_deg": 177.81980081345114,
+    "candidate_b_heading_deg": 357.81980081345114,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_26_26f042fcf1594890a529bfb41f0fae0d_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_26_26f042fcf1594890a529bfb41f0fae0d_view_b.png"
+  },
+  {
+    "index": 27,
+    "asset_id": "31a894c9f1f544fd931b6bb5a0762c7b",
+    "category": "suv",
+    "candidate_a_heading_deg": 88.74336448652446,
+    "candidate_b_heading_deg": 268.74336448652446,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_27_31a894c9f1f544fd931b6bb5a0762c7b_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_27_31a894c9f1f544fd931b6bb5a0762c7b_view_b.png"
+  },
+  {
+    "index": 28,
+    "asset_id": "403d199e0940423188f9425581342a67",
+    "category": "suv",
+    "candidate_a_heading_deg": 176.5183825273838,
+    "candidate_b_heading_deg": 356.5183825273838,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_28_403d199e0940423188f9425581342a67_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_28_403d199e0940423188f9425581342a67_view_b.png"
+  },
+  {
+    "index": 29,
+    "asset_id": "49c2a07da71846bf88da0e4d13ff5e20",
+    "category": "suv",
+    "candidate_a_heading_deg": 89.99999922799203,
+    "candidate_b_heading_deg": 269.999999227992,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_29_49c2a07da71846bf88da0e4d13ff5e20_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_29_49c2a07da71846bf88da0e4d13ff5e20_view_b.png"
+  },
+  {
+    "index": 30,
+    "asset_id": "a7ff90a4675542579170e1efb20e32da",
+    "category": "suv",
+    "candidate_a_heading_deg": 0.0006867934268730056,
+    "candidate_b_heading_deg": 180.00068679342687,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_30_a7ff90a4675542579170e1efb20e32da_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_30_a7ff90a4675542579170e1efb20e32da_view_b.png"
+  },
+  {
+    "index": 31,
+    "asset_id": "86e731089800401eb3fb12e91baf1456",
+    "category": "truck",
+    "candidate_a_heading_deg": 2.518853060489884,
+    "candidate_b_heading_deg": 182.51885306048987,
+    "view_a_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_31_86e731089800401eb3fb12e91baf1456_view_a.png",
+    "view_b_path": "docs/assets/dynamic_agents/scene10_vehicle_front_direction/vehicle_31_86e731089800401eb3fb12e91baf1456_view_b.png"
+  }
+]

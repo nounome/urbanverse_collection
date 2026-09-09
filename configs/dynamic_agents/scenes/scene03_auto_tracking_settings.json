@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "maximum_cleanup_objects": null,
+  "removed_instance_roots": [
+    "electric_cars_5a87daef2ee3489dba8b173290029513",
+    "police_car_0f116808d3194ca79255a0563eccf939",
+    "scooter_2d677e5c0469456f9303111638f1a8d0",
+    "scooter_5b501ed444834140a6c335c7af17d6cc",
+    "sports_car_0a12d924a47649a3a28acbfc18c3c33c",
+    "suv_5cd3ea8eb94c4f5597cc086b2df40e58",
+    "suv_26f042fcf1594890a529bfb41f0fae0d",
+    "bus_08d4c1b35f82404e9f6b50e970baadb9"
+  ],
+  "go2_route": {
+    "domain": "Lane",
+    "clearance_radius_m": 0.55,
+    "seed": 20260908,
+    "goal_count": 8,
+    "candidate_count": 48
+  },
+  "profiles": {
+    "vehicles": {
+      "length_m": 2.537916627419918,
+      "width_m": 1.711586356163025,
+      "minimum_radius_m": 3.2847404155068634,
+      "connect_turning_domains": true,
+      "hybrid_bulb_connection": true,
+      "turning_opening_m": 3.4489774362822065,
+      "margin_m": 0.2,
+      "speed_mps": 1.0,
+      "controller_lookahead_m": 1.2,
+      "insets_m": [
+        1.1,
+        1.3,
+        1.5,
+        1.8
+      ],
+      "smoothing_m": [
+        0.6,
+        0.9,
+        1.2,
+        1.6,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "minimum_length_m": 40.0,
+      "minimum_area_m2": 30.0,
+      "wheelbase_m": 2.3,
+      "maximum_steering_deg": 35.0,
+      "use_target_chord": true,
+      "steer_before_drive": true,
+      "rank_by_coverage": true,
+      "coverage_cell_m": 1.0
+    },
+    "people": {
+      "length_m": 0.6,
+      "width_m": 0.6,
+      "minimum_radius_m": 0.0,
+      "margin_m": 0.15,
+      "speed_mps": 1.0,
+      "insets_m": [
+        0.7,
+        1.0
+      ],
+      "smoothing_m": [
+        0.2,
+        0.5,
+        1.0
+      ],
+      "minimum_length_m": 12.0,
+      "minimum_area_m2": 10.0,
+      "rank_by_coverage": true,
+      "coverage_cell_m": 1.0
+    },
+    "micromobility": {
+      "length_m": 2.0,
+      "width_m": 0.8,
+      "minimum_radius_m": 2.4,
+      "margin_m": 0.2,
+      "speed_mps": 1.1,
+      "insets_m": [
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "turning_opening_m": 2.65,
+      "smoothing_m": [
+        0.9,
+        1.0,
+        1.1,
+        1.2,
+        1.5
+      ],
+      "minimum_length_m": 15.0,
+      "minimum_area_m2": 12.0,
+      "rank_by_coverage": true,
+      "coverage_cell_m": 1.0
+    }
+  },
+  "parameter_provenance": "Smallest traffic-ready calibrated catalog car selected by footprint area; unscaled geometry; same runtime wheelbase formula; 35 degree steering engineering bound; CPU and RTX qualification required. True target-chord pursuit and rate-limited steering alignment at rest, no initial pose edits.",
+  "vehicle_asset_ids": [
+    "8a1c5378fe0b4fbaa89052b049ed8929"
+  ],
+  "population": {
+    "vehicles": {
+      "area_per_agent_m2": 100.0,
+      "spacing_m": 20.0,
+      "maximum_count": 30
+    },
+    "people": {
+      "area_share": 0.6,
+      "area_per_agent_m2": 35.0,
+      "spacing_m": 8.0,
+      "maximum_count": 40
+    },
+    "micromobility": {
+      "area_share": 0.4,
+      "area_per_agent_m2": 55.0,
+      "spacing_m": 12.0,
+      "maximum_count": 20
+    }
+  }
+}

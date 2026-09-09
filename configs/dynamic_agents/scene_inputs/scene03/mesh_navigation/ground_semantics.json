@@ -1,0 +1,86 @@
+{
+  "source_sha256": "02c728ddbe8e8e14dda00a3108409531c8dbbba86d0c73a1f57618856abf9419",
+  "surfaces": [
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/Lane/Lane/lane_01/mesh",
+      "semantic": "Lane",
+      "top_face_count": 976,
+      "z_range_m": [
+        1.1755765028339669,
+        1.1755765028339669
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_01",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190739043,
+        1.2550000190739043
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_02",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.255000019073719,
+        1.255000019073719
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_04",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190738446,
+        1.2550000190738446
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_05",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190739339,
+        1.2550000190739339
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_06",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190739061,
+        1.2550000190739061
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_07",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190739377,
+        1.2550000190739377
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_01",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.255000019074294,
+        1.255000019074294
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_02",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190743023,
+        1.2550000190743023
+      ]
+    }
+  ]
+}

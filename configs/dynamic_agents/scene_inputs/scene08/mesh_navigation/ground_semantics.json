@@ -1,0 +1,680 @@
+{
+  "source_sha256": "1720c0e1891e2c58e7fec3d810ef96f06c760d8be368649376ccadfce23d390d",
+  "surfaces": [
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/Lane/Lane/lane_01/mesh",
+      "semantic": "Lane",
+      "top_face_count": 976,
+      "z_range_m": [
+        1.0843665502652704,
+        1.0843665502652704
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/Lane/Lane/lane_01/mesh_01",
+      "semantic": "Lane",
+      "top_face_count": 976,
+      "z_range_m": [
+        1.084366550265251,
+        1.084366550265251
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/Lane/Lane/lane_01/mesh_02",
+      "semantic": "Lane",
+      "top_face_count": 976,
+      "z_range_m": [
+        1.0843665502652806,
+        1.0843665502652806
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_12",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190737513,
+        1.1550000190737513
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_19",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190737806,
+        1.1550000190737806
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_20",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.155000019073803,
+        1.155000019073803
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_21",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738343,
+        1.1550000190738343
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_22",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738645,
+        1.1550000190738645
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_23",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738936,
+        1.1550000190738936
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_26",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739098,
+        1.1550000190739098
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_33",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.155000019073946,
+        1.155000019073946
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_34",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738272,
+        1.1550000190738272
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_36",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738565,
+        1.1550000190738565
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_39",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.155000019073879,
+        1.155000019073879
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_59",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739103,
+        1.1550000190739103
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_60",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739405,
+        1.1550000190739405
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_63",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739695,
+        1.1550000190739695
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_64",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739858,
+        1.1550000190739858
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_74",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.155000019074022,
+        1.155000019074022
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_75",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738539,
+        1.1550000190738539
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_76",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738832,
+        1.1550000190738832
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_77",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739056,
+        1.1550000190739056
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_78",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.155000019073937,
+        1.155000019073937
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_79",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738725,
+        1.1550000190738725
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_80",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739018,
+        1.1550000190739018
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_81",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739242,
+        1.1550000190739242
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_82",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739556,
+        1.1550000190739556
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_83",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739176,
+        1.1550000190739176
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_84",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.155000019073891,
+        1.155000019073891
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_85",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738596,
+        1.1550000190738596
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_86",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190740026,
+        1.1550000190740026
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_87",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739664,
+        1.1550000190739664
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_88",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738372,
+        1.1550000190738372
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_89",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739502,
+        1.1550000190739502
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_90",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.155000019073808,
+        1.155000019073808
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_91",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739211,
+        1.1550000190739211
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_92",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739267,
+        1.1550000190739267
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_93",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738863,
+        1.1550000190738863
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_94",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.155000019073732,
+        1.155000019073732
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_95",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738905,
+        1.1550000190738905
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_96",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.155000019073815,
+        1.155000019073815
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_97",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190737837,
+        1.1550000190737837
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_98",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190737613,
+        1.1550000190737613
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_99",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738452,
+        1.1550000190738452
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_100",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738743,
+        1.1550000190738743
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_101",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739362,
+        1.1550000190739362
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_102",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738825,
+        1.1550000190738825
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_103",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738638,
+        1.1550000190738638
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_104",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738532,
+        1.1550000190738532
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_105",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738345,
+        1.1550000190738345
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_106",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.155000019073905,
+        1.155000019073905
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_107",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739471,
+        1.1550000190739471
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_108",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739205,
+        1.1550000190739205
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_109",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738892,
+        1.1550000190738892
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_110",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190740322,
+        1.1550000190740322
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_111",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.155000019073996,
+        1.155000019073996
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_112",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738667,
+        1.1550000190738667
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_113",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739798,
+        1.1550000190739798
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_114",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738374,
+        1.1550000190738374
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_115",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739507,
+        1.1550000190739507
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_116",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739562,
+        1.1550000190739562
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_117",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739158,
+        1.1550000190739158
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_118",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190737615,
+        1.1550000190737615
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_119",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.15500001907392,
+        1.15500001907392
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_120",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738445,
+        1.1550000190738445
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_121",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738132,
+        1.1550000190738132
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_122",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190737908,
+        1.1550000190737908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_123",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738747,
+        1.1550000190738747
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_124",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739038,
+        1.1550000190739038
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_125",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739658,
+        1.1550000190739658
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_126",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.155000019073912,
+        1.155000019073912
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_127",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738934,
+        1.1550000190738934
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_128",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190738827,
+        1.1550000190738827
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_129",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.155000019073864,
+        1.155000019073864
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearRoad/NearRoad/nearroad_0000/mesh_130",
+      "semantic": "NearRoad",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.1550000190739345,
+        1.1550000190739345
+      ]
+    }
+  ]
+}

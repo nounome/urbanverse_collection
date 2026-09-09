@@ -1,0 +1,15 @@
+{
+  "source_run": "outputs/rtx3090_isaac45/dynamic_agent_mesh_bootstrap/run_20260908_233121_927002_scene_01_residential_street_dual_sidewalks_dense_bollards_trash_bags_gpu0",
+  "git_commit": "6a59448a6ae5b154e303037acef623c024e15e73",
+  "source_usd_sha256": "df67f9354663f337eb0729e86fa027d971f5e7e834cbced04aeccf71cdad3f87",
+  "source_tar_sha256": "e03bd3fe679bbd43e5ddb5a3d5ca6551ad3820890dc6cc27f00d64de35822966",
+  "file_sha256": {
+    "navigation_inventory.json": "2f9fa9a3a446a251448d5491f5e3c73994de4c07c45cb1a413751b81097941ae",
+    "ground_Lane.png": "89e79477c3c20c2930aeef3e172254849aed34876d876e78c6ea5a58a4d62132",
+    "ground_Sidewalk.png": "d6040ccf5f0b469f388cc1dbc173d714f8e701c2c3fa692adcf66ae3c452c856",
+    "ground_NearRoad.png": "43303f37d72c9180343e5b75629d22e7d8ddf65286661a4bb7e81fe28af5021f",
+    "ground_NearBuffer.png": "d6040ccf5f0b469f388cc1dbc173d714f8e701c2c3fa692adcf66ae3c452c856",
+    "ground_semantics.json": "c4506f33c05f8f72c29409940ed63d2a3f2bc133a85bb70f17401979d82ef9ba"
+  },
+  "status": "candidate navigation input, not yet runtime-qualified"
+}

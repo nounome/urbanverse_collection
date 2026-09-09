@@ -1,0 +1,48 @@
+[package]
+title = "RTX3090 Isaac45 UrbanVerse Evaluation"
+description = "Minimal USD, RTX, SyntheticData and Replicator evaluation experience"
+version = "1.0.0"
+
+[dependencies]
+"omni.usd" = {}
+"omni.kit.asset_converter" = {}
+"omni.hydra.rtx" = {}
+"omni.syntheticdata" = {}
+"omni.replicator.core" = {}
+
+[settings]
+app.name = "RTX3090-Isaac45-UrbanVerse-Evaluation"
+app.version = "1.0.0"
+app.content.emptyStageOnStart = true
+app.fastShutdown = true
+app.settings.persistent = false
+app.stageFrameHistoryCount = 3
+app.settings.fabricDefaultStageFrameHistoryCount = 3
+app.vulkan = true
+renderer.asyncInit = false
+renderer.multiGpu.enabled = false
+omni.replicator.asyncRendering = false
+rtx.hydra.mdlMaterialWarmup = true
+foundation.verifyOsVersion.enabled = false
+
+[settings.app.exts.folders]
+'++' = [
+    "/data1/jiangxw/workspace/project/urbanverse_collection/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/exts",
+    "/data1/jiangxw/workspace/project/urbanverse_collection/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/extscache",
+    "/data1/jiangxw/workspace/project/urbanverse_collection/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/extsPhysics",
+    "/data1/jiangxw/workspace/project/urbanverse_collection/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/extsUser",
+    "/data1/jiangxw/workspace/project/urbanverse_collection/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/extsDeprecated",
+]
+
+[settings.app.renderer]
+resolution.width = 640
+resolution.height = 360
+skipWhileMinimized = false
+sleepMsOnFocus = 0
+sleepMsOutOfFocus = 0
+
+[settings.exts."omni.kit.registry.nucleus"]
+registries = [
+    { name = "kit/default", url = "https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/106/shared" },
+    { name = "kit/sdk", url = "https://ovextensionsprod.blob.core.windows.net/exts/kit/prod/sdk/${kit_version_short}/${kit_git_hash}" },
+]

@@ -1,0 +1,11 @@
+#usda 1.0
+(
+    defaultPrim = "UrbanVerseAsset"
+    documentation = "Generated Isaac Lab scalability wrapper. The source /World prim is referenced and never modified."
+)
+
+def Xform "UrbanVerseAsset" (
+    prepend references = @SOURCE_USD@</World>
+)
+{
+}

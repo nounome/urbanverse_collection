@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "artifact_id": "isaaclab_4_5_unitree_go2_flat_frozen_policy",
+  "task": "Isaac-Velocity-Flat-Unitree-Go2-v0",
+  "format": "torchscript",
+  "policy_path": "policy.pt",
+  "policy_sha256": "e5e02c94271e8204fe1ac05485fa9ecf32d6696b68167c412f9a5619d5f5a673",
+  "official_checkpoint_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.5/Isaac/IsaacLab/PretrainedCheckpoints/rsl_rl/Isaac-Velocity-Flat-Unitree-Go2-v0/checkpoint.pt",
+  "official_checkpoint_sha256": "47ccb2046ec3064257997f879c62d64217b937713c30d827883b2c2f40c50439",
+  "promotion": {
+    "date": "2026-08-26",
+    "source_run": "outputs/rtx3090_isaac45/go2_controller_probe/run_20260803_121023_503817362_official_train_task_rslrl_gpu0",
+    "source_export_relative_path": ".pretrained_checkpoints/rsl_rl/Isaac-Velocity-Flat-Unitree-Go2-v0/exported/policy.pt",
+    "byte_identical_to_source_export": true,
+    "reason": "durable frozen-policy input; maintained runners must not depend on disposable outputs"
+  },
+  "training_performed_in_this_repository": false,
+  "runtime": "Isaac Sim 4.5 / Isaac Lab 2.1.1",
+  "checkpoint_cache_path": "data/locomotion_policies/isaaclab/go2_flat/checkpoint.pt"
+}

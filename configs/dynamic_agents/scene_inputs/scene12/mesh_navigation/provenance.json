@@ -1,0 +1,15 @@
+{
+  "source_run": "outputs/rtx3090_isaac45/dynamic_agent_mesh_bootstrap/run_20260908_234831_505788_scene_12_courtyard_plaza_central_fountain_gpu2",
+  "git_commit": "b0e56c3296c768a469613fe9dce3a659a3cff7d9",
+  "source_usd_sha256": "62378b35ce60d82e683fd1c4ebbcf3c05eafadb582bbca010dda03a9a5e7be52",
+  "source_tar_sha256": "b1530fb1016079b88e75c63bc1351445d1b26607705c76b2a61c1cc0ba756aee",
+  "file_sha256": {
+    "navigation_inventory.json": "32b6b38483e18e00bce577bd3b75567254a29816542bf0fca616bb31f282f0f0",
+    "ground_Lane.png": "f6f6abdb5c18b16d921be35b06ce436b4fbc843f6f7132a6ec45d51ac503789b",
+    "ground_Sidewalk.png": "f6f6abdb5c18b16d921be35b06ce436b4fbc843f6f7132a6ec45d51ac503789b",
+    "ground_NearRoad.png": "f6f6abdb5c18b16d921be35b06ce436b4fbc843f6f7132a6ec45d51ac503789b",
+    "ground_NearBuffer.png": "f82170226aefc1be12823b25729d76bae067cb3045afa92dd7956a65371d1568",
+    "ground_semantics.json": "e97b84a861ffc65004befcd24ba03eeab18c4ff0a8875792dc98cdb45d44f61a"
+  },
+  "status": "candidate navigation input, not yet runtime-qualified"
+}

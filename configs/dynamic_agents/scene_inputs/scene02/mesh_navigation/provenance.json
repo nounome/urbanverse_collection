@@ -1,0 +1,15 @@
+{
+  "source_run": "outputs/rtx3090_isaac45/dynamic_agent_mesh_bootstrap/run_20260908_233121_969153_scene_02_residential_street_single_sidewalk_door_to_street_buildings_gpu1",
+  "git_commit": "6a59448a6ae5b154e303037acef623c024e15e73",
+  "source_usd_sha256": "ca9574c0f09fd6ce9a0ba751abbbe2a25e841484a516bfa9bade26c139437849",
+  "source_tar_sha256": "9a702335716e1272c1f0a917fe3bdc1c56fc1f5dc9d131eb1f60161ddd767e68",
+  "file_sha256": {
+    "navigation_inventory.json": "f6018ba1f404ef6ba1c2d82ba80bf1774343381ef245bc5aed5e2a582f85de25",
+    "ground_Lane.png": "401831b215967306912e5e089c34d9b2b431e8eb4fb5485bcc60339c990bbacd",
+    "ground_Sidewalk.png": "87c74f40aec869d8135521b2444385fb34514d0f295117cb7cbbdcfef2ce8b84",
+    "ground_NearRoad.png": "36fcef9f2077d3e547740110510c75f30c0002998e407e7fefa32f5e905d0e16",
+    "ground_NearBuffer.png": "87c74f40aec869d8135521b2444385fb34514d0f295117cb7cbbdcfef2ce8b84",
+    "ground_semantics.json": "d2f408099ed5741ea406808080312b82ac0c861699dd1a7de55098bcc56bb86a"
+  },
+  "status": "candidate navigation input, not yet runtime-qualified"
+}

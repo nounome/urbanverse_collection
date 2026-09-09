@@ -1,0 +1,20 @@
+#usda 1.0
+(
+    defaultPrim = "UrbanVerseAsset"
+    documentation = "Generated Isaac Lab wrapper. The source /World prim is referenced without modification; the invisible non-colliding mesh is used only by the frozen rough-policy Warp height scanner."
+)
+
+def Xform "UrbanVerseAsset" (
+    prepend references = @SOURCE_USD@</World>
+)
+{
+    def Mesh "HeightScanProxy"
+    {
+        uniform bool doubleSided = 1
+        int[] faceVertexCounts = [4]
+        int[] faceVertexIndices = [0, 1, 2, 3]
+        point3f[] points = [(-HEIGHT_SCAN_PROXY_EXTENT, -HEIGHT_SCAN_PROXY_EXTENT, HEIGHT_SCAN_PROXY_Z), (HEIGHT_SCAN_PROXY_EXTENT, -HEIGHT_SCAN_PROXY_EXTENT, HEIGHT_SCAN_PROXY_Z), (HEIGHT_SCAN_PROXY_EXTENT, HEIGHT_SCAN_PROXY_EXTENT, HEIGHT_SCAN_PROXY_Z), (-HEIGHT_SCAN_PROXY_EXTENT, HEIGHT_SCAN_PROXY_EXTENT, HEIGHT_SCAN_PROXY_Z)]
+        uniform token subdivisionScheme = "none"
+        token visibility = "invisible"
+    }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "scene_id": "scene_06_bar_street_dual_sidewalks_obstructed_fallen_scooters",
+  "source_usd": "../../../data/urbanverse_craftbench/extracted/scene_06_bar_street_dual_sidewalks_obstructed_fallen_scooters/Collected_export_version/export_version.usd",
+  "source_tar": "../../../data/urbanverse_craftbench/raw/scene_06_bar_street_dual_sidewalks_obstructed_fallen_scooters/Collected_export_version.tar",
+  "vehicle_catalog": "../catalogs/scene10_portable_15_vehicle_catalog.json",
+  "automotive_routes": "../scene_inputs/scene06/mesh_loops/automotive_routes.json",
+  "go2_reference_route": "scene06_auto_settings_go2_route.json",
+  "pedestrian_config": null,
+  "static_obstacle_inventory": null,
+  "static_vehicle_bodies": [],
+  "road_surface": {
+    "polygons_xy": [],
+    "fallback_ground_z_m": 1.1550000190739127,
+    "fallback_ground_provenance": "area-weighted composed semantic mesh top; source PhysX support rechecked at Go2 startup"
+  },
+  "traffic": {
+    "vehicle_count": 0,
+    "junction_xy": [
+      -733.980451627378,
+      500.5729974617649
+    ],
+    "junction_group_count": 1,
+    "green_duration_s": 120.0,
+    "stop_line_m": 8.0,
+    "desired_merge_times_s": [],
+    "physx_route_preflight": false,
+    "runtime_ground_raycast": false,
+    "physx_route_preflight_disabled_reason": "Use audited semantic plane and dense mesh-body guards; first down-ray may hit overhead structures",
+    "road_height_tolerance_m": 0.2,
+    "enabled": false,
+    "disabled_reason": "not_applicable_no_lane",
+    "mesh_navigation": {
+      "inventory": "../scene_inputs/scene06/mesh_navigation/navigation_inventory.json",
+      "settings": "scene06_auto_settings.json"
+    },
+    "controller_lookahead_m": 2.0
+  },
+  "overview": {
+    "source_dome_texture_enabled": false,
+    "focal_length": 18.0
+  }
+}

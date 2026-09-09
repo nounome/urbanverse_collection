@@ -1,0 +1,434 @@
+{
+  "scene01": {
+    "traffic_config": "configs/dynamic_agents/scenes/scene01_stream_traffic.json",
+    "mixed_config": "configs/dynamic_agents/scenes/scene01_stream_mixed.json",
+    "reference_route": "configs/dynamic_agents/scenes/scene01_stream_settings_go2_route.json",
+    "inventory": "configs/dynamic_agents/scene_inputs/scene01/mesh_navigation/navigation_inventory.json",
+    "go2_spec": {
+      "domain": "outdoor",
+      "target_distances_m": [
+        25.0
+      ],
+      "clearance_radius_m": 0.55,
+      "seed": 20260908,
+      "goal_count": 8,
+      "candidate_count": 16
+    },
+    "population": {
+      "vehicles": 1,
+      "people": 12,
+      "micromobility": 6
+    },
+    "qualification": "ready_for_three_camera_short_test",
+    "three_camera_passed": false,
+    "synchronized_long_capture_passed": false,
+    "runtime_environment": {
+      "LOOKAHEAD_DISTANCE": "0.4",
+      "MINIMUM_TRACKING_SPEED": "0.16",
+      "MAX_FORWARD_SPEED": "0.35",
+      "MAX_TRACKING_YAW_RATE": "0.8",
+      "CURVATURE_SPEED_GAIN": "1",
+      "YAW_COMMAND_GAIN": "1.0",
+      "MAXIMUM_CROSS_TRACK_ERROR": "0.6",
+      "TRAFFIC_INITIAL_FILL": "0"
+    }
+  },
+  "scene02": {
+    "traffic_config": "configs/dynamic_agents/scenes/scene02_stream_traffic.json",
+    "mixed_config": "configs/dynamic_agents/scenes/scene02_stream_mixed.json",
+    "reference_route": "configs/dynamic_agents/scenes/scene02_long_go2_route.json",
+    "inventory": "configs/dynamic_agents/scene_inputs/scene02/mesh_navigation/navigation_inventory.json",
+    "go2_spec": {
+      "domain": "outdoor",
+      "target_distances_m": [
+        100,
+        50,
+        25
+      ],
+      "clearance_radius_m": 0.55,
+      "planning_extra_clearance_m": 0.3,
+      "seed": 20260909,
+      "goal_count": 4,
+      "candidate_count": 48,
+      "conservative_collider_roots": [
+        "nature_vegetation_tree_caf081828df84d7cbb07b4107991facc",
+        "nature_vegetation_tree_caf081828df84d7cbb07b4107991facc_01",
+        "nature_vegetation_tree_caf081828df84d7cbb07b4107991facc_02"
+      ]
+    },
+    "population": {
+      "vehicles": 1,
+      "people": 12,
+      "micromobility": 6
+    },
+    "qualification": "ready_for_three_camera_short_test",
+    "three_camera_passed": false,
+    "synchronized_long_capture_passed": false,
+    "runtime_environment": {
+      "LOOKAHEAD_DISTANCE": "0.4",
+      "MINIMUM_TRACKING_SPEED": "0.16",
+      "MAX_FORWARD_SPEED": "0.35",
+      "MAX_TRACKING_YAW_RATE": "0.8",
+      "CURVATURE_SPEED_GAIN": "1",
+      "YAW_COMMAND_GAIN": "1.0",
+      "MAXIMUM_CROSS_TRACK_ERROR": "0.6",
+      "TRAFFIC_INITIAL_FILL": "0"
+    }
+  },
+  "scene03": {
+    "traffic_config": "configs/dynamic_agents/scenes/scene03_auto_traffic.json",
+    "mixed_config": "configs/dynamic_agents/scenes/scene03_auto_mixed.json",
+    "reference_route": "configs/dynamic_agents/scenes/scene03_auto_tracking_settings_go2_route.json",
+    "inventory": "configs/dynamic_agents/scene_inputs/scene03/mesh_navigation/navigation_inventory.json",
+    "go2_spec": {
+      "domain": "Lane",
+      "clearance_radius_m": 0.55,
+      "seed": 20260908,
+      "goal_count": 8,
+      "candidate_count": 48,
+      "target_distances_m": [
+        100.0,
+        50.0,
+        25.0
+      ]
+    },
+    "population": {
+      "vehicles": 7,
+      "people": 40,
+      "micromobility": 1
+    },
+    "qualification": "qualified_for_reuse_with_new_go2_route",
+    "three_camera_passed": true,
+    "synchronized_long_capture_passed": false,
+    "runtime_environment": {
+      "LOOKAHEAD_DISTANCE": "0.4",
+      "MINIMUM_TRACKING_SPEED": "0.16",
+      "MAX_FORWARD_SPEED": "0.35",
+      "MAX_TRACKING_YAW_RATE": "0.8",
+      "CURVATURE_SPEED_GAIN": "1.0",
+      "YAW_COMMAND_GAIN": "1.0",
+      "MAXIMUM_CROSS_TRACK_ERROR": "0.6",
+      "TRAFFIC_INITIAL_FILL": "0"
+    }
+  },
+  "scene04": {
+    "traffic_config": "configs/dynamic_agents/scenes/scene04_stream_traffic.json",
+    "mixed_config": "configs/dynamic_agents/scenes/scene04_stream_mixed.json",
+    "reference_route": "configs/dynamic_agents/scenes/scene04_stream_admission_go2_route.json",
+    "inventory": "configs/dynamic_agents/scene_inputs/scene04/mesh_navigation/navigation_inventory.json",
+    "go2_spec": {
+      "domain": "outdoor",
+      "target_distances_m": [
+        25.0
+      ],
+      "clearance_radius_m": 0.55,
+      "seed": 20260908,
+      "goal_count": 8,
+      "candidate_count": 16
+    },
+    "population": {
+      "vehicles": 2,
+      "people": 12,
+      "micromobility": 3
+    },
+    "qualification": "ready_for_three_camera_short_test",
+    "three_camera_passed": false,
+    "synchronized_long_capture_passed": false,
+    "runtime_environment": {
+      "LOOKAHEAD_DISTANCE": "0.4",
+      "MINIMUM_TRACKING_SPEED": "0.16",
+      "MAX_FORWARD_SPEED": "0.35",
+      "MAX_TRACKING_YAW_RATE": "0.8",
+      "CURVATURE_SPEED_GAIN": "1",
+      "YAW_COMMAND_GAIN": "1.0",
+      "MAXIMUM_CROSS_TRACK_ERROR": "0.6",
+      "TRAFFIC_INITIAL_FILL": "0"
+    }
+  },
+  "scene05": {
+    "traffic_config": "configs/dynamic_agents/scenes/scene05_stream_traffic.json",
+    "mixed_config": "configs/dynamic_agents/scenes/scene05_stream_mixed.json",
+    "reference_route": "configs/dynamic_agents/scenes/scene05_stream_safe_go2_route.json",
+    "inventory": "configs/dynamic_agents/scene_inputs/scene05/mesh_navigation/navigation_inventory.json",
+    "go2_spec": {
+      "domain": "outdoor",
+      "target_distances_m": [
+        25.0
+      ],
+      "clearance_radius_m": 0.55,
+      "seed": 20260908,
+      "goal_count": 8,
+      "candidate_count": 16
+    },
+    "population": {
+      "vehicles": 1,
+      "people": 12,
+      "micromobility": 6
+    },
+    "qualification": "ready_for_three_camera_short_test",
+    "three_camera_passed": false,
+    "synchronized_long_capture_passed": false,
+    "runtime_environment": {
+      "LOOKAHEAD_DISTANCE": "0.4",
+      "MINIMUM_TRACKING_SPEED": "0.16",
+      "MAX_FORWARD_SPEED": "0.35",
+      "MAX_TRACKING_YAW_RATE": "0.8",
+      "CURVATURE_SPEED_GAIN": "1",
+      "YAW_COMMAND_GAIN": "1.0",
+      "MAXIMUM_CROSS_TRACK_ERROR": "0.6",
+      "TRAFFIC_INITIAL_FILL": "0"
+    }
+  },
+  "scene06": {
+    "traffic_config": "configs/dynamic_agents/scenes/scene06_auto_traffic.json",
+    "mixed_config": "configs/dynamic_agents/scenes/scene06_auto_mixed.json",
+    "reference_route": "configs/dynamic_agents/scenes/scene06_auto_settings_go2_route.json",
+    "inventory": "configs/dynamic_agents/scene_inputs/scene06/mesh_navigation/navigation_inventory.json",
+    "go2_spec": {
+      "domain": "outdoor",
+      "clearance_radius_m": 0.55,
+      "seed": 20260908,
+      "goal_count": 8,
+      "candidate_count": 48,
+      "target_distances_m": [
+        100.0,
+        50.0,
+        25.0
+      ]
+    },
+    "population": {
+      "vehicles": 0,
+      "people": 40,
+      "micromobility": 16
+    },
+    "qualification": "qualified_for_reuse_with_new_go2_route",
+    "three_camera_passed": true,
+    "synchronized_long_capture_passed": false,
+    "runtime_environment": {
+      "LOOKAHEAD_DISTANCE": "0.4",
+      "MINIMUM_TRACKING_SPEED": "0.16",
+      "MAX_FORWARD_SPEED": "0.35",
+      "MAX_TRACKING_YAW_RATE": "0.8",
+      "CURVATURE_SPEED_GAIN": "1.0",
+      "YAW_COMMAND_GAIN": "1.0",
+      "MAXIMUM_CROSS_TRACK_ERROR": "0.6",
+      "TRAFFIC_INITIAL_FILL": "0"
+    }
+  },
+  "scene07": {
+    "traffic_config": "configs/dynamic_agents/scenes/scene07_auto_traffic.json",
+    "mixed_config": "configs/dynamic_agents/scenes/scene07_auto_mixed.json",
+    "reference_route": "configs/dynamic_agents/scenes/scene07_go2_extra_clearance_route.json",
+    "inventory": "configs/dynamic_agents/scene_inputs/scene07/mesh_navigation/navigation_inventory.json",
+    "go2_spec": {
+      "domain": "outdoor",
+      "clearance_radius_m": 0.55,
+      "seed": 20260909,
+      "goal_count": 8,
+      "candidate_count": 48,
+      "planning_extra_clearance_m": 1,
+      "target_distances_m": [
+        100.0,
+        50.0,
+        25.0
+      ]
+    },
+    "population": {
+      "vehicles": 0,
+      "people": 40,
+      "micromobility": 9
+    },
+    "qualification": "qualified_for_reuse_with_new_go2_route",
+    "three_camera_passed": true,
+    "synchronized_long_capture_passed": false,
+    "runtime_environment": {
+      "LOOKAHEAD_DISTANCE": "0.4",
+      "MINIMUM_TRACKING_SPEED": "0.16",
+      "MAX_FORWARD_SPEED": "0.35",
+      "MAX_TRACKING_YAW_RATE": "0.8",
+      "CURVATURE_SPEED_GAIN": "1.0",
+      "YAW_COMMAND_GAIN": "1.0",
+      "MAXIMUM_CROSS_TRACK_ERROR": "0.6",
+      "TRAFFIC_INITIAL_FILL": "0"
+    }
+  },
+  "scene08": {
+    "traffic_config": "configs/dynamic_agents/scenes/scene08_auto_traffic.json",
+    "mixed_config": "configs/dynamic_agents/scenes/scene08_auto_mixed.json",
+    "reference_route": "configs/dynamic_agents/scenes/scene08_auto_compact_v2_settings_go2_route.json",
+    "inventory": "configs/dynamic_agents/scene_inputs/scene08/mesh_navigation/navigation_inventory.json",
+    "go2_spec": {
+      "domain": "Lane",
+      "clearance_radius_m": 0.55,
+      "seed": 20260908,
+      "goal_count": 8,
+      "candidate_count": 48,
+      "target_distances_m": [
+        100.0,
+        50.0,
+        25.0
+      ]
+    },
+    "population": {
+      "vehicles": 4,
+      "people": 40,
+      "micromobility": 20
+    },
+    "qualification": "qualified_for_reuse_with_new_go2_route",
+    "three_camera_passed": true,
+    "synchronized_long_capture_passed": false,
+    "runtime_environment": {
+      "LOOKAHEAD_DISTANCE": "0.4",
+      "MINIMUM_TRACKING_SPEED": "0.16",
+      "MAX_FORWARD_SPEED": "0.35",
+      "MAX_TRACKING_YAW_RATE": "0.8",
+      "CURVATURE_SPEED_GAIN": "1.0",
+      "YAW_COMMAND_GAIN": "1.0",
+      "MAXIMUM_CROSS_TRACK_ERROR": "0.6",
+      "TRAFFIC_INITIAL_FILL": "0"
+    }
+  },
+  "scene09": {
+    "traffic_config": "configs/dynamic_agents/scenes/scene09_auto20260909_traffic.json",
+    "mixed_config": "configs/dynamic_agents/scenes/scene09_auto20260909_mixed.json",
+    "reference_route": "configs/dynamic_agents/scenes/scene09_auto20260909_settings_go2_route.json",
+    "inventory": "configs/dynamic_agents/scene_inputs/scene09/mesh_navigation_auto_20260909/navigation_inventory.json",
+    "go2_spec": {
+      "domain": "Lane",
+      "clearance_radius_m": 0.55,
+      "seed": 20260908,
+      "goal_count": 8,
+      "candidate_count": 48,
+      "target_distances_m": [
+        100.0,
+        50.0,
+        25.0
+      ]
+    },
+    "population": {
+      "vehicles": 21,
+      "people": 40,
+      "micromobility": 20
+    },
+    "qualification": "qualified_for_reuse_with_new_go2_route",
+    "three_camera_passed": true,
+    "synchronized_long_capture_passed": false,
+    "runtime_environment": {
+      "LOOKAHEAD_DISTANCE": "0.4",
+      "MINIMUM_TRACKING_SPEED": "0.16",
+      "MAX_FORWARD_SPEED": "0.35",
+      "MAX_TRACKING_YAW_RATE": "0.8",
+      "CURVATURE_SPEED_GAIN": "1.0",
+      "YAW_COMMAND_GAIN": "1.0",
+      "MAXIMUM_CROSS_TRACK_ERROR": "0.6",
+      "TRAFFIC_INITIAL_FILL": "0"
+    }
+  },
+  "scene10": {
+    "traffic_config": "configs/dynamic_agents/scenes/scene10_auto_traffic.json",
+    "mixed_config": "configs/dynamic_agents/scenes/scene10_auto_mixed.json",
+    "reference_route": "configs/dynamic_agents/scenes/scene10_auto_settings_go2_route.json",
+    "inventory": "configs/dynamic_agents/scene_inputs/scene10/mesh_navigation_auto/navigation_inventory.json",
+    "go2_spec": {
+      "domain": "Lane",
+      "clearance_radius_m": 0.55,
+      "seed": 20260908,
+      "goal_count": 8,
+      "candidate_count": 48,
+      "target_distances_m": [
+        100.0,
+        50.0,
+        25.0
+      ]
+    },
+    "population": {
+      "vehicles": 3,
+      "people": 40,
+      "micromobility": 2
+    },
+    "qualification": "qualified_for_reuse_with_new_go2_route",
+    "three_camera_passed": true,
+    "synchronized_long_capture_passed": false,
+    "runtime_environment": {
+      "LOOKAHEAD_DISTANCE": "0.4",
+      "MINIMUM_TRACKING_SPEED": "0.16",
+      "MAX_FORWARD_SPEED": "0.35",
+      "MAX_TRACKING_YAW_RATE": "0.8",
+      "CURVATURE_SPEED_GAIN": "1.0",
+      "YAW_COMMAND_GAIN": "1.0",
+      "MAXIMUM_CROSS_TRACK_ERROR": "0.6",
+      "TRAFFIC_INITIAL_FILL": "0"
+    }
+  },
+  "scene11": {
+    "traffic_config": "configs/dynamic_agents/scenes/scene11_park_traffic.json",
+    "mixed_config": "configs/dynamic_agents/scenes/scene11_park_mixed.json",
+    "reference_route": "configs/dynamic_agents/scenes/scene11_go2_route.json",
+    "inventory": "configs/dynamic_agents/scene_inputs/scene11/mesh_navigation/navigation_inventory.json",
+    "go2_spec": {
+      "domain": "outdoor",
+      "clearance_radius_m": 0.55,
+      "seed": 20260909,
+      "goal_count": 4,
+      "candidate_count": 48,
+      "target_distances_m": [
+        25
+      ],
+      "planning_extra_clearance_m": 0.5
+    },
+    "population": {
+      "vehicles": 0,
+      "people": 12,
+      "micromobility": 4
+    },
+    "qualification": "ready_for_three_camera_short_test",
+    "three_camera_passed": false,
+    "synchronized_long_capture_passed": false,
+    "runtime_environment": {
+      "LOOKAHEAD_DISTANCE": "0.4",
+      "MINIMUM_TRACKING_SPEED": "0.16",
+      "MAX_FORWARD_SPEED": "0.35",
+      "MAX_TRACKING_YAW_RATE": "0.8",
+      "CURVATURE_SPEED_GAIN": "1",
+      "YAW_COMMAND_GAIN": "1.0",
+      "MAXIMUM_CROSS_TRACK_ERROR": "0.6",
+      "TRAFFIC_INITIAL_FILL": "0"
+    }
+  },
+  "scene12": {
+    "traffic_config": "configs/dynamic_agents/scenes/scene12_auto_traffic.json",
+    "mixed_config": "configs/dynamic_agents/scenes/scene12_auto_mixed.json",
+    "reference_route": "configs/dynamic_agents/scenes/scene12_auto_admission50m_go2_route.json",
+    "inventory": "configs/dynamic_agents/scene_inputs/scene12/mesh_navigation/navigation_inventory.json",
+    "go2_spec": {
+      "domain": "outdoor",
+      "clearance_radius_m": 0.55,
+      "seed": 20260908,
+      "goal_count": 8,
+      "candidate_count": 48,
+      "target_distances_m": [
+        100.0,
+        50.0,
+        25.0
+      ]
+    },
+    "population": {
+      "vehicles": 0,
+      "people": 40,
+      "micromobility": 13
+    },
+    "qualification": "qualified_for_reuse_with_new_go2_route",
+    "three_camera_passed": true,
+    "synchronized_long_capture_passed": false,
+    "runtime_environment": {
+      "LOOKAHEAD_DISTANCE": "0.4",
+      "MINIMUM_TRACKING_SPEED": "0.16",
+      "MAX_FORWARD_SPEED": "0.35",
+      "MAX_TRACKING_YAW_RATE": "0.8",
+      "CURVATURE_SPEED_GAIN": "1.0",
+      "YAW_COMMAND_GAIN": "1.0",
+      "MAXIMUM_CROSS_TRACK_ERROR": "0.6",
+      "TRAFFIC_INITIAL_FILL": "0"
+    }
+  }
+}

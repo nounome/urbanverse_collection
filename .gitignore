@@ -1,0 +1,9 @@
+data/
+outputs/
+repos/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+configs/generated/
+.collection_root

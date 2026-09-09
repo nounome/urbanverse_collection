@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "maximum_cleanup_objects": null,
+  "removed_instance_roots": [],
+  "go2_route": {
+    "domain": "outdoor",
+    "clearance_radius_m": 0.55,
+    "seed": 20260908,
+    "goal_count": 8,
+    "candidate_count": 16,
+    "target_distances_m": [
+      25
+    ],
+    "planning_extra_clearance_m": 0.5
+  },
+  "profiles": {
+    "vehicles": {
+      "length_m": 5.4,
+      "width_m": 2.5,
+      "minimum_radius_m": 5.5,
+      "connect_turning_domains": true,
+      "hybrid_bulb_connection": true,
+      "turning_opening_m": 5.8,
+      "margin_m": 0.2,
+      "speed_mps": 1.5,
+      "controller_lookahead_m": 2,
+      "insets_m": [
+        1.6,
+        2,
+        2.5,
+        3
+      ],
+      "smoothing_m": [
+        1.5,
+        2.5,
+        3.5,
+        5,
+        7
+      ],
+      "minimum_length_m": 40,
+      "minimum_area_m2": 30,
+      "rank_by_coverage": true,
+      "coverage_cell_m": 1.0
+    },
+    "people": {
+      "length_m": 0.6,
+      "width_m": 0.6,
+      "minimum_radius_m": 0,
+      "margin_m": 0.15,
+      "speed_mps": 1,
+      "insets_m": [
+        0.7,
+        1
+      ],
+      "smoothing_m": [
+        0.2,
+        0.5,
+        1
+      ],
+      "minimum_length_m": 12,
+      "minimum_area_m2": 10,
+      "rank_by_coverage": true,
+      "coverage_cell_m": 1.0
+    },
+    "micromobility": {
+      "length_m": 2,
+      "width_m": 0.8,
+      "minimum_radius_m": 2.4,
+      "margin_m": 0.4,
+      "speed_mps": 1.1,
+      "insets_m": [
+        0.7,
+        0.8,
+        0.9,
+        1
+      ],
+      "turning_opening_m": 2.65,
+      "smoothing_m": [
+        0.9,
+        1,
+        1.1,
+        1.2,
+        1.5,
+        2,
+        3,
+        5,
+        7
+      ],
+      "minimum_length_m": 15,
+      "minimum_area_m2": 12,
+      "rank_by_coverage": true,
+      "coverage_cell_m": 1.0
+    }
+  },
+  "parameter_provenance": "Reusable conservative body/controller settings from qualified Scene09; no world coordinates or removed asset IDs. New-scene tracking must still qualify.",
+  "vehicle_mode": "not_applicable_no_lane",
+  "population": {
+    "vehicles": {
+      "area_per_agent_m2": 100.0,
+      "spacing_m": 20.0,
+      "maximum_count": 30
+    },
+    "people": {
+      "area_share": 0.6,
+      "area_per_agent_m2": 35.0,
+      "spacing_m": 8.0,
+      "maximum_count": 40
+    },
+    "micromobility": {
+      "area_share": 0.4,
+      "area_per_agent_m2": 55.0,
+      "spacing_m": 12.0,
+      "maximum_count": 20
+    }
+  }
+}

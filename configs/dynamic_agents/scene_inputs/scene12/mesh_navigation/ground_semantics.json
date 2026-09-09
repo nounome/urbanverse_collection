@@ -1,0 +1,581 @@
+{
+  "source_sha256": "01f7500a908268586fccdc59b4eb3c1a248d8eed8090b17115780371a8368634",
+  "surfaces": [
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_01",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744384,
+        1.2550000190744384
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_02",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745467,
+        1.2550000190745467
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_03",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.255000019074608,
+        1.255000019074608
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_04",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746387,
+        1.2550000190746387
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_05",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744908,
+        1.2550000190744908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_06",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746908,
+        1.2550000190746908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_07",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746604,
+        1.2550000190746604
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_08",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745991,
+        1.2550000190745991
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_09",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746908,
+        1.2550000190746908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_10",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746604,
+        1.2550000190746604
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_11",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744908,
+        1.2550000190744908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_12",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744384,
+        1.2550000190744384
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_13",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746387,
+        1.2550000190746387
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_14",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.255000019074608,
+        1.255000019074608
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_15",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745991,
+        1.2550000190745991
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_16",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745467,
+        1.2550000190745467
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_17",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746908,
+        1.2550000190746908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_18",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746604,
+        1.2550000190746604
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_19",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744908,
+        1.2550000190744908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_20",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744384,
+        1.2550000190744384
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_21",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746387,
+        1.2550000190746387
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_22",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.255000019074608,
+        1.255000019074608
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_23",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745991,
+        1.2550000190745991
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_24",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745467,
+        1.2550000190745467
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_25",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746908,
+        1.2550000190746908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_26",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746604,
+        1.2550000190746604
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_27",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744908,
+        1.2550000190744908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_28",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744384,
+        1.2550000190744384
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_29",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746387,
+        1.2550000190746387
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_30",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.255000019074608,
+        1.255000019074608
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_31",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745991,
+        1.2550000190745991
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_32",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745467,
+        1.2550000190745467
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_33",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746908,
+        1.2550000190746908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_34",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746604,
+        1.2550000190746604
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_35",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744908,
+        1.2550000190744908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_36",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744384,
+        1.2550000190744384
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_37",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746387,
+        1.2550000190746387
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_38",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.255000019074608,
+        1.255000019074608
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_39",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745991,
+        1.2550000190745991
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_40",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745467,
+        1.2550000190745467
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_41",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746908,
+        1.2550000190746908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_42",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746604,
+        1.2550000190746604
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_43",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744908,
+        1.2550000190744908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_44",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744384,
+        1.2550000190744384
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_45",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746387,
+        1.2550000190746387
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_46",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.255000019074608,
+        1.255000019074608
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_47",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745991,
+        1.2550000190745991
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_48",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745467,
+        1.2550000190745467
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_49",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746908,
+        1.2550000190746908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_50",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746604,
+        1.2550000190746604
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_51",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744908,
+        1.2550000190744908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_52",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744384,
+        1.2550000190744384
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_53",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746387,
+        1.2550000190746387
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_54",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.255000019074608,
+        1.255000019074608
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_55",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745991,
+        1.2550000190745991
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_56",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745467,
+        1.2550000190745467
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_57",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746908,
+        1.2550000190746908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_58",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746604,
+        1.2550000190746604
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_59",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744908,
+        1.2550000190744908
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_60",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190744384,
+        1.2550000190744384
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_61",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190746387,
+        1.2550000190746387
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_62",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.255000019074608,
+        1.255000019074608
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_63",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745991,
+        1.2550000190745991
+      ]
+    },
+    {
+      "path": "/World/ground/terrain/Big_Block_03/s_10/NearBuffer/NearBuffer/nearbuffer_0000/mesh_64",
+      "semantic": "NearBuffer",
+      "top_face_count": 488,
+      "z_range_m": [
+        1.2550000190745467,
+        1.2550000190745467
+      ]
+    }
+  ]
+}

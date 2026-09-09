@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "scene_id": "scene_02_residential_street_single_sidewalk_door_to_street_buildings",
+  "source_usd": "../../../data/urbanverse_craftbench/extracted/scene_02_residential_street_single_sidewalk_door_to_street_buildings/Collected_export_version/export_version.usd",
+  "source_tar": "../../../data/urbanverse_craftbench/raw/scene_02_residential_street_single_sidewalk_door_to_street_buildings/Collected_export_version.tar",
+  "vehicle_catalog": "../catalogs/scene10_portable_15_vehicle_catalog.json",
+  "automotive_routes": "../scene_inputs/scene02/mesh_streams/automotive_routes.json",
+  "go2_reference_route": "scene02_long_go2_route.json",
+  "pedestrian_config": null,
+  "static_obstacle_inventory": null,
+  "static_vehicle_bodies": [],
+  "road_surface": {
+    "polygons_xy": [
+      [
+        [
+          -733.545153951789,
+          492.47095780549455
+        ],
+        [
+          -733.545153951789,
+          473.0812419809229
+        ],
+        [
+          -680.2687519004588,
+          473.0812419809229
+        ],
+        [
+          -680.2687519004588,
+          479.27795528568294
+        ],
+        [
+          -680.468663352809,
+          479.27795528568294
+        ],
+        [
+          -680.5686190789842,
+          479.3779022744694
+        ],
+        [
+          -680.5686190789842,
+          480.57726613990684
+        ],
+        [
+          -680.468663352809,
+          480.67721312869327
+        ],
+        [
+          -680.2687519004588,
+          480.67721312869327
+        ],
+        [
+          -680.2687519004588,
+          486.77397944466685
+        ],
+        [
+          -680.468663352809,
+          486.77397944466685
+        ],
+        [
+          -680.5686190789842,
+          486.8739264334533
+        ],
+        [
+          -680.5686190789842,
+          492.47095780549455
+        ]
+      ]
+    ],
+    "fallback_ground_z_m": 1.105637329433629,
+    "fallback_ground_provenance": "area-weighted composed semantic mesh top; source PhysX support rechecked at Go2 startup"
+  },
+  "traffic": {
+    "vehicle_count": 1,
+    "junction_xy": [
+      -696.8975435628761,
+      493.5789626188483
+    ],
+    "junction_group_count": 1,
+    "green_duration_s": 120.0,
+    "stop_line_m": 8.0,
+    "desired_merge_times_s": [
+      2.0
+    ],
+    "physx_route_preflight": false,
+    "runtime_ground_raycast": false,
+    "physx_route_preflight_disabled_reason": "Use audited semantic plane and dense mesh-body guards; first down-ray may hit overhead structures",
+    "road_height_tolerance_m": 0.2,
+    "enabled": true,
+    "disabled_reason": null,
+    "mesh_navigation": {
+      "inventory": "../scene_inputs/scene02/mesh_navigation/navigation_inventory.json",
+      "settings": "scene02_stream_settings.json"
+    },
+    "controller_lookahead_m": 1.2,
+    "asset_ids": [
+      "8a1c5378fe0b4fbaa89052b049ed8929"
+    ],
+    "maximum_steering_deg": 35.0,
+    "use_target_chord": true,
+    "steer_before_drive": true,
+    "initial_fill": true
+  },
+  "overview": {
+    "source_dome_texture_enabled": false,
+    "focal_length": 18.0
+  }
+}

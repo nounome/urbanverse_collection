@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "catalog_kind": "calibrated_micromobility_assets",
+  "license_provenance": {
+    "dataset": "UrbanVerse / CraftBench source package",
+    "license": "CC BY-NC 4.0",
+    "evidence": "data/urbanverse_craftbench/raw/README.md"
+  },
+  "conversion": {
+    "tool": "omni.kit.asset_converter on Isaac Sim 4.5",
+    "use_meter_as_world_unit": true,
+    "run_local_visual_rotation_xyz_deg": [90.0, 0.0, 0.0],
+    "visual_scale_scope": "per asset record because Isaac 4.5 interprets the two GLBs' unit metadata differently",
+    "purpose": "compensate the measured native-converter scale while rotating Y-up geometry to Z-up in the run-local visual prim; no source-asset modification"
+  },
+  "records": [
+    {
+      "asset_id": "craftbench_bicycle_21b8c4a8",
+      "agent_class": "bicycle",
+      "source_glb": "urbanverse_craftbench/extracted/scene_03_residential_street_dual_sidewalks_clean/Collected_export_version/home/boleilab/Documents/Sim2Sim_Eval_Assets/bicycle/bicycle_21b8c4a8c07e4f21af11d48c752db0c1.glb",
+      "source_sha256": "34828d0c380bf5a15df5d5076c9008910aabe01b56004c7412825875dc88f0ee",
+      "license": "CC BY-NC 4.0",
+      "scale_m_per_asset_unit": 1.0,
+      "isaac45_conversion": {
+        "run_local_visual_scale": 0.1,
+        "evidence": "meter-world converted composed bounds were exactly 10x before compensation"
+      },
+      "axes": {
+        "source_up_axis": "+Y",
+        "source_front_axis": [0.0, 0.0, -1.0],
+        "converted_front_axis_xy": [0.0, 1.0],
+        "front_sign_evidence": "side projection: handlebar/fork/front wheel are at negative source Z"
+      },
+      "visible_geometry": {
+        "source_aabb_min_xyz_m": [-0.30424242199439533, -0.00000006112366435218064, -0.9469191195980997],
+        "source_aabb_max_xyz_m": [0.3042425728650002, 1.0999999284454915, 0.9469191195980997],
+        "source_visible_center_xyz_m": [0.00000007543530244902286, 0.5499999336609136, 0.0],
+        "source_root_to_visible_center_xyz_m": [0.00000007543530244902286, 0.5499999336609136, 0.0],
+        "calibrated_length_m": 1.8938382391961994,
+        "calibrated_width_m": 0.6084849948593955,
+        "calibrated_height_m": 1.0999999895691557,
+        "footprint_center": "converted visible AABB center in XY"
+      },
+      "grounding": {
+        "source_visible_bottom_y_m": -0.00000006112366435218064,
+        "converted_root_z_above_support_m": 0.00000006112366435218064,
+        "rule": "support_z - converted_visible_bottom_z"
+      },
+      "kinematics": {
+        "wheelbase_m": 1.25,
+        "minimum_turning_radius_m": 2.2,
+        "maximum_steering_rad": 0.5166951387622771
+      },
+      "calibration_status": "passed"
+    },
+    {
+      "asset_id": "craftbench_electric_moped_8f3682ae",
+      "agent_class": "electric_two_wheeler",
+      "visual_subclass": "step-through electric moped proxy",
+      "source_glb": "urbanverse_craftbench/extracted/scene_03_residential_street_dual_sidewalks_clean/Collected_export_version/home/boleilab/Documents/Sim2Sim_Eval_Assets/scooter/scooter_8f3682ae470a44a1b05ea9c216ef8027.glb",
+      "source_sha256": "593ca7d38cbae870cdc5c2130210efe1980955c1b2fa546ac8b8b43fa2a25c38",
+      "license": "CC BY-NC 4.0",
+      "scale_m_per_asset_unit": 1.0,
+      "isaac45_conversion": {
+        "run_local_visual_scale": 0.01,
+        "evidence": "meter-world converted composed bounds remained exactly 10x after a 0.1 compensation, hence 100x before compensation"
+      },
+      "axes": {
+        "source_up_axis": "+Y",
+        "source_front_axis": [0.0, 0.0, -1.0],
+        "converted_front_axis_xy": [0.0, 1.0],
+        "front_sign_evidence": "side projection: windscreen, steering column and front wheel are at negative source Z"
+      },
+      "visible_geometry": {
+        "source_aabb_min_xyz_m": [-0.39767845047401096, -0.00000004117967478123319, -0.8156372644306487],
+        "source_aabb_max_xyz_m": [0.3976785111184924, 1.1499999184381409, 0.8156372644306487],
+        "source_visible_center_xyz_m": [0.00000003032224071830569, 0.574999938629233, 0.0],
+        "source_root_to_visible_center_xyz_m": [0.00000003032224071830569, 0.574999938629233, 0.0],
+        "calibrated_length_m": 1.6312745288612973,
+        "calibrated_width_m": 0.7953569615925034,
+        "calibrated_height_m": 1.1499999596178156,
+        "footprint_center": "converted visible AABB center in XY"
+      },
+      "grounding": {
+        "source_visible_bottom_y_m": -0.00000004117967478123319,
+        "converted_root_z_above_support_m": 0.00000004117967478123319,
+        "rule": "support_z - converted_visible_bottom_z"
+      },
+      "kinematics": {
+        "wheelbase_m": 1.2,
+        "minimum_turning_radius_m": 2.4,
+        "maximum_steering_rad": 0.4636476090008061
+      },
+      "calibration_status": "passed"
+    }
+  ]
+}

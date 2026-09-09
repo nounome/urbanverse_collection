@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "status": "implementation_defaults_not_cross_scene_qualified",
+  "standard": "docs/URBANVERSE_DYNAMIC_SCENE_AUTOMATION_STANDARD.md",
+  "renderer": {
+    "source_dome_texture_enabled": false,
+    "collection_light_scale": 0.1,
+    "collection_dome_light_scale": 0.1,
+    "collection_distant_light_scale": 0.1,
+    "collection_sphere_light_scale": 0.1,
+    "exposure_ev": 0.0
+  },
+  "maximum_cleanup_objects": null,
+  "rank_by_coverage": true,
+  "coverage_cell_m": 1.0,
+  "go2_target_distances_m": [100.0, 50.0, 25.0],
+  "adjusted_retry_limit": 3,
+  "population": {
+    "vehicles": {"area_per_agent_m2": 100.0, "spacing_m": 20.0, "maximum_count": 30},
+    "people": {"area_share": 0.6, "area_per_agent_m2": 35.0, "spacing_m": 8.0, "maximum_count": 40},
+    "micromobility": {"area_share": 0.4, "area_per_agent_m2": 55.0, "spacing_m": 12.0, "maximum_count": 20}
+  },
+  "parameter_provenance": "Density, caps, ranking resolution and retry budget are initial engineering values pending tests, not user-specified thresholds.",
+  "capture": {
+    "camera_ids": ["camera_tm_pinhole", "camera_tm1_fisheye", "camera_tm2_fisheye"],
+    "modalities": ["rgb", "depth_float32", "go2_pose", "simulation_timestamp"],
+    "calibration_source": "tools/simulation_qualification/isaac45_urbanverse_sensor_suite.py:CAMERA_CALIBRATIONS",
+    "depth_definition": "distance_to_camera",
+    "depth_units": "metres",
+    "formal_resolution_and_fps": "720p, 10 FPS; exact width/aspect pending calibration-compatible choice",
+    "formal_height_px": 720,
+    "formal_fps": 10,
+    "workflow_test_resolution": [480, 384],
+    "workflow_test_fps": 5
+  }
+}

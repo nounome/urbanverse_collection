@@ -1,0 +1,11 @@
+#usda 1.0
+(
+    documentation = "Generated evaluation wrapper. SOURCE_USD is sublayered; the source asset is never modified."
+    subLayers = [
+        @SOURCE_USD@
+    ]
+)
+
+def Scope "UrbanVerseEvaluation"
+{
+}

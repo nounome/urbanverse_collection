@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "scene_id": "scene_12_courtyard_plaza_central_fountain",
+  "source_usd": "../../../data/urbanverse_craftbench/extracted/scene_12_courtyard_plaza_central_fountain/Collected_export_version/export_version.usd",
+  "source_tar": "../../../data/urbanverse_craftbench/raw/scene_12_courtyard_plaza_central_fountain/Collected_export_version.tar",
+  "vehicle_catalog": "../catalogs/scene10_portable_15_vehicle_catalog.json",
+  "automotive_routes": "../scene_inputs/scene12/mesh_loops/automotive_routes.json",
+  "go2_reference_route": "scene12_auto_admission50m_go2_route.json",
+  "pedestrian_config": null,
+  "static_obstacle_inventory": null,
+  "static_vehicle_bodies": [],
+  "road_surface": {
+    "polygons_xy": [],
+    "fallback_ground_z_m": 1.2550000190745991,
+    "fallback_ground_provenance": "area-weighted composed semantic mesh top; source PhysX support rechecked at Go2 startup"
+  },
+  "traffic": {
+    "vehicle_count": 0,
+    "junction_xy": [
+      -707.5866382463175,
+      439.2465119002363
+    ],
+    "junction_group_count": 1,
+    "green_duration_s": 120.0,
+    "stop_line_m": 8.0,
+    "desired_merge_times_s": [],
+    "physx_route_preflight": false,
+    "runtime_ground_raycast": false,
+    "physx_route_preflight_disabled_reason": "Use audited semantic plane and dense mesh-body guards; first down-ray may hit overhead structures",
+    "road_height_tolerance_m": 0.2,
+    "enabled": false,
+    "disabled_reason": "not_applicable_no_lane",
+    "mesh_navigation": {
+      "inventory": "../scene_inputs/scene12/mesh_navigation/navigation_inventory.json",
+      "settings": "scene12_auto_compact_v3_settings.json"
+    },
+    "controller_lookahead_m": 1.2,
+    "asset_ids": [
+      "8a1c5378fe0b4fbaa89052b049ed8929"
+    ],
+    "maximum_steering_deg": 35.0,
+    "use_target_chord": true,
+    "steer_before_drive": true
+  },
+  "overview": {
+    "source_dome_texture_enabled": false,
+    "focal_length": 18.0
+  }
+}

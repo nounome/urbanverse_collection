@@ -1,0 +1,15 @@
+{
+  "source_run": "outputs/rtx3090_isaac45/dynamic_agent_mesh_bootstrap/run_20260908_233533_728088_scene_06_bar_street_dual_sidewalks_obstructed_fallen_scooters_gpu1",
+  "git_commit": "6a59448a6ae5b154e303037acef623c024e15e73",
+  "source_usd_sha256": "3a6e4da4b140bbb17c9443200f0915e0384040648a76724ec24c150c80b5ce9e",
+  "source_tar_sha256": "51cd237466b245317656598c7f56a99ac362b05a5125082528c55949db028783",
+  "file_sha256": {
+    "navigation_inventory.json": "7e4eb0a984d57301c4441b53f6bc03400e338da70b05e9068838c783bda07c70",
+    "ground_Lane.png": "d4345672006b6ada8fd814033508737a135095e0ad174a151e83c2bf2a62bd42",
+    "ground_Sidewalk.png": "29804a163ca716aeb283f013d0e2b0c625b8dbd1dfbfd0bba55a4f5f79f0482d",
+    "ground_NearRoad.png": "867df58ba84ee41650998dedc459405e3ed25124ed288771f859334e3c707191",
+    "ground_NearBuffer.png": "d4345672006b6ada8fd814033508737a135095e0ad174a151e83c2bf2a62bd42",
+    "ground_semantics.json": "01b254c024f6c4822b7181271133a671ec2769281b68116a640b03aa7a83ba1e"
+  },
+  "status": "candidate navigation input, not yet runtime-qualified"
+}
