@@ -5,7 +5,6 @@
     "configs/dynamic_agents/admission/automation_defaults.json",
     "configs/dynamic_agents/catalogs/go2_external_policy_sources.json",
     "configs/dynamic_agents/catalogs/go2_flat_frozen_policy/manifest.json",
-    "configs/dynamic_agents/catalogs/go2_flat_frozen_policy/policy.pt",
     "configs/dynamic_agents/catalogs/micromobility_assets.json",
     "configs/dynamic_agents/catalogs/scene10_portable_15_vehicle_catalog.json",
     "configs/dynamic_agents/scene_inputs/scene01/mesh_navigation/ground_Lane.png",
