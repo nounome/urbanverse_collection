@@ -80,7 +80,7 @@ def command(scene,profile,gpu,route,duration):
     env.update(row['runtime_environment'])
     camera=profile!='smoke';formal=profile=='formal'
     env.update(GO2_THREE_CAMERA=str(int(camera)),OVERVIEW_VIDEO=str(int(camera)),
-        THREE_CAMERA_WIDTH='1280' if formal else '480',THREE_CAMERA_HEIGHT='720' if formal else '384',
+        THREE_CAMERA_WIDTH='1920' if formal else '480',THREE_CAMERA_HEIGHT='1536' if formal else '384',
         OVERVIEW_FPS='10' if formal else '5',STOP_AT_ROUTE_GOAL=str(int(formal)),
         DURATION_S=str(duration or (600 if formal else 10 if camera else 3)))
     label=f'{scene}_{profile}_{datetime.now():%Y%m%d_%H%M%S_%f}'

@@ -6,11 +6,11 @@ Go2 使用 robot_lab 冻结运动策略，沿 A*＋平滑路线真实迈步。�
 
 使用顺序：安装环境 → 准备资产 → 短测 → 生成 Go2 路线 → 采集 → 检查数据。
 
-各场景验证进度、Docker 部署方案与相机调整方法见 [交接说明](HANDOFF.md)。正式 720p 目前还有标定宽高比适配问题，详见该文档。
+各场景验证进度与相机调整方法见 [交接说明](HANDOFF.md)。正式采集保留原始 1920×1536 标定，不裁剪或拉伸。
 
 ## 1. 安装
 
-需要 Linux x86_64、可用的 NVIDIA GPU/驱动、Python 3.10、git、lspci、taskset、ffmpeg。
+需要 Linux x86_64、可用的 NVIDIA GPU/驱动、Python 3.10、git、lspci、ripgrep（`rg`）、taskset、ffmpeg。默认不额外限制 CPU 亲和性；需要绑核时可设置 `URBANVERSE_CPU_AFFINITY`。
 
 ```bash
 git clone git@github.com:nounome/urbanverse_collection.git
@@ -60,7 +60,7 @@ python collect.py run --scene scene02 --profile preview --gpu 0
 |---|---|---|
 | `smoke` | 3 秒 | 无相机 |
 | `preview` | 10 秒 | 三相机，480×384、5 FPS |
-| `formal` | 到达终点结束，最多 600 秒 | 三相机，1280×720、10 FPS |
+| `formal` | 到达终点结束，最多 600 秒 | 三相机，1920×1536、10 FPS |
 
 时长指仿真时间，不包含场景加载、转换与预热。`--wall-timeout` 设置实际运行超时，默认 3600 秒。
 
@@ -68,11 +68,11 @@ python collect.py run --scene scene02 --profile preview --gpu 0
 
 ```bash
 # 只生成路线，不启动仿真
-python collect.py plan --scene scene02 --seed 1001
+python collect.py plan --scene scene09 --seed 1001
 # 生成新路线后运行，路线会接受完整实时源地面检查
-python collect.py run --scene scene02 --seed 1001 --profile preview --gpu 0
-# 正式参数：1280×720 / 10 FPS，到达终点停止，最多仿真 600 秒
-python collect.py run --scene scene02 --seed 1001 --profile formal --gpu 0
+python collect.py run --scene scene09 --seed 1001 --profile preview --gpu 0
+# 正式参数：1920×1536 / 10 FPS，到达终点停止，最多仿真 600 秒
+python collect.py run --scene scene09 --seed 1001 --profile formal --gpu 0
 ```
 
 相机为机身挂载中央针孔、左右鱼眼，采集 RGB、float32 深度、Go2 位姿/轨迹、标定和仿真时间戳，同时记录逐相机动态重叠标签及其他主体轨迹。进入车辆内部的区间保留并标记，使用数据时应单独筛选或处理。
@@ -108,7 +108,7 @@ python batch_collect.py --scenes scene03 scene07 --count 5 --profile formal \
 - 环境基线为 RTX 3090、驱动 580.173.02、Isaac Sim 4.5。其他硬件或版本需要单独验证，不直接套用兼容结论。
 
 - `doctor --assets` 会检查整个车型库所需的 15 款汽车缓存；复制部分缓存可能导致检查失败，应运行转换脚本补齐。源 USD 的外部材质与纹理引用还需在相机预览中检查。
-- 每个场景先运行 `smoke`，再运行 `preview`。正式 720p/10 FPS 的全路线采集仍需验证负载和三路数据同步；3 秒无相机通过不能代替此项。批量采集前先完成单条正式参数测试，再小批量验证队列与续跑。
+- 每个场景先运行 `smoke`，再运行 `preview`。正式 1920×1536/10 FPS 的全路线采集仍需验证负载和三路数据同步；3 秒无相机通过不能代替此项。批量采集前先完成单条正式参数测试，再小批量验证队列与续跑。
 
 
 ## 许可

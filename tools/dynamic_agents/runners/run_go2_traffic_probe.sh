@@ -266,8 +266,12 @@ if [[ -n "${ISAAC_EXPERIENCE}" ]]; then
     sha256sum "${ISAAC_EXPERIENCE}" | tee "${RUN_DIR}/metadata/preflight/kit_experience_sha256.txt"
 fi
 
+python_command=("${PYTHON}")
+if [[ -n "${URBANVERSE_CPU_AFFINITY:-}" ]]; then
+    python_command=(taskset -c "${URBANVERSE_CPU_AFFINITY}" "${PYTHON}")
+fi
 command=(
-    taskset -c "${URBANVERSE_CPU_AFFINITY:-4-11}" "${PYTHON}"
+    "${python_command[@]}"
     "${PROJECT_DIR}/tools/urbanverse/dynamic_agents/integration/go2_traffic_probe.py"
     --mode "${MODE}" --gpu "${GPU_INDEX}" --run-dir "${RUN_DIR}"
     --seed "${SEED}"

@@ -2,6 +2,12 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 PYTHON310="${PYTHON310:-python3.10}"
+for required_command in git lspci rg taskset ffmpeg nvidia-smi; do
+    command -v "${required_command}" >/dev/null || {
+        echo "Missing required system command: ${required_command}" >&2
+        exit 1
+    }
+done
 "$PYTHON310" -c 'import sys; assert sys.version_info[:2] == (3,10), "Python 3.10 required"'
 "$PYTHON310" configure.py
 mkdir -p repos/isaac45_probe
