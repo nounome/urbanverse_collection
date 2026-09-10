@@ -6,5 +6,6 @@ __pycache__/
 *.pyc
 .pytest_cache/
 configs/generated/
-.collection_root
+.ruff_cache/
+configs/*.kit
 .history/

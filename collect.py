@@ -67,6 +67,8 @@ def plan(scene,seed):
 
 
 def command(scene,profile,gpu,route,duration):
+    from configure import configure
+    configure()
     row=load_scenes()[scene]
     env=dict(os.environ,PYTHONPATH=str(ROOT/'tools'),OMNI_KIT_ACCEPT_EULA='YES',
              ALLOW_SHARED_GPU='1',POLICY_KIND='robot_lab',ROAMING_HEADLESS='1',

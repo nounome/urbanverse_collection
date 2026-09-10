@@ -2247,7 +2247,7 @@
   },
   "route_length_stage_units": 50.00000000000012,
   "slice": {
-    "source": "/data1/jiangxw/workspace/project/urbanverse_collection/configs/dynamic_agents/scenes/scene12_auto_compact_v3_settings_go2_route.json",
+    "source": "configs/dynamic_agents/scenes/scene12_auto_compact_v3_settings_go2_route.json",
     "source_sha256": "55a19cbd4831669bed2946b717310b534989f41c2faf9f2d204169ed3cf3cbbf",
     "start_arc_stage_units": 0.0,
     "end_arc_stage_units": 50.0,

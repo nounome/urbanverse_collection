@@ -12,7 +12,7 @@
       "asset_id": "06edc4c83fd7487f970664c7e4a7ab3a",
       "category": "bicycle",
       "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_06edc4c83fd7487f970664c7e4a7ab3a",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/06edc4c83fd7487f970664c7e4a7ab3a/vehicle-private_vehicle-bicycle_06edc4c83fd7487f970664c7e4a7ab3a.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/06edc4c83fd7487f970664c7e4a7ab3a/vehicle-private_vehicle-bicycle_06edc4c83fd7487f970664c7e4a7ab3a.glb",
       "eligibility": {
         "turn_geometry_ready": false,
         "traffic_ready": false,
@@ -68,7 +68,7 @@
       "asset_id": "2fb82988dfd0495aa3b4b62cb377bbfb",
       "category": "bicycle",
       "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_2fb82988dfd0495aa3b4b62cb377bbfb",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/2fb82988dfd0495aa3b4b62cb377bbfb/vehicle-private_vehicle-bicycle_2fb82988dfd0495aa3b4b62cb377bbfb.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/2fb82988dfd0495aa3b4b62cb377bbfb/vehicle-private_vehicle-bicycle_2fb82988dfd0495aa3b4b62cb377bbfb.glb",
       "eligibility": {
         "turn_geometry_ready": false,
         "traffic_ready": false,
@@ -124,7 +124,7 @@
       "asset_id": "3bde1ab67c6448169b604dedad6828d8",
       "category": "bicycle",
       "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_3bde1ab67c6448169b604dedad6828d8",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/3bde1ab67c6448169b604dedad6828d8/vehicle-private_vehicle-bicycle_3bde1ab67c6448169b604dedad6828d8.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/3bde1ab67c6448169b604dedad6828d8/vehicle-private_vehicle-bicycle_3bde1ab67c6448169b604dedad6828d8.glb",
       "eligibility": {
         "turn_geometry_ready": false,
         "traffic_ready": false,
@@ -180,7 +180,7 @@
       "asset_id": "89fe9b1ca558441b93975fb715044530",
       "category": "bicycle",
       "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_89fe9b1ca558441b93975fb715044530",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/89fe9b1ca558441b93975fb715044530/vehicle-private_vehicle-bicycle_89fe9b1ca558441b93975fb715044530.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/89fe9b1ca558441b93975fb715044530/vehicle-private_vehicle-bicycle_89fe9b1ca558441b93975fb715044530.glb",
       "eligibility": {
         "turn_geometry_ready": false,
         "traffic_ready": false,
@@ -236,7 +236,7 @@
       "asset_id": "99d6dce2e49e4ba185ac108ab044524d",
       "category": "bicycle",
       "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_99d6dce2e49e4ba185ac108ab044524d",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/99d6dce2e49e4ba185ac108ab044524d/vehicle-private_vehicle-bicycle_99d6dce2e49e4ba185ac108ab044524d.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/99d6dce2e49e4ba185ac108ab044524d/vehicle-private_vehicle-bicycle_99d6dce2e49e4ba185ac108ab044524d.glb",
       "eligibility": {
         "turn_geometry_ready": false,
         "traffic_ready": false,
@@ -292,7 +292,7 @@
       "asset_id": "a869c645c3504e93a8b949f647e29970",
       "category": "bicycle",
       "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_a869c645c3504e93a8b949f647e29970",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/a869c645c3504e93a8b949f647e29970/vehicle-private_vehicle-bicycle_a869c645c3504e93a8b949f647e29970.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/a869c645c3504e93a8b949f647e29970/vehicle-private_vehicle-bicycle_a869c645c3504e93a8b949f647e29970.glb",
       "eligibility": {
         "turn_geometry_ready": false,
         "traffic_ready": false,
@@ -348,7 +348,7 @@
       "asset_id": "cbb067272da74c4d9a11b073ecbdd88d",
       "category": "bicycle",
       "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_cbb067272da74c4d9a11b073ecbdd88d",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/cbb067272da74c4d9a11b073ecbdd88d/vehicle-private_vehicle-bicycle_cbb067272da74c4d9a11b073ecbdd88d.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/cbb067272da74c4d9a11b073ecbdd88d/vehicle-private_vehicle-bicycle_cbb067272da74c4d9a11b073ecbdd88d.glb",
       "eligibility": {
         "turn_geometry_ready": false,
         "traffic_ready": false,
@@ -404,7 +404,7 @@
       "asset_id": "d0a9268f7fb24dcd8f77c66f2fee33d9",
       "category": "bicycle",
       "scene_prim_path": "/World/vehicle_private_vehicle_bicycle_d0a9268f7fb24dcd8f77c66f2fee33d9",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/d0a9268f7fb24dcd8f77c66f2fee33d9/vehicle-private_vehicle-bicycle_d0a9268f7fb24dcd8f77c66f2fee33d9.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-bicycle/d0a9268f7fb24dcd8f77c66f2fee33d9/vehicle-private_vehicle-bicycle_d0a9268f7fb24dcd8f77c66f2fee33d9.glb",
       "eligibility": {
         "turn_geometry_ready": false,
         "traffic_ready": false,
@@ -460,7 +460,7 @@
       "asset_id": "955edc733c6d44fabc0ad7c246a15896",
       "category": "car",
       "scene_prim_path": "/World/vehicle_private_vehicle_car_955edc733c6d44fabc0ad7c246a15896",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-car/955edc733c6d44fabc0ad7c246a15896/vehicle-private_vehicle-car_955edc733c6d44fabc0ad7c246a15896.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-car/955edc733c6d44fabc0ad7c246a15896/vehicle-private_vehicle-car_955edc733c6d44fabc0ad7c246a15896.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -567,7 +567,7 @@
       "asset_id": "f56e1c4d6ace45bf8945136ded809095",
       "category": "car",
       "scene_prim_path": "/World/vehicle_private_vehicle_car_f56e1c4d6ace45bf8945136ded809095",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-car/f56e1c4d6ace45bf8945136ded809095/vehicle-private_vehicle-car_f56e1c4d6ace45bf8945136ded809095.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-car/f56e1c4d6ace45bf8945136ded809095/vehicle-private_vehicle-car_f56e1c4d6ace45bf8945136ded809095.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -674,7 +674,7 @@
       "asset_id": "0e249864d1df49818ef2c03c336a934c",
       "category": "convertible_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_convertible_car_0e249864d1df49818ef2c03c336a934c",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/0e249864d1df49818ef2c03c336a934c/vehicle-private_vehicle-convertible_car_0e249864d1df49818ef2c03c336a934c.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/0e249864d1df49818ef2c03c336a934c/vehicle-private_vehicle-convertible_car_0e249864d1df49818ef2c03c336a934c.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -781,7 +781,7 @@
       "asset_id": "37d8a4c7d5ec4d1e858dbd912a46eb89",
       "category": "convertible_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_convertible_car_37d8a4c7d5ec4d1e858dbd912a46eb89",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/37d8a4c7d5ec4d1e858dbd912a46eb89/vehicle-private_vehicle-convertible_car_37d8a4c7d5ec4d1e858dbd912a46eb89.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/37d8a4c7d5ec4d1e858dbd912a46eb89/vehicle-private_vehicle-convertible_car_37d8a4c7d5ec4d1e858dbd912a46eb89.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -888,7 +888,7 @@
       "asset_id": "69e5de3f68804fbc900557b7740b680c",
       "category": "convertible_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_convertible_car_69e5de3f68804fbc900557b7740b680c",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/69e5de3f68804fbc900557b7740b680c/vehicle-private_vehicle-convertible_car_69e5de3f68804fbc900557b7740b680c.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/69e5de3f68804fbc900557b7740b680c/vehicle-private_vehicle-convertible_car_69e5de3f68804fbc900557b7740b680c.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -995,7 +995,7 @@
       "asset_id": "1f614e803fc24946b83bdc2dd9926d62",
       "category": "coupe_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_1f614e803fc24946b83bdc2dd9926d62",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/1f614e803fc24946b83bdc2dd9926d62/vehicle-private_vehicle-coupe_car_1f614e803fc24946b83bdc2dd9926d62.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/1f614e803fc24946b83bdc2dd9926d62/vehicle-private_vehicle-coupe_car_1f614e803fc24946b83bdc2dd9926d62.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -1102,7 +1102,7 @@
       "asset_id": "26542d66454b4d6d99dd3aa7ae27bf20",
       "category": "coupe_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_26542d66454b4d6d99dd3aa7ae27bf20",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/26542d66454b4d6d99dd3aa7ae27bf20/vehicle-private_vehicle-coupe_car_26542d66454b4d6d99dd3aa7ae27bf20.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/26542d66454b4d6d99dd3aa7ae27bf20/vehicle-private_vehicle-coupe_car_26542d66454b4d6d99dd3aa7ae27bf20.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -1209,7 +1209,7 @@
       "asset_id": "26ef15adc5ee4d8bbcb4a4f95ca49168",
       "category": "coupe_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_26ef15adc5ee4d8bbcb4a4f95ca49168",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/26ef15adc5ee4d8bbcb4a4f95ca49168/vehicle-private_vehicle-coupe_car_26ef15adc5ee4d8bbcb4a4f95ca49168.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/26ef15adc5ee4d8bbcb4a4f95ca49168/vehicle-private_vehicle-coupe_car_26ef15adc5ee4d8bbcb4a4f95ca49168.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -1316,7 +1316,7 @@
       "asset_id": "3be9ac82a47e4639b7d0698e1697feb9",
       "category": "coupe_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_3be9ac82a47e4639b7d0698e1697feb9",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/3be9ac82a47e4639b7d0698e1697feb9/vehicle-private_vehicle-coupe_car_3be9ac82a47e4639b7d0698e1697feb9.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/3be9ac82a47e4639b7d0698e1697feb9/vehicle-private_vehicle-coupe_car_3be9ac82a47e4639b7d0698e1697feb9.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -1423,7 +1423,7 @@
       "asset_id": "4b8ca4f05be24825a49fb8ac6c3af730",
       "category": "coupe_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_4b8ca4f05be24825a49fb8ac6c3af730",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/4b8ca4f05be24825a49fb8ac6c3af730/vehicle-private_vehicle-coupe_car_4b8ca4f05be24825a49fb8ac6c3af730.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/4b8ca4f05be24825a49fb8ac6c3af730/vehicle-private_vehicle-coupe_car_4b8ca4f05be24825a49fb8ac6c3af730.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -1530,7 +1530,7 @@
       "asset_id": "54c227442c4b42dfbaa25e474ad9d736",
       "category": "coupe_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_54c227442c4b42dfbaa25e474ad9d736",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/54c227442c4b42dfbaa25e474ad9d736/vehicle-private_vehicle-coupe_car_54c227442c4b42dfbaa25e474ad9d736.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/54c227442c4b42dfbaa25e474ad9d736/vehicle-private_vehicle-coupe_car_54c227442c4b42dfbaa25e474ad9d736.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -1637,7 +1637,7 @@
       "asset_id": "88d039e59a8e4630a06e5b4e18f536cf",
       "category": "coupe_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_88d039e59a8e4630a06e5b4e18f536cf",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/88d039e59a8e4630a06e5b4e18f536cf/vehicle-private_vehicle-coupe_car_88d039e59a8e4630a06e5b4e18f536cf.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/88d039e59a8e4630a06e5b4e18f536cf/vehicle-private_vehicle-coupe_car_88d039e59a8e4630a06e5b4e18f536cf.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -1744,7 +1744,7 @@
       "asset_id": "8c833864d0bb40f4b3f3a3fe1e99e702",
       "category": "coupe_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_8c833864d0bb40f4b3f3a3fe1e99e702",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/8c833864d0bb40f4b3f3a3fe1e99e702/vehicle-private_vehicle-coupe_car_8c833864d0bb40f4b3f3a3fe1e99e702.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/8c833864d0bb40f4b3f3a3fe1e99e702/vehicle-private_vehicle-coupe_car_8c833864d0bb40f4b3f3a3fe1e99e702.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -1851,7 +1851,7 @@
       "asset_id": "a5737bf3cc9b4179a6e5ebe173ff70d9",
       "category": "coupe_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_a5737bf3cc9b4179a6e5ebe173ff70d9",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/a5737bf3cc9b4179a6e5ebe173ff70d9/vehicle-private_vehicle-coupe_car_a5737bf3cc9b4179a6e5ebe173ff70d9.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/a5737bf3cc9b4179a6e5ebe173ff70d9/vehicle-private_vehicle-coupe_car_a5737bf3cc9b4179a6e5ebe173ff70d9.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -1958,7 +1958,7 @@
       "asset_id": "ac20678eb5fc451a98de7ae6b42e66c7",
       "category": "coupe_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_ac20678eb5fc451a98de7ae6b42e66c7",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/ac20678eb5fc451a98de7ae6b42e66c7/vehicle-private_vehicle-coupe_car_ac20678eb5fc451a98de7ae6b42e66c7.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/ac20678eb5fc451a98de7ae6b42e66c7/vehicle-private_vehicle-coupe_car_ac20678eb5fc451a98de7ae6b42e66c7.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -2065,7 +2065,7 @@
       "asset_id": "f6e0921650fb4ebbb21554251479cf26",
       "category": "coupe_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_f6e0921650fb4ebbb21554251479cf26",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/f6e0921650fb4ebbb21554251479cf26/vehicle-private_vehicle-coupe_car_f6e0921650fb4ebbb21554251479cf26.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/f6e0921650fb4ebbb21554251479cf26/vehicle-private_vehicle-coupe_car_f6e0921650fb4ebbb21554251479cf26.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -2172,7 +2172,7 @@
       "asset_id": "fb0eee5402fb4bc68eeb08069b238f66",
       "category": "coupe_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_coupe_car_fb0eee5402fb4bc68eeb08069b238f66",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/fb0eee5402fb4bc68eeb08069b238f66/vehicle-private_vehicle-coupe_car_fb0eee5402fb4bc68eeb08069b238f66.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/fb0eee5402fb4bc68eeb08069b238f66/vehicle-private_vehicle-coupe_car_fb0eee5402fb4bc68eeb08069b238f66.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -2279,7 +2279,7 @@
       "asset_id": "8a1c5378fe0b4fbaa89052b049ed8929",
       "category": "electric_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_electric_car_8a1c5378fe0b4fbaa89052b049ed8929",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/8a1c5378fe0b4fbaa89052b049ed8929/vehicle-private_vehicle-electric_car_8a1c5378fe0b4fbaa89052b049ed8929.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/8a1c5378fe0b4fbaa89052b049ed8929/vehicle-private_vehicle-electric_car_8a1c5378fe0b4fbaa89052b049ed8929.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -2386,7 +2386,7 @@
       "asset_id": "9826aff31f7c421b9a7de6bb78d5d4a7",
       "category": "electric_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_electric_car_9826aff31f7c421b9a7de6bb78d5d4a7",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/9826aff31f7c421b9a7de6bb78d5d4a7/vehicle-private_vehicle-electric_car_9826aff31f7c421b9a7de6bb78d5d4a7.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/9826aff31f7c421b9a7de6bb78d5d4a7/vehicle-private_vehicle-electric_car_9826aff31f7c421b9a7de6bb78d5d4a7.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -2493,7 +2493,7 @@
       "asset_id": "b89f5920ec0244e19992c6a4027dd969",
       "category": "electric_car",
       "scene_prim_path": "/World/vehicle_private_vehicle_electric_car_b89f5920ec0244e19992c6a4027dd969",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/b89f5920ec0244e19992c6a4027dd969/vehicle-private_vehicle-electric_car_b89f5920ec0244e19992c6a4027dd969.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-electric_car/b89f5920ec0244e19992c6a4027dd969/vehicle-private_vehicle-electric_car_b89f5920ec0244e19992c6a4027dd969.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -2600,7 +2600,7 @@
       "asset_id": "61d2800a3a9548db81f21eebc1f257fb",
       "category": "pickup_truck",
       "scene_prim_path": "/World/vehicle_private_vehicle_pickup_truck_61d2800a3a9548db81f21eebc1f257fb",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/61d2800a3a9548db81f21eebc1f257fb/vehicle-private_vehicle-pickup_truck_61d2800a3a9548db81f21eebc1f257fb.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/61d2800a3a9548db81f21eebc1f257fb/vehicle-private_vehicle-pickup_truck_61d2800a3a9548db81f21eebc1f257fb.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -2707,7 +2707,7 @@
       "asset_id": "63515c5e20914d6496d1470ddc366a78",
       "category": "pickup_truck",
       "scene_prim_path": "/World/vehicle_private_vehicle_pickup_truck_63515c5e20914d6496d1470ddc366a78",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/63515c5e20914d6496d1470ddc366a78/vehicle-private_vehicle-pickup_truck_63515c5e20914d6496d1470ddc366a78.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/63515c5e20914d6496d1470ddc366a78/vehicle-private_vehicle-pickup_truck_63515c5e20914d6496d1470ddc366a78.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -2814,7 +2814,7 @@
       "asset_id": "c640e4e7c68545e09a9348494c2c13a1",
       "category": "pickup_truck",
       "scene_prim_path": "/World/vehicle_private_vehicle_pickup_truck_c640e4e7c68545e09a9348494c2c13a1",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/c640e4e7c68545e09a9348494c2c13a1/vehicle-private_vehicle-pickup_truck_c640e4e7c68545e09a9348494c2c13a1.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/c640e4e7c68545e09a9348494c2c13a1/vehicle-private_vehicle-pickup_truck_c640e4e7c68545e09a9348494c2c13a1.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -2921,7 +2921,7 @@
       "asset_id": "09ebc68dcb634807a9dace7404ce5e66",
       "category": "suv",
       "scene_prim_path": "/World/vehicle_private_vehicle_suv_09ebc68dcb634807a9dace7404ce5e66",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/09ebc68dcb634807a9dace7404ce5e66/vehicle-private_vehicle-suv_09ebc68dcb634807a9dace7404ce5e66.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/09ebc68dcb634807a9dace7404ce5e66/vehicle-private_vehicle-suv_09ebc68dcb634807a9dace7404ce5e66.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -3028,7 +3028,7 @@
       "asset_id": "1da79a33e49d4d2eabc5b5cbac578adf",
       "category": "suv",
       "scene_prim_path": "/World/vehicle_private_vehicle_suv_1da79a33e49d4d2eabc5b5cbac578adf",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/1da79a33e49d4d2eabc5b5cbac578adf/vehicle-private_vehicle-suv_1da79a33e49d4d2eabc5b5cbac578adf.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/1da79a33e49d4d2eabc5b5cbac578adf/vehicle-private_vehicle-suv_1da79a33e49d4d2eabc5b5cbac578adf.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -3135,7 +3135,7 @@
       "asset_id": "26f042fcf1594890a529bfb41f0fae0d",
       "category": "suv",
       "scene_prim_path": "/World/vehicle_private_vehicle_suv_26f042fcf1594890a529bfb41f0fae0d",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/26f042fcf1594890a529bfb41f0fae0d/vehicle-private_vehicle-suv_26f042fcf1594890a529bfb41f0fae0d.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/26f042fcf1594890a529bfb41f0fae0d/vehicle-private_vehicle-suv_26f042fcf1594890a529bfb41f0fae0d.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -3242,7 +3242,7 @@
       "asset_id": "31a894c9f1f544fd931b6bb5a0762c7b",
       "category": "suv",
       "scene_prim_path": "/World/vehicle_private_vehicle_suv_31a894c9f1f544fd931b6bb5a0762c7b",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/31a894c9f1f544fd931b6bb5a0762c7b/vehicle-private_vehicle-suv_31a894c9f1f544fd931b6bb5a0762c7b.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/31a894c9f1f544fd931b6bb5a0762c7b/vehicle-private_vehicle-suv_31a894c9f1f544fd931b6bb5a0762c7b.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -3349,7 +3349,7 @@
       "asset_id": "403d199e0940423188f9425581342a67",
       "category": "suv",
       "scene_prim_path": "/World/vehicle_private_vehicle_suv_403d199e0940423188f9425581342a67",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/403d199e0940423188f9425581342a67/vehicle-private_vehicle-suv_403d199e0940423188f9425581342a67.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/403d199e0940423188f9425581342a67/vehicle-private_vehicle-suv_403d199e0940423188f9425581342a67.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -3456,7 +3456,7 @@
       "asset_id": "49c2a07da71846bf88da0e4d13ff5e20",
       "category": "suv",
       "scene_prim_path": "/World/vehicle_private_vehicle_suv_49c2a07da71846bf88da0e4d13ff5e20",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/49c2a07da71846bf88da0e4d13ff5e20/vehicle-private_vehicle-suv_49c2a07da71846bf88da0e4d13ff5e20.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/49c2a07da71846bf88da0e4d13ff5e20/vehicle-private_vehicle-suv_49c2a07da71846bf88da0e4d13ff5e20.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -3563,7 +3563,7 @@
       "asset_id": "a7ff90a4675542579170e1efb20e32da",
       "category": "suv",
       "scene_prim_path": "/World/vehicle_private_vehicle_suv_a7ff90a4675542579170e1efb20e32da",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/a7ff90a4675542579170e1efb20e32da/vehicle-private_vehicle-suv_a7ff90a4675542579170e1efb20e32da.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/a7ff90a4675542579170e1efb20e32da/vehicle-private_vehicle-suv_a7ff90a4675542579170e1efb20e32da.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -3670,7 +3670,7 @@
       "asset_id": "b2df8ec40fa54a9c932f576761ef85de",
       "category": "suv",
       "scene_prim_path": "/World/vehicle_private_vehicle_suv_b2df8ec40fa54a9c932f576761ef85de",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/b2df8ec40fa54a9c932f576761ef85de/vehicle-private_vehicle-suv_b2df8ec40fa54a9c932f576761ef85de.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/b2df8ec40fa54a9c932f576761ef85de/vehicle-private_vehicle-suv_b2df8ec40fa54a9c932f576761ef85de.glb",
       "eligibility": {
         "turn_geometry_ready": false,
         "traffic_ready": false,
@@ -3778,7 +3778,7 @@
       "asset_id": "d90c7f830f9c41398bb55de4a2e001be",
       "category": "suv",
       "scene_prim_path": "/World/vehicle_private_vehicle_suv_d90c7f830f9c41398bb55de4a2e001be",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/d90c7f830f9c41398bb55de4a2e001be/vehicle-private_vehicle-suv_d90c7f830f9c41398bb55de4a2e001be.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_09/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_08/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/d90c7f830f9c41398bb55de4a2e001be/vehicle-private_vehicle-suv_d90c7f830f9c41398bb55de4a2e001be.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,
@@ -3881,7 +3881,7 @@
       "asset_id": "f69b8a867f8f479bbac0c356029d9ccf",
       "category": "suv",
       "scene_prim_path": "/World/vehicle_private_vehicle_suv_f69b8a867f8f479bbac0c356029d9ccf",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/f69b8a867f8f479bbac0c356029d9ccf/vehicle-private_vehicle-suv_f69b8a867f8f479bbac0c356029d9ccf.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/f69b8a867f8f479bbac0c356029d9ccf/vehicle-private_vehicle-suv_f69b8a867f8f479bbac0c356029d9ccf.glb",
       "eligibility": {
         "turn_geometry_ready": false,
         "traffic_ready": false,
@@ -3937,7 +3937,7 @@
       "asset_id": "86e731089800401eb3fb12e91baf1456",
       "category": "truck",
       "scene_prim_path": "/World/vehicle_private_vehicle_truck_86e731089800401eb3fb12e91baf1456",
-      "source_asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-truck/86e731089800401eb3fb12e91baf1456/vehicle-private_vehicle-truck_86e731089800401eb3fb12e91baf1456.glb",
+      "source_asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-truck/86e731089800401eb3fb12e91baf1456/vehicle-private_vehicle-truck_86e731089800401eb3fb12e91baf1456.glb",
       "eligibility": {
         "turn_geometry_ready": true,
         "traffic_ready": true,

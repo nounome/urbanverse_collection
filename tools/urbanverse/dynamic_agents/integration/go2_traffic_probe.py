@@ -46,20 +46,11 @@ from urbanverse.dynamic_agents.integration.scene_setup import (  # noqa: E402
 from urbanverse.dynamic_agents.pedestrians import (  # noqa: E402
     OfficialPeopleManager,
     ProjectPeopleRoamingManager,
-    OfficialPeopleRoamingManager,
-    OfficialPeopleRuntime,
     WalkableRegions,
-    align_initial_targets_to_waypoint_loops,
-    assignments_to_specs,
-    author_approved_navmesh_surface,
-    build_roaming_waypoint_loops,
-    expand_waypoint_loops_with_grid_paths,
-    finalize_approved_navmesh_surface,
     author_official_people,
     author_people_payload,
     build_project_people_payload,
     configure_preauthored_people,
-    enable_official_people_runtime,
     plan_roaming_assignments,
 )
 from urbanverse.dynamic_agents.micromobility import (  # noqa: E402
@@ -154,14 +145,7 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         help="Enable animated Isaac Sim People assets using reviewed sidewalk routes.",
     )
-    parser.add_argument(
-        "--roaming-ghost-config",
-        type=Path,
-        help=(
-            "Enable the Scene-independent official resident-People + micromobility + "
-            "Go2 world-passthrough composition described by one maintained config."
-        ),
-    )
+    parser.set_defaults(roaming_ghost_config=None)
     parser.add_argument(
         "--mixed-roaming-config",
         type=Path,
@@ -955,13 +939,11 @@ def main() -> int:
 
     faulthandler.register(signal.SIGUSR1, all_threads=True)
     args = parse_args()
+    if args.roaming_ghost_config is not None:
+        raise ValueError("Official CharacterManager roaming is not supported; use --mixed-roaming-config")
     selected_experience = None
     if args.experience is not None:
         selected_experience = args.experience.resolve()
-    elif args.roaming_ghost_config is not None:
-        selected_experience = (
-            PROJECT_ROOT / "configs" / "isaac45_urbanverse_go2_people_headless.kit"
-        ).resolve()
     elif args.mixed_roaming_config is not None:
         # GLB file-format registration is needed before any wrapper opens,
         # including camera-off smoke tests. Default Lab headless lacks it.
@@ -1150,36 +1132,12 @@ def main() -> int:
     if duration_s is None:
         duration_s = 30.0 if args.mode == "constant" else 300.0 if args.mode in ("route", "three_point") else len(replay_commands) * 0.02
     wrapper_path = wrapper_dir / "scene10_policy_isolation_wrapper.usda"
-    if roaming_ghost_payload is not None:
-        # Official Recast in Isaac Sim 4.5 only proved reliable when the final
-        # opened layer directly references the source scene.  Keep the city as
-        # a sibling of the runtime /World so its authored root transform cannot
-        # move Isaac Lab's robot/support prims.  Do not add a second host layer:
-        # that composition suppresses the auto-rebake event.
-        wrapper_path.write_text(
-            "#usda 1.0\n"
-            "(\n"
-            "    defaultPrim = \"World\"\n"
-            "    metersPerUnit = 1\n"
-            "    upAxis = \"Z\"\n"
-            ")\n\n"
-            "def Xform \"World\"\n"
-            "{\n"
-            "}\n\n"
-            "def Xform \"UrbanVerseScene\" (\n"
-            f"    prepend references = @{args.source_usd.resolve()}@</World>\n"
-            ")\n"
-            "{\n"
-            "}\n",
-            encoding="utf-8",
-        )
-    else:
-        wrapper_path.write_text(
-            args.wrapper_template.read_text(encoding="utf-8").replace(
-                "SOURCE_USD", str(args.source_usd.resolve())
-            ),
-            encoding="utf-8",
-        )
+    wrapper_path.write_text(
+        args.wrapper_template.read_text(encoding="utf-8").replace(
+            "SOURCE_USD", str(args.source_usd.resolve())
+        ),
+        encoding="utf-8",
+    )
     light_scale_overrides = None
     go2_support_metadata = None
     simulation_app = None
@@ -1196,107 +1154,32 @@ def main() -> int:
     result_code = 1
     try:
         launcher = None
-        if roaming_ghost_payload is not None:
-            # Recast 106.4's stage listener is disrupted by AppLauncher's
-            # post-start PhysX/settings patch phase.  Start the proven combined
-            # experience directly, bake NavMesh, then import Isaac Lab below.
-            # This remains one Kit process and one final USD stage.
-            import builtins
-            from isaacsim import SimulationApp
+        from isaaclab.app import AppLauncher
 
-            builtins.ISAAC_LAUNCHED_FROM_TERMINAL = False
-            simulation_app = SimulationApp(
-                {
-                    "headless": True,
-                    "renderer": "RayTracedLighting",
-                    "width": args.overview_width,
-                    "height": args.overview_height,
-                    "active_gpu": args.gpu,
-                    "physics_gpu": args.gpu,
-                    "multi_gpu": False,
-                    "max_gpu_count": 1,
-                    "create_new_stage": False,
-                },
-                experience=str(selected_experience),
+        launcher_kwargs = {
+            "headless": True,
+            "enable_cameras": args.overview_video,
+            "device": f"cuda:{args.gpu}",
+            "width": args.overview_width,
+            "height": args.overview_height,
+            "multi_gpu": False,
+        }
+        if args.overview_video:
+            launcher_kwargs["renderer"] = "RayTracedLighting"
+            launcher_kwargs["experience"] = str(
+                PROJECT_ROOT / "configs" / "isaac45_urbanverse_go2_headless.kit"
             )
-        else:
-            from isaaclab.app import AppLauncher
-
-            launcher_kwargs = {
-                "headless": True,
-                "enable_cameras": args.overview_video,
-                "device": f"cuda:{args.gpu}",
-                "width": args.overview_width,
-                "height": args.overview_height,
-                "multi_gpu": False,
-            }
-            if args.overview_video:
-                launcher_kwargs["renderer"] = "RayTracedLighting"
-                launcher_kwargs["experience"] = str(
-                    PROJECT_ROOT / "configs" / "isaac45_urbanverse_go2_headless.kit"
-                )
-            if selected_experience is not None:
-                launcher_kwargs["experience"] = str(selected_experience)
-            launcher = AppLauncher(**launcher_kwargs)
-            simulation_app = launcher.app
+        if selected_experience is not None:
+            launcher_kwargs["experience"] = str(selected_experience)
+        launcher = AppLauncher(**launcher_kwargs)
+        simulation_app = launcher.app
 
         import carb
         import omni.usd
 
-        if roaming_ghost_payload is not None:
-            # The official-People composition starts SimulationApp directly so
-            # Recast can finish before Isaac Lab imports.  That intentionally
-            # bypasses AppLauncher, but AppLauncher is also what normally turns
-            # on the headless off-screen path and PhysX-Fabric transform bridge
-            # when ``enable_cameras=True``.  Without these settings, post-reset
-            # Replicator products see USD-authored People/traffic while the RTX
-            # scene keeps the articulated Go2 at its initial Fabric pose.
-            #
-            # Configure the same bridge before SimulationContext is created,
-            # without creating a camera or render product before env.reset().
-            # Keeping camera creation deferred avoids the proven reset lock.
-            joint_settings = carb.settings.get_settings()
-            joint_settings.set_bool(
-                "/isaaclab/cameras_enabled", bool(args.overview_video)
-            )
-            joint_settings.set_bool(
-                "/isaaclab/render/offscreen", bool(args.overview_video)
-            )
-            joint_settings.set_bool("/isaaclab/render/active_viewport", False)
-            joint_settings.set_bool(
-                "/physics/fabricUpdateTransformations", bool(args.overview_video)
-            )
-            joint_render_bridge_settings = {
-                "configuration_stage": "after SimulationApp startup, before Recast and Isaac Lab SimulationContext",
-                "camera_creation_stage": "after env.reset",
-                "requested_overview_video": bool(args.overview_video),
-                "isaaclab_cameras_enabled": bool(
-                    joint_settings.get("/isaaclab/cameras_enabled")
-                ),
-                "isaaclab_offscreen_render": bool(
-                    joint_settings.get("/isaaclab/render/offscreen")
-                ),
-                "isaaclab_active_viewport": bool(
-                    joint_settings.get("/isaaclab/render/active_viewport")
-                ),
-                "physics_update_to_usd": bool(
-                    joint_settings.get("/physics/updateToUsd")
-                ),
-                "physics_fabric_update_transformations": bool(
-                    joint_settings.get("/physics/fabricUpdateTransformations")
-                ),
-            }
-            print(
-                "JOINT_RENDER_BRIDGE_CONFIG "
-                + json.dumps(joint_render_bridge_settings, sort_keys=True),
-                flush=True,
-            )
+        pass
 
-        official_extensions = (
-            enable_official_people_runtime(simulation_app)
-            if roaming_ghost_payload is not None
-            else None
-        )
+        official_extensions = None
         for _ in range(3):
             simulation_app.update()
 
@@ -1305,14 +1188,7 @@ def main() -> int:
             if "=" not in item:
                 raise ValueError("--collection-light-path-scale must use PRIM_PATH=SCALE")
             prim_path, raw_scale = item.rsplit("=", 1)
-            if (
-                roaming_ghost_payload is not None
-                and prim_path == "/UrbanVerseAsset/DomeLight_04"
-            ):
-                # This is the legacy Scene10 runner default.  Scene-portable
-                # official-Recast compositions retain the source's native
-                # /World and must not require a Scene10-only light prim.
-                continue
+            pass
             if prim_path in light_path_scales:
                 raise ValueError(f"duplicate collection light path scale: {prim_path}")
             light_path_scales[prim_path] = float(raw_scale)
@@ -1461,253 +1337,7 @@ def main() -> int:
                 pedestrian_config,
             )
 
-        # Recast must complete before parse_env_cfg imports and initializes the
-        # Isaac Lab simulation stack.  Open the final host stage now, while the
-        # process still matches the proven standalone official-People order.
-        prebaked_official_people_runtime = None
-        prebaked_approved_walkable_union = None
-        prebaked_walkable_regions = None
-        prebaked_micromobility_regions = None
-        prebaked_navmesh_metadata = None
-        prebaked_people_assets_root = None
-        prebaked_roaming_assignments = ()
-        prebaked_roaming_waypoint_loops = None
-        prebaked_official_setup_metadata = None
-        prebaked_official_play_updates = None
-        if roaming_ghost_payload is not None:
-            from omni.anim.navigation.core import NavMeshSettings
-            import omni.timeline
-
-            preload_stage_path = wrapper_path
-            context = omni.usd.get_context()
-            context.open_stage(
-                str(preload_stage_path),
-                None,
-                omni.usd.UsdContextInitialLoadSet.LOAD_ALL,
-            )
-            for _ in range(8):
-                simulation_app.update()
-            preload_stage = context.get_stage()
-            if preload_stage is None:
-                raise RuntimeError("failed to open Scene09 roaming preload stage")
-            preload_stage.SetEditTarget(preload_stage.GetSessionLayer())
-            preload_timeline = omni.timeline.get_timeline_interface()
-            preload_timeline.stop()
-            for _ in range(3):
-                simulation_app.update()
-            if preload_timeline.is_playing():
-                raise RuntimeError("pre-physics NavMesh stage did not stop")
-            prebaked_approved_walkable_union = WalkableRegions.load(
-                resolve_combined(roaming_ghost_payload["walkable_regions"])
-            )
-            interaction_bands = roaming_ghost_payload.get("interaction_bands", {})
-            people_semantics = interaction_bands.get("people_semantics")
-            micromobility_semantics = interaction_bands.get(
-                "micromobility_semantics"
-            )
-            prebaked_walkable_regions = (
-                prebaked_approved_walkable_union.semantic_subset(people_semantics)
-                if people_semantics
-                else prebaked_approved_walkable_union
-            )
-            prebaked_micromobility_regions = (
-                prebaked_approved_walkable_union.semantic_subset(
-                    micromobility_semantics
-                )
-                if micromobility_semantics
-                else prebaked_approved_walkable_union
-            )
-            nav_settings = carb.settings.get_settings()
-            nav_settings.set(NavMeshSettings.CACHE_ENABLED_SETTING_PATH, False)
-            nav_settings.set(NavMeshSettings.AUTO_REBAKE_SETTING_PATH, True)
-            prebaked_navmesh_metadata = author_approved_navmesh_surface(
-                preload_stage,
-                prebaked_walkable_regions,
-                exclusion_strategy="temporary_visibility",
-                source_scene_path="/UrbanVerseScene",
-                mesh_path="/ApprovedWalkingSurface",
-                volume_path="/ApprovedWalkingNavMeshVolumes",
-            )
-            people_payload = roaming_ghost_payload["official_people"]
-            people_assets_root_value = Path(people_payload["assets_root"])
-            prebaked_people_assets_root = (
-                people_assets_root_value.resolve()
-                if people_assets_root_value.is_absolute()
-                else (PROJECT_ROOT / people_assets_root_value).resolve()
-            )
-            prebaked_official_people_runtime = OfficialPeopleRuntime(
-                simulation_app,
-                preload_stage,
-                prebaked_people_assets_root,
-                characters_parent="/Characters",
-            )
-            prebaked_official_people_runtime.configure_avoidance_radius(
-                float(people_payload.get("avoidance_radius_m", 0.65))
-            )
-            prebaked_navmesh_metadata.update(
-                prebaked_official_people_runtime.wait_for_navmesh(
-                    navmesh_timeout_updates=1800
-                )
-            )
-            nav_settings.set(NavMeshSettings.AUTO_REBAKE_SETTING_PATH, False)
-            people_assets = tuple(
-                prebaked_people_assets_root / relative
-                for relative in people_payload["assets"]
-            )
-            prebaked_roaming_assignments = plan_roaming_assignments(
-                prebaked_walkable_regions,
-                people_assets,
-                count=int(people_payload["count"]),
-                seed=args.seed,
-                minimum_initial_trip_m=float(
-                    people_payload.get("minimum_trip_m", 6.0)
-                ),
-                maximum_initial_trip_m=float(
-                    people_payload.get("maximum_target_leg_m", 18.0)
-                ),
-                multi_resident_minimum_width_m=(
-                    None
-                    if people_payload.get("multi_resident_minimum_width_m") is None
-                    else float(people_payload["multi_resident_minimum_width_m"])
-                ),
-            )
-            prebaked_roaming_logical_waypoint_loops = build_roaming_waypoint_loops(
-                prebaked_walkable_regions,
-                prebaked_roaming_assignments,
-                np.random.default_rng(args.seed + 17017),
-                ring_points=int(people_payload.get("target_cycle_points", 9)),
-                radius_min_m=float(
-                    people_payload.get("target_cycle_radius_min_m", 8.0)
-                ),
-                radius_max_m=float(
-                    people_payload.get("target_cycle_radius_max_m", 18.0)
-                ),
-                maximum_leg_m=float(
-                    people_payload.get("maximum_target_leg_m", 30.0)
-                ),
-                minimum_leg_m=float(
-                    people_payload.get("minimum_target_leg_m", 5.0)
-                ),
-                partition_shared_components=bool(
-                    people_payload.get("partition_shared_components", True)
-                ),
-            )
-            missing_cycles = sorted(
-                item.name
-                for item in prebaked_roaming_assignments
-                if item.name not in prebaked_roaming_logical_waypoint_loops
-            )
-            if missing_cycles:
-                raise RuntimeError(
-                    "could not build bounded roaming target cycles for residents: "
-                    + ", ".join(missing_cycles)
-                )
-            navigation_subleg_max_m = people_payload.get(
-                "maximum_navigation_subleg_m"
-            )
-            prebaked_roaming_waypoint_loops = (
-                expand_waypoint_loops_with_grid_paths(
-                    prebaked_walkable_regions,
-                    prebaked_roaming_assignments,
-                    prebaked_roaming_logical_waypoint_loops,
-                    maximum_navigation_leg_m=float(navigation_subleg_max_m),
-                )
-                if navigation_subleg_max_m is not None
-                else prebaked_roaming_logical_waypoint_loops
-            )
-            prebaked_roaming_assignments = align_initial_targets_to_waypoint_loops(
-                prebaked_roaming_assignments,
-                prebaked_roaming_waypoint_loops,
-            )
-            # Character staging and Animation Graph setup can rebuild PhysX
-            # internals.  Complete that work before Isaac Lab creates tensor
-            # views; doing it after gym.make() makes the next env.step access
-            # stale articulation handles and segfault in PhysX 106.5.
-            official_character_metadata = (
-                prebaked_official_people_runtime.load_characters(
-                    assignments_to_specs(prebaked_roaming_assignments),
-                    metadata_dir / "official_people_initial_commands.txt",
-                )
-            )
-            official_pre_restore_routes = (
-                prebaked_official_people_runtime.validate_routes()
-            )
-            if not all(row["resolved"] for row in official_pre_restore_routes):
-                raise RuntimeError(
-                    "one or more resident routes do not resolve after NavMesh bake"
-                )
-            # ``play`` performs Kit updates while Animation Graph creates its
-            # native CharacterManager handles.  Those updates must also finish
-            # before Isaac Lab creates PhysX tensor views.  Doing only
-            # ``setup_all_characters`` here and calling ``play`` after
-            # ``env.reset`` leaves stale articulation handles and the first
-            # env.step can segfault in set_dof_actuation_forces.
-            prebaked_official_play_updates = prebaked_official_people_runtime.play(
-                time_codes_per_second=50.0,
-                target_framerate_hz=50.0,
-                timeout_updates=180,
-                restart_timeline=False,
-            )
-            # Hand ownership of the shared timeline to Isaac Lab while it
-            # constructs SimulationContext.  ``pause`` preserves the staged
-            # Animation Graph and CharacterManager handles; unlike ``stop`` it
-            # does not dispatch the destructive render-on-stop/reset path.
-            # Keeping the timeline playing here makes gym.make() wait forever
-            # for exclusive physics-scene initialization.
-            if prebaked_official_people_runtime.timeline is not None:
-                prebaked_official_people_runtime.timeline.pause()
-                prebaked_official_people_runtime.timeline.commit()
-            # Keep the full city hidden until native CharacterManager handles
-            # exist. Restoring it before play() couples the first Animation
-            # Graph update to whole-city RTX/MDL material compilation and can
-            # leave that update CPU-bound for many minutes after a cold cache.
-            # Visibility restoration itself changes neither Recast polygons
-            # nor CharacterManager handles; Isaac Lab performs the subsequent
-            # renderer warm-up after it owns the paused timeline.
-            prebaked_navmesh_metadata["post_bake"] = finalize_approved_navmesh_surface(
-                preload_stage,
-                mesh_path="/ApprovedWalkingSurface",
-                volume_path="/ApprovedWalkingNavMeshVolumes",
-                scene_visibility_records=prebaked_navmesh_metadata.get(
-                    "hidden_scene_branches"
-                ),
-            )
-            # Recast/Kit may leave the approved helper or a NavMesh volume
-            # selected after baking.  RTX captures then contain bright green
-            # editor-selection outlines even though the helper itself is
-            # invisible.  Clear only UI selection state; this does not modify
-            # USD geometry, navigation data, or collision schemas.
-            selection = context.get_selection()
-            selected_before_clear = list(selection.get_selected_prim_paths())
-            selection.set_selected_prim_paths([], False)
-            prebaked_navmesh_metadata["selection_cleanup"] = {
-                "selected_before_clear": selected_before_clear,
-                "selected_after_clear": list(selection.get_selected_prim_paths()),
-            }
-            official_route_validation = (
-                prebaked_official_people_runtime.validate_routes()
-            )
-            if not all(row["resolved"] for row in official_route_validation):
-                raise RuntimeError(
-                    "one or more resident routes fail after scene restore"
-                )
-            prebaked_official_setup_metadata = {
-                **official_character_metadata,
-                **prebaked_navmesh_metadata,
-                "pre_restore_route_validation": official_pre_restore_routes,
-                "post_bake_route_validation": official_route_validation,
-                "initialization_order": (
-                    "open final stage, bake NavMesh, stage/setup official People, "
-                    "initialize CharacterManager while the city remains hidden, "
-                    "pause the timeline, restore city visibility, then let Isaac "
-                    "Lab create PhysX tensor views and warm RTX"
-                ),
-            }
-
-        # Import the Isaac Lab/PhysX/Replicator stack only after Recast has
-        # copied its approved navigation surface.  Importing these modules
-        # earlier changes the stage/timeline services enough that Recast 106.4
-        # no longer receives its auto-rebake event.
+        # Initialize Isaac Lab after authoring the mixed-agent stage.
         import gymnasium as gym
         if args.traffic_scene_config is not None:
             from urbanverse.dynamic_agents.navigation.mesh_runtime import author_cleanup
@@ -1913,24 +1543,11 @@ def main() -> int:
         else:
             cfg.seed = args.seed
 
-        if roaming_ghost_payload is not None:
-            # The city is already mounted in the live stage.  A second terrain
-            # import would duplicate it and invalidate both NavMesh coordinates
-            # and obstacle identities.  InteractiveScene supports terrain=None
-            # and derives the single environment origin at (0, 0, 0).
-            cfg.scene.terrain = None
-            # Official People Animation Graph is evaluated from Kit/render
-            # updates, not from PhysX tensor stepping alone.  Camera-off gates
-            # previously let Go2 and micromobility advance while residents
-            # remained frozen.  Ask Isaac Lab to perform one render/update per
-            # control step even without a render product; this advances the
-            # official graph without adding an uncontrolled physics step.
-            if not args.overview_video:
-                cfg.sim.render_interval = cfg.decimation
+        pass
 
         print(
             "JOINT_ENV_INIT phase=gym_make "
-            f"cameras={bool(args.overview_video)} people={len(prebaked_roaming_assignments)}",
+            f"cameras={bool(args.overview_video)} people={len(project_roaming_assignments)}",
             flush=True,
         )
         env = gym.make(task, cfg=cfg)
@@ -2015,51 +1632,7 @@ def main() -> int:
         contact_sensor = unwrapped.scene["contact_forces"]
         dt = float(unwrapped.step_dt)
         official_people_collision_audit = None
-        if roaming_ghost_payload is not None:
-            # NVIDIA IRA People are navigation/animation actors.  Their stock
-            # assets are expected to have no PhysX CollisionAPI shapes; this is
-            # what makes Go2↔People physical pass-through independent of the
-            # much larger /Characters skeleton hierarchy.  Audit the composed
-            # runtime stage instead of assuming every future People asset has
-            # the same authoring convention.
-            from pxr import Usd, UsdPhysics
-
-            stage = omni.usd.get_context().get_stage()
-            character_root = stage.GetPrimAtPath("/Characters")
-            character_collider_paths: list[str] = []
-            if character_root.IsValid():
-                for descendant in Usd.PrimRange(
-                    character_root, Usd.TraverseInstanceProxies()
-                ):
-                    if descendant.HasAPI(UsdPhysics.CollisionAPI):
-                        character_collider_paths.append(str(descendant.GetPath()))
-            official_people_collision_audit = {
-                "root": "/Characters",
-                "root_valid": bool(character_root.IsValid()),
-                "collision_api_count": len(character_collider_paths),
-                "collision_api_prim_paths": character_collider_paths,
-                "go2_passthrough_basis": (
-                    "official People have no PhysX collision shapes; navigation "
-                    "avoidance remains active while Go2 is omitted from its inputs"
-                ),
-                "passed": bool(
-                    character_root.IsValid() and not character_collider_paths
-                ),
-            }
-            write_json(
-                metadata_dir / "official_people_collision_audit.json",
-                official_people_collision_audit,
-            )
-            print(
-                "OFFICIAL_PEOPLE_COLLISION_AUDIT "
-                + json.dumps(official_people_collision_audit, sort_keys=True),
-                flush=True,
-            )
-            if character_collider_paths:
-                raise RuntimeError(
-                    "official People assets unexpectedly contain PhysX colliders; "
-                    "Go2 ghost pass-through is not proven"
-                )
+        pass
         if go2_support_metadata is not None:
             from pxr import Usd, UsdGeom, UsdPhysics
 
@@ -2578,235 +2151,7 @@ def main() -> int:
         approved_navmesh_metadata = None
         roaming_assignments = ()
         latest_official_people_positions = np.empty((0, 3), dtype=np.float64)
-        if roaming_ghost_payload is not None:
-            stage = omni.usd.get_context().get_stage()
-            if (
-                stage is None
-                or prebaked_official_people_runtime is None
-                or prebaked_approved_walkable_union is None
-                or prebaked_walkable_regions is None
-                or prebaked_micromobility_regions is None
-                or prebaked_navmesh_metadata is None
-                or prebaked_people_assets_root is None
-                or not prebaked_roaming_assignments
-                or prebaked_roaming_waypoint_loops is None
-                or prebaked_official_setup_metadata is None
-            ):
-                raise RuntimeError("official NavMesh preload state is incomplete")
-            if (
-                stage.GetRootLayer().identifier
-                != prebaked_official_people_runtime.stage.GetRootLayer().identifier
-            ):
-                raise RuntimeError("Isaac Lab replaced the pre-baked USD stage")
-            stage.SetEditTarget(stage.GetSessionLayer())
-            walkable_regions = prebaked_walkable_regions
-            micromobility_regions = prebaked_micromobility_regions
-            approved_walkable_union = prebaked_approved_walkable_union
-            approved_navmesh_metadata = prebaked_navmesh_metadata
-            people_payload = roaming_ghost_payload["official_people"]
-            people_assets_root = prebaked_people_assets_root
-            roaming_assignments = prebaked_roaming_assignments
-            roaming_waypoint_loops = prebaked_roaming_waypoint_loops
-            official_people_runtime = prebaked_official_people_runtime
-            official_navmesh_metadata = approved_navmesh_metadata
-            official_setup_metadata = prebaked_official_setup_metadata
-
-            micro_payload = roaming_ghost_payload["micromobility"]
-            micromobility_enabled = bool(micro_payload.get("enabled", True))
-            micromobility_count = int(micro_payload["count"])
-            if micromobility_enabled and micromobility_count > 0:
-                micro_catalog = load_micromobility_catalog(
-                    resolve_combined(micro_payload["catalog"])
-                )
-                component_ids = np.asarray(
-                    eligible_micromobility_components(
-                        micromobility_regions,
-                        micro_catalog,
-                        minimum_trip_m=float(micro_payload["minimum_trip_m"]),
-                    ),
-                    dtype=np.int32,
-                )
-                component_weights = np.asarray(
-                    [
-                        len(micromobility_regions.component_pixels[int(value)])
-                        for value in component_ids
-                    ],
-                    dtype=np.float64,
-                )
-                component_weights /= component_weights.sum()
-                micro_rng = np.random.default_rng(args.seed + 1701)
-                assigned_micro_components = balanced_component_assignment(
-                    component_ids,
-                    component_weights,
-                    count=micromobility_count,
-                    rng=micro_rng,
-                )
-                micro_asset_ids = tuple(micro_catalog)
-                micromobility_specs = tuple(
-                    MicromobilityAgentSpec(
-                        agent_id=f"TwoWheeler_{index:02d}",
-                        asset_id=micro_asset_ids[index % len(micro_asset_ids)],
-                        component_id=int(component),
-                        desired_speed_mps=float(micro_payload["desired_speed_mps"]),
-                    )
-                    for index, component in enumerate(assigned_micro_components)
-                )
-                micromobility_manager = MicromobilityRoamingManager(
-                    micromobility_regions,
-                    micromobility_specs,
-                    micro_catalog,
-                    seed=args.seed + 2903,
-                    minimum_trip_m=float(micro_payload["minimum_trip_m"]),
-                    maximum_trip_m=(
-                        None
-                        if micro_payload.get("maximum_trip_m") is None
-                        else float(micro_payload["maximum_trip_m"])
-                    ),
-                    excluded_spawn_xy=(
-                        [item.start_xyz[:2] for item in roaming_assignments]
-                        + [item.initial_target_xyz[:2] for item in roaming_assignments]
-                        + [
-                            point
-                            for points in roaming_waypoint_loops.values()
-                            for point in points
-                        ]
-                    ),
-                )
-                converted_micro = convert_micromobility_assets(
-                    simulation_app,
-                    micro_catalog,
-                    PROJECT_ROOT / "data",
-                    run_dir / "converted_micromobility",
-                )
-                micromobility_usd = MicromobilityUsdRuntime(
-                    stage,
-                    micromobility_specs,
-                    micro_catalog,
-                    converted_micro,
-                    ground_z_m=float(
-                        micro_payload.get(
-                            "visual_support_z_m", walkable_regions.config.ground_z_m
-                        )
-                    ),
-                    scene_query=(
-                        omni.physx.get_physx_scene_query_interface()
-                        if bool(micro_payload.get("runtime_support_raycast", False))
-                        else None
-                    ),
-                )
-                micromobility_usd.update(micromobility_manager.states)
-            roaming_people_manager = OfficialPeopleRoamingManager(
-                official_people_runtime,
-                walkable_regions,
-                roaming_assignments,
-                seed=args.seed + 911,
-                arrival_radius_m=float(people_payload["arrival_radius_m"]),
-                minimum_trip_m=float(people_payload["minimum_trip_m"]),
-                maximum_trip_m=float(people_payload.get("maximum_target_leg_m", 30.0)),
-                waypoint_loops=roaming_waypoint_loops,
-                reassign_on_arrival=True,
-                dynamic_target_clearance_m=float(
-                    people_payload.get("dynamic_target_clearance_m", 3.0)
-                ),
-                dynamic_proximity_retarget_m=float(
-                    people_payload.get("dynamic_proximity_retarget_m", 2.5)
-                ),
-                people_target_clearance_m=float(
-                    people_payload.get("people_target_clearance_m", 1.5)
-                ),
-                people_proximity_retarget_m=float(
-                    people_payload.get("people_proximity_retarget_m", 2.2)
-                ),
-                people_yield_duration_s=float(
-                    people_payload.get("people_yield_duration_s", 2.5)
-                ),
-                stall_retarget_after_s=float(
-                    people_payload.get("stall_retarget_after_s", 10.0)
-                ),
-            )
-            mixed_walkable_audit = MixedWalkableAgentAudit(
-                walkable_regions,
-                roaming_assignments,
-                micromobility_specs,
-                micro_catalog,
-                micromobility_regions=micromobility_regions,
-                approved_union_regions=approved_walkable_union,
-                people_raster_tolerance_m=float(
-                    roaming_ghost_payload.get("interaction_bands", {}).get(
-                        "people_band_tolerance_m", 0.35
-                    )
-                ),
-            )
-            # CharacterManager was fully initialized before Isaac Lab created
-            # its PhysX tensor views.  Reuse those handles without any Kit
-            # update here.  Isaac Lab may have paused the timeline while
-            # constructing the environment; resuming it does not mutate the
-            # stage or rebuild physics objects.
-            official_play_updates = prebaked_official_play_updates
-            if official_people_runtime.timeline is not None and not official_people_runtime.timeline.is_playing():
-                official_people_runtime.timeline.play()
-                official_people_runtime.timeline.commit()
-            # Isaac Lab's environment reset preserves the already-created
-            # CharacterManager handles but clears the command status that was
-            # read from the initial command file.  Re-issue the first validated
-            # target through NVIDIA's official runtime injection API.  This is
-            # a command/state operation only: it performs no Kit update and
-            # therefore cannot invalidate the new PhysX tensor views.
-            for assignment in roaming_assignments:
-                official_people_runtime.inject_goto(
-                    assignment.name, assignment.initial_target_xyz
-                )
-            latest_official_people_positions = official_people_runtime.positions()
-            write_json(
-                metadata_dir / "official_roaming_setup.json",
-                {
-                    "extensions": official_extensions,
-                    "navmesh": approved_navmesh_metadata,
-                    "official_setup": official_setup_metadata,
-                    "official_play_updates": official_play_updates,
-                    "walkable_regions": walkable_regions.summary(),
-                    "approved_walkable_union": approved_walkable_union.summary(),
-                    "micromobility_regions": micromobility_regions.summary(),
-                    "interaction_bands": roaming_ghost_payload.get(
-                        "interaction_bands"
-                    ),
-                    "resident_assignments": [
-                        {
-                            "name": item.name,
-                            "asset": str(item.asset),
-                            "component_id": item.component_id,
-                            "start_xyz": list(item.start_xyz),
-                            "initial_target_xyz": list(item.initial_target_xyz),
-                        }
-                        for item in roaming_assignments
-                    ],
-                    "resident_target_cycles_xy": {
-                        name: points.tolist()
-                        for name, points in roaming_waypoint_loops.items()
-                    },
-                    "resident_logical_target_cycles_xy": {
-                        name: points.tolist()
-                        for name, points in prebaked_roaming_logical_waypoint_loops.items()
-                    },
-                    "micromobility_specs": [
-                        {
-                            "agent_id": item.agent_id,
-                            "asset_id": item.asset_id,
-                            "component_id": item.component_id,
-                            "desired_speed_mps": item.desired_speed_mps,
-                        }
-                        for item in micromobility_specs
-                    ],
-                    "official_dynamic_obstacle_scripts": (
-                        micromobility_usd.dynamic_obstacle_scripts
-                        if micromobility_usd is not None
-                        else []
-                    ),
-                },
-            )
-            # No Go2 root pose is written by this integration.  The calls above
-            # are the standard Isaac Lab simulation/environment reset pair.
-        elif mixed_roaming_payload is not None:
+        if mixed_roaming_payload is not None:
             if (
                 project_approved_walkable_union is None
                 or project_walkable_regions is None
@@ -3297,15 +2642,7 @@ def main() -> int:
             with torch.inference_mode():
                 actions = run_policy(observation_tensor)
                 observations, rewards, terminated, truncated, _ = env.step(actions)
-            if roaming_people_manager is not None and (
-                not args.overview_video or manual_two_panel_annotators
-            ):
-                # Tensor-only Isaac Lab does not emit Kit's stage-update event,
-                # while SimulationApp.update() would advance PhysX a second
-                # time.  Tick NVIDIA's already-created CharacterBehavior and
-                # NavigationManager instances directly at the controlled dt;
-                # the next env.step evaluates their Animation Graph variables.
-                official_people_runtime.advance_behaviors(dt)
+            pass
             if people_manager is not None:
                 people_manager.sample()
                 if mixed_roaming_payload is not None:
@@ -3325,47 +2662,7 @@ def main() -> int:
                             micromobility_states,
                             simulation_time_s=(step_index + 1) * dt,
                         )
-            if roaming_people_manager is not None:
-                previous_official_people_positions = latest_official_people_positions.copy()
-                latest_official_people_positions = roaming_people_manager.update(
-                    np.asarray(
-                        [state.position_xy for state in micromobility_states.values()],
-                        dtype=np.float64,
-                    )
-                    if micromobility_states
-                    else np.empty((0, 2), dtype=np.float64),
-                    delta_time_s=dt,
-                )
-                maximum_official_people_displacement_m = max(
-                    maximum_official_people_displacement_m,
-                    float(
-                        np.linalg.norm(
-                            latest_official_people_positions[:, :2]
-                            - initial_official_people_positions[:, :2],
-                            axis=1,
-                        ).max()
-                    ),
-                )
-                sample_period_steps = max(1, int(round(5.0 / dt)))
-                if step_index % sample_period_steps == 0:
-                    official_people_runtime_samples.append(
-                        {
-                            "simulation_time_s": (step_index + 1) * dt,
-                            "positions_xy": latest_official_people_positions[:, :2].tolist(),
-                            "maximum_displacement_from_start_m": (
-                                maximum_official_people_displacement_m
-                            ),
-                            "official_timeline_time_s": float(
-                                official_people_runtime.timeline.get_current_time()
-                            ),
-                        }
-                    )
-                if mixed_walkable_audit is not None:
-                    mixed_walkable_audit.observe(
-                        latest_official_people_positions,
-                        micromobility_states,
-                        simulation_time_s=(step_index + 1) * dt,
-                    )
+            pass
             timestamp = (step_index + 1) * dt
             position = robot.data.root_pos_w[0].detach().cpu().numpy().astype(np.float64)
             quaternion = robot.data.root_quat_w[0].detach().cpu().numpy().astype(np.float64)
@@ -3608,33 +2905,7 @@ def main() -> int:
                             go2_camera_payload["fixed_target_world_xyz"],
                             dtype=np.float64,
                         )
-                    if roaming_people_manager is not None:
-                        index = int(
-                            roaming_payload.get("video", {})
-                            .get("person_follow_camera", {})
-                            .get("resident_index", args.pedestrian_follow_index)
-                        )
-                        if not 0 <= index < len(latest_official_people_positions):
-                            raise RuntimeError(
-                                f"resident follow index {index} is outside the "
-                                f"loaded People population of "
-                                f"{len(latest_official_people_positions)}"
-                            )
-                        person_position = latest_official_people_positions[index]
-                        person_delta = (
-                            latest_official_people_positions[index]
-                            - previous_official_people_positions[index]
-                        )
-                        if np.linalg.norm(person_delta[:2]) <= 1.0e-5:
-                            person_delta = roaming_people_manager.targets[index] - person_position
-                        person_heading = math.atan2(float(person_delta[1]), float(person_delta[0]))
-                        followed_person = {
-                            "name": roaming_assignments[index].name,
-                            "position": person_position,
-                            "heading": person_heading,
-                        }
-                    else:
-                        followed_person = people_manager.agents[args.pedestrian_follow_index]
+                    followed_person = people_manager.agents[args.pedestrian_follow_index]
                     person_eye, person_target = pedestrian_follow_camera_view(
                         followed_person["position"],
                         float(followed_person["heading"]),
@@ -3754,13 +3025,7 @@ def main() -> int:
                         pause_timeline=False,
                         delta_time=dt,
                     )
-                    if (
-                        official_people_runtime is not None
-                        and official_people_runtime.timeline is not None
-                        and not official_people_runtime.timeline.is_playing()
-                    ):
-                        official_people_runtime.timeline.play()
-                        official_people_runtime.timeline.commit()
+                    pass
                 else:
                     unwrapped.sim.render()
                 if overview_frame_count == 0:
@@ -4148,28 +3413,7 @@ def main() -> int:
                 stop_reason = "three_point_goal_reached"
                 break
         run_wall_s = time.perf_counter() - run_started
-        if roaming_people_manager is not None and actual_positions:
-            final_sample_time_s = len(actual_positions) * dt
-            if (
-                not official_people_runtime_samples
-                or abs(
-                    float(official_people_runtime_samples[-1]["simulation_time_s"])
-                    - final_sample_time_s
-                )
-                > 0.5 * dt
-            ):
-                official_people_runtime_samples.append(
-                    {
-                        "simulation_time_s": final_sample_time_s,
-                        "positions_xy": latest_official_people_positions[:, :2].tolist(),
-                        "maximum_displacement_from_start_m": (
-                            maximum_official_people_displacement_m
-                        ),
-                        "official_timeline_time_s": float(
-                            official_people_runtime.timeline.get_current_time()
-                        ),
-                    }
-                )
+        pass
         if open_invalid_labels and open_invalid_start_s is not None:
             invalid_intervals.append(
                 {
@@ -4224,18 +3468,7 @@ def main() -> int:
             if roaming_people_manager is not None
             else None
         )
-        if people_summary is not None and roaming_people_manager is not None:
-            people_summary["maximum_displacement_from_start_m"] = (
-                maximum_official_people_displacement_m
-            )
-            people_summary["runtime_sample_count"] = len(
-                official_people_runtime_samples
-            )
-            write_json(
-                metadata_dir / "official_people_runtime_samples.json",
-                official_people_runtime_samples,
-            )
-        elif people_summary is not None and mixed_roaming_payload is not None:
+        if people_summary is not None and mixed_roaming_payload is not None:
             people_summary["maximum_displacement_from_start_m"] = (
                 maximum_official_people_displacement_m
             )
@@ -4262,30 +3495,7 @@ def main() -> int:
             else None
         )
         official_dynamic_obstacle_runtime = None
-        if micromobility_usd is not None and roaming_people_manager is not None:
-            from omni.anim.people.scripts.global_character_position_manager import (
-                GlobalCharacterPositionManager,
-            )
-
-            official_position_manager = GlobalCharacterPositionManager.get_instance()
-            managed_paths = {
-                str(value)
-                for value in official_position_manager.get_all_managed_characters()
-            }
-            expected_paths = {
-                f"{micromobility_usd.parent_path}/{spec.agent_id}"
-                for spec in micromobility_specs
-            }
-            official_dynamic_obstacle_runtime = {
-                "script_count": len(micromobility_usd.dynamic_obstacle_scripts),
-                "expected_paths": sorted(expected_paths),
-                "managed_paths": sorted(managed_paths),
-                "all_expected_paths_managed": expected_paths.issubset(managed_paths),
-                "managed_radii_m": {
-                    path: float(official_position_manager.get_character_radius(path))
-                    for path in sorted(expected_paths & managed_paths)
-                },
-            }
+        pass
         crossed_static_obstacle_ids = {
             label.removeprefix("static:")
             for interval in invalid_intervals
@@ -5159,11 +4369,7 @@ def main() -> int:
             video_writer.release()
         if road_sweep_video_writer is not None:
             road_sweep_video_writer.release()
-        if "official_people_runtime" in locals() and official_people_runtime is not None:
-            try:
-                official_people_runtime.stop()
-            except Exception:
-                traceback.print_exc()
+        pass
         if env is not None:
             try:
                 if args.go2_three_camera:

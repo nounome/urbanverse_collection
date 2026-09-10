@@ -50,7 +50,6 @@ TRAFFIC_AUTOMOTIVE_ROUTES="${TRAFFIC_AUTOMOTIVE_ROUTES:-${PROJECT_DIR}/configs/d
 TRAFFIC_VEHICLE_COUNT="${TRAFFIC_VEHICLE_COUNT:-5}"
 TRAFFIC_INITIAL_FILL="${TRAFFIC_INITIAL_FILL:-0}"
 PEDESTRIAN_CONFIG="${PEDESTRIAN_CONFIG:-}"
-ROAMING_GHOST_CONFIG="${ROAMING_GHOST_CONFIG:-}"
 MIXED_ROAMING_CONFIG="${MIXED_ROAMING_CONFIG:-}"
 if [[ -n "${MIXED_ROAMING_CONFIG}" && -z "${REQUESTED_SEED}" ]]; then
     SEED="$("${PYTHON}" - "${PROJECT_DIR}" "${MIXED_ROAMING_CONFIG}" <<'PY'
@@ -200,8 +199,8 @@ elif [[ -z "${COLLECTION_LIGHT_PATH_SCALES}" ]]; then
     # portable when an official-Recast scene keeps its native /World root.
     COLLECTION_LIGHT_PATH_SCALES="/UrbanVerseAsset/DomeLight_04=1.0"
 fi
-if [[ -n "${ROAMING_GHOST_CONFIG}" || -n "${MIXED_ROAMING_CONFIG}" ]]; then
-    # Either resident runtime owns People in this composition. Do not also
+if [[ -n "${MIXED_ROAMING_CONFIG}" ]]; then
+    # The mixed runtime owns People in this composition. Do not also
     # instantiate the legacy fixed-route manager from the scene config.
     PEDESTRIAN_CONFIG=""
 fi
@@ -434,12 +433,6 @@ if [[ "${JOINT_FOUR_PANEL_VIDEO}" == "1" ]]; then
         --scene-global-eye "${scene_global_eye[@]}"
         --scene-global-target "${scene_global_target[@]}"
         --scene-global-focal-length "${SCENE_GLOBAL_FOCAL_LENGTH}"
-    )
-fi
-if [[ -n "${ROAMING_GHOST_CONFIG}" ]]; then
-    command+=(
-        --roaming-ghost-config "${ROAMING_GHOST_CONFIG}"
-        --roaming-validation-level "${ROAMING_VALIDATION_LEVEL}"
     )
 fi
 if [[ -n "${MIXED_ROAMING_CONFIG}" ]]; then

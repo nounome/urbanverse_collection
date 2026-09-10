@@ -19,7 +19,7 @@ source repos/isaac45_probe/.venv/bin/activate
 
 安装会下载较大的 Isaac Sim/扩展缓存和 PyTorch 包。版本固定为 Isaac Sim 4.5.0.0、Isaac Lab v2.1.1、PyTorch 2.7.0/cu128；其他依赖见 requirements.txt。安装完成后须通过 `pip check`。
 
-目录移动后执行 `python configure.py`，重定位自有代码/配置中继承的绝对路径；不改任何下载的源 USD。不要把旧虚拟环境一起搬过去。
+安装和采集入口会根据仓库位置自动生成本机 Kit 配置，也可执行 `python configure.py`。生成的 `.kit` 不进入 Git；不修改下载的源 USD。迁移服务器时重新安装虚拟环境。
 
 ## 2. 准备资产
 

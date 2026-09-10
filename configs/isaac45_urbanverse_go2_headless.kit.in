@@ -1,0 +1,34 @@
+[package]
+title = "RTX3090 Isaac 4.5 UrbanVerse Go2 Headless"
+description = "Isaac Lab camera app with the CraftBench GLB importer enabled before source-stage composition"
+version = "1.0.0"
+keywords = ["experience", "isaaclab", "camera", "headless", "urbanverse", "go2"]
+
+[dependencies]
+"isaaclab.python.headless.rendering" = {}
+"omni.kit.asset_converter" = {}
+
+[settings.isaaclab]
+cameras_enabled = true
+
+[settings]
+app.name = "Isaac-Sim"
+app.version = "4.5.0"
+app.content.emptyStageOnStart = false
+renderer.multiGpu.enabled = false
+renderer.multiGpu.autoEnable = false
+renderer.multiGpu.maxGpuCount = 1
+omni.replicator.asyncRendering = false
+app.asyncRendering = false
+app.vulkan = true
+
+[settings.app.exts]
+folders = [
+    "@COLLECTION_ROOT@/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/exts",
+    "@COLLECTION_ROOT@/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/extscache",
+    "@COLLECTION_ROOT@/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/extsPhysics",
+    "@COLLECTION_ROOT@/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/extsUser",
+    "@COLLECTION_ROOT@/repos/isaac45_probe/.venv/lib/python3.10/site-packages/isaacsim/extsDeprecated",
+    "@COLLECTION_ROOT@/repos/IsaacLab/apps",
+    "@COLLECTION_ROOT@/repos/IsaacLab/source",
+]

@@ -2854,7 +2854,7 @@
     {
       "asset_id": "955edc733c6d44fabc0ad7c246a15896",
       "category": "car",
-      "asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-car/955edc733c6d44fabc0ad7c246a15896/vehicle-private_vehicle-car_955edc733c6d44fabc0ad7c246a15896.glb",
+      "asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-car/955edc733c6d44fabc0ad7c246a15896/vehicle-private_vehicle-car_955edc733c6d44fabc0ad7c246a15896.glb",
       "length": 4.769866012498028,
       "width": 2.036244139604719,
       "center_height": 0.6491201798570534,
@@ -2863,7 +2863,7 @@
     {
       "asset_id": "0e249864d1df49818ef2c03c336a934c",
       "category": "convertible_car",
-      "asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/0e249864d1df49818ef2c03c336a934c/vehicle-private_vehicle-convertible_car_0e249864d1df49818ef2c03c336a934c.glb",
+      "asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-convertible_car/0e249864d1df49818ef2c03c336a934c/vehicle-private_vehicle-convertible_car_0e249864d1df49818ef2c03c336a934c.glb",
       "length": 4.038568046041519,
       "width": 1.5233354568481445,
       "center_height": 0.6249997443219475,
@@ -2872,7 +2872,7 @@
     {
       "asset_id": "1f614e803fc24946b83bdc2dd9926d62",
       "category": "coupe_car",
-      "asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/1f614e803fc24946b83bdc2dd9926d62/vehicle-private_vehicle-coupe_car_1f614e803fc24946b83bdc2dd9926d62.glb",
+      "asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-coupe_car/1f614e803fc24946b83bdc2dd9926d62/vehicle-private_vehicle-coupe_car_1f614e803fc24946b83bdc2dd9926d62.glb",
       "length": 5.150525300150434,
       "width": 2.074507741090457,
       "center_height": 0.749999850988388,
@@ -2881,7 +2881,7 @@
     {
       "asset_id": "c640e4e7c68545e09a9348494c2c13a1",
       "category": "pickup_truck",
-      "asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/c640e4e7c68545e09a9348494c2c13a1/vehicle-private_vehicle-pickup_truck_c640e4e7c68545e09a9348494c2c13a1.glb",
+      "asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-pickup_truck/c640e4e7c68545e09a9348494c2c13a1/vehicle-private_vehicle-pickup_truck_c640e4e7c68545e09a9348494c2c13a1.glb",
       "length": 5.376204668603123,
       "width": 2.458345228005385,
       "center_height": 0.950000250237595,
@@ -2890,7 +2890,7 @@
     {
       "asset_id": "09ebc68dcb634807a9dace7404ce5e66",
       "category": "suv",
-      "asset": "/data1/jiangxw/workspace/project/urbanverse_collection/data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/09ebc68dcb634807a9dace7404ce5e66/vehicle-private_vehicle-suv_09ebc68dcb634807a9dace7404ce5e66.glb",
+      "asset": "data/urbanverse_craftbench/extracted/scene_10_cbd_cross_intersection_diverse_obstacles/Collected_export_version/home/boleilab/Documents/sim2sim_test_scenes/scene_10/Collected_export_version/home/boleilab/Documents/sim2sim_test_scene_assetbase/vehicle-private_vehicle-suv/09ebc68dcb634807a9dace7404ce5e66/vehicle-private_vehicle-suv_09ebc68dcb634807a9dace7404ce5e66.glb",
       "length": 4.503192328623186,
       "width": 2.055662159657004,
       "center_height": 0.9249998035313932,
