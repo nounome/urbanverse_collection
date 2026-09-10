@@ -6,6 +6,8 @@ Go2 使用 robot_lab 冻结运动策略，沿 A*＋平滑路线真实迈步。�
 
 使用顺序：安装环境 → 准备资产 → 短测 → 生成 Go2 路线 → 采集 → 检查数据。
 
+各场景验证进度、Docker 部署方案与相机调整方法见 [交接说明](HANDOFF.md)。正式 720p 目前还有标定宽高比适配问题，详见该文档。
+
 ## 1. 安装
 
 需要 Linux x86_64、可用的 NVIDIA GPU/驱动、Python 3.10、git、lspci、taskset、ffmpeg。
